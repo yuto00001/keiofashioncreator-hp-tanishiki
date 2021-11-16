@@ -1,0 +1,12 @@
+.info_qr {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 150px auto;
+}
+.blog_image_div, .description {
+  margin: 50px auto 0;
+}
+.modal_box_image {
+  width: 100%;
+}

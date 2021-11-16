@@ -1,0 +1,2461 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>interview</title>
+    <link rel="icon" href="css/img/logo-02.png" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/blogCommon.css" />
+    <link rel="stylesheet" href="css/interview.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/icon.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/tab.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <section>
+          <div class="hamburgerMenu">
+            <!-- スマホに対応したスタイルにするためのdiv -->
+            <div id="cover"></div>
+            <!-- マスク -->
+            <div id="menu">
+              <span class="material-icons close" id="hide">close</span>
+              <div class="menuBlock">
+                <ul>
+                  <li class="menuList"><a href="index.html">HOME</a></li>
+                  <li class="menuList"><a href="concept.html">CONCEPT</a></li>
+                  <li class="menuList"><a href="interview.html">INTERVIEW</li>
+                  <li class="menuList"><a href="blog.html">BLOG</a></li>
+                  <li class="menuList"><a href="news.html">NEWS</a></li>
+                  <li class="menuList"><a href="movie.html">MOVIE</a></li>
+                  <li><a href="movie.html#tadoru">2020-辿る-</a></li>
+                  <li><a href="movie.html#impression">2019-impression-</a></li>
+                  <li><a href="movie.html#nitijo">2018-日常の再考-</a></li>
+                  <li><a href="movie.html#inTokyo">2017-in Tokyo-</a></li>
+                  <li>
+                    <a href="movie.html#preconception">2016-preconception-</a>
+                  </li>
+                  <li><a href="movie.html#ma">2015-間-</a></li>
+                  <li>
+                    <a href="movie.html#kyutosei" class="text_deco"
+                      >2014-求と制-</a
+                    >
+                  </li>
+                  <li><a href="movie.html">----</a></li>
+                  <li class="menuList">
+                    <a href="collection.html">COLLECTION</a>
+                  </li>
+                  <li><a href="collection_2020.html">2020-辿る-</a></li>
+                  <li><a href="collection_2019.html">2019-impression-</a></li>
+                  <li><a href="collection_2018.html">2018-日常の再考-</a></li>
+                  <li><a href="collection_2017.html">2017-in Tokyo-</a></li>
+                  <li>
+                    <a href="collection_2016.html"
+                      >2016-preconception-</a
+                    >
+                  </li>
+                  <li><a href="collection_2015.html">2015-間-</a></li>
+                  <li><a href="collection_2014.html">2014-求と制-</a></li>
+                  <li><a href="collection.html">----</a></li>
+                  <li class="menuList"><a href="artworks.html">ART WORKS</a></li>
+                  <li>
+                    <a href="artworks.html#kudan">2020-look Book 九段ハウス-</a>
+                  </li>
+                  <li>
+                    <a href="artworks.html#manamana">2019-look Book マナマナ-</a>
+                  </li>
+                  <li>
+                    <a href="artworks.html#myonichikan"
+                      >2019-look Book 自由学園 明日館-</a
+                    >
+                  </li>
+                  <li>
+                    <a href="artworks.html" class="text_deco"
+                      >2019-Ad Contents-</a
+                    >
+                  </li>
+                  <li class="menuList"><a href="index.html#post">POST</a></li>
+                  <li><a href="index.html#post">----director</a></li>
+                  <li><a href="index.html#post">----press</a></li>
+                  <li><a href="index.html#post">----designer</a></li>
+                  <li><a href="index.html#post">----model manager</a></li>
+                  <li class="menuList"><a href="index.html#team">DEPT.</a></li>
+                  <li><a href="index.html#team">----カメラ</a></li>
+                  <li><a href="index.html#team">----メイク</a></li>
+                  <li><a href="index.html#team">----音楽</a></li>
+                  <li class="menuList text_deco">MEMBER</li>
+                  <li class="menuList lastMenu">
+                    <a href="contact.html">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <span class="material-icons my-icon" id="show">drag_handle</span>
+            <!-- マテリアルアイコンからペースト,md-38とかでサイズ指定可能 -->
+          </div>
+        </section>
+        <!-- Todo; div class="header" -->
+        <section >
+          <figure class="kfcLogo">
+            <a href="index.html">
+              <img src="css/img/logo-02.png" alt="logo" height="55px" />
+            </a>
+          </figure>
+          <nav class="displayNav menuContainer">
+            <ul class="tabMenu my-header">
+              <li class="tab">
+                <a href="concept.html">
+                  <p>
+                    CONCEPT
+                  </p>
+                  </a>
+              </li>
+              <li class="tab">
+                <a href="movie.html">
+                  <p>
+                    MOVIE
+                  </p>
+                </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li><a href="movie.html#tadoru">2020-辿る-</a></li>
+                    <li><a href="movie.html#impression">2019-impression-</a></li>
+                    <li><a href="movie.html#nitijo">2018-日常の再考-</a></li>
+                    <li><a href="movie.html#inTokyo">2017-in Tokyo-</a></li>
+                    <li>
+                      <a href="movie.html#preconception">2016-preconception-</a>
+                    </li>
+                    <li><a href="movie.html#ma">2015-間-</a></li>
+                    <li>
+                      <a href="movie.html#kyutosei" class="text_deco"
+                        >2014-求と制-</a
+                      >
+                    </li>
+                    <li><a href="movie.html">----</a></li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="artworks.html">
+                  <p>
+                    ART WORKS
+                  </p>
+                  </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li>
+                      <a href="artworks.html#kudan">2020-look Book 九段ハウス-</a>
+                    </li>
+                    <li>
+                      <a href="artworks.html#manamana"
+                        >2019-look Book マナマナ-</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artworks.html#myonichikan"
+                        >2019-look Book 自由学園 明日館-</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artworks.html" class="text_deco"
+                        >2019-Ad Contents-</a
+                      >
+                    </li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="interview.html">
+                  <p>
+                    INTERVIEW
+                  </p>
+                </a>
+              </li>
+              <li class="tab">
+                <a href="blog.html">
+                  <p>
+                    BLOG
+                  </p>
+                </a>
+              </li>
+              <li class="tab">
+                <a href="collection.html">
+                  <p>
+                    COLLECTION
+                  </p>
+                </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li><a href="collection_2020.html">2020-辿る-</a></li>
+                    <li><a href="collection_2019.html">2019-impression-</a></li>
+                    <li><a href="collection_2018.html">2018-日常の再考-</a></li>
+                    <li><a href="collection_2017.html">2017-in Tokyo-</a></li>
+                    <li>
+                      <a href="collection_2016.html"
+                        >2016-preconception-</a
+                      >
+                    </li>
+                    <li><a href="collection_2015.html">2015-間-</a></li>
+                    <li><a href="collection_2014.html">2014-求と制-</a></li>
+                    <li><a href="collection.html">----</a></li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="news.html">
+                  <p>
+                    NEWS
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <main>
+        <section class="description">
+          <p>
+            <!-- <br>これからショーまでの約20日間、部員インタビューとして想いや制作の様子、ショーの意気込みなどを発信していきます。<br><br><br> -->
+            <br>こちらのHPでは、Instagramでは書ききれないフルバージョンでのインタビューを記事として公開しております。<br>
+            <br>部員たちの言葉を通してファッションショーの裏側を知り、より楽しんで当日のショーを見ていただけたら幸いです。<br>
+          </p>
+        </section>
+        <section class="blog">
+          <!-- これより下 modal_btn20 -->
+          <article class="blogArticle 2021total_interview">
+            <ul class="modal_trigger">
+              <!-- <li class="modal_btn_2021total_interview_21 tomorrow" id="open">
+                <h3>
+                  明日の公開をお待ちください。
+                </h3>
+                <p class="assistanceText">
+                  Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  ...
+                </p>
+              </li> -->
+              <li class="modal_btn_2021total_interview_21 17" id="open">
+                <h3>
+                  KFC Making Collective<br>大野愛佳・藤原拓馬
+                </h3>
+                <p class="assistanceText">
+                  2021 06.20 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  ノンバイナリーを自覚したきっかけは日本に来たこと。
+                  昔からファッションは大好きなのに、以前はちょっとでも女の子っぽい服を着たら親から「ほらやっぱり心は女の子でしょ」みたいなことを言われていて...
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article class="blogArticle look_interview">
+            <ul class="modal_trigger">
+              <!-- <li class="modal_btn_look_interview_21 tomorrow" id="open">
+                <h3>
+                  明日の公開をお待ちください。
+                </h3>
+                <p class="assistanceText">
+                  Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  ...
+                </p>
+              </li> -->
+              <li class="modal_btn_look_interview_21 17" id="open">
+                <h3>
+                  【デザイナーインタビューDay17】<br>大畑直輝/3年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.30 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。  一番は決められないですが、一体目はメンズのテーラードジャケットを制作したことです...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 16" id="open">
+                <h3>
+                  【デザイナーインタビューDay16】<br>坂野瀬奈/2年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.29 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 型紙がとっても大きくなってしまい、型紙を引く場所を確保するため部屋の机や椅子を退けるのが大変でした...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 15" id="open">
+                <h3>
+                  【デザイナーインタビューDay15】<br>神田里桜/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.28 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 どれが1番とは選べないですね〜！<br>...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 14" id="open">
+                <h3>
+                  【デザイナーインタビューDay14】<br>中野るい/3年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.27 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 パッチワーク、毛糸のステッチを入れたキルティング、刺繍、編み物、スパンコールなど手作業が多く、ルック制作に...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 13" id="open">
+                <h3>
+                  【デザイナーインタビューDay13】<br>森本未空/2年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.26 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 ティアードスカートです。ボリュームを出したくて3段目の生地は横15m使ったのですが、そのため裁断もギャザー寄せも...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 12" id="open">
+                <h3>
+                  【デザイナーインタビューDay12】<br>樋山功太/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.25 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 全てです  自分の作品にしかない見どころ、こだわった点は何ですか？ テーマからブレないようにした点です...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 11" id="open">
+                <h3>
+                  【デザイナーインタビューDay11】<br>佐藤大輝/2年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.24 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 様々な意味でバランスを取るのが大変でした。私は「辿る」というテーマから「くるみ割り人形」をコンセプトし、デザイン...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 10" id="open">
+                <h3>
+                  【デザイナーインタビューDay10】<br>長瀬唯/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.23 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 一回パターンを描いただけでは想像した通りの形には絶対にならなくて、本生地に入る前に何度もトワルを組み直さな...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 9" id="open">
+                <h3>
+                  【デザイナーインタビューDay9】<br>木内理紗/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.22 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 素材選びです。 自分のルックのテーマに沿っているかつ、思い描いているデザインを最大限に表現できる生地を探すのが...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 8" id="open">
+                <h3>
+                  【デザイナーインタビューDay8】<br>山田廉之佑/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.21 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 柿渋の匂いが部屋に充満した上に部屋の至る所まで染めてしまったこと...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 7" id="open">
+                <h3>
+                  【デザイナーインタビューDay7】<br>小島洋明/2年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.20 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 柄合わせとチュールドレスをひたすら縫うこと。  自分の作品にしかない見どころ...<br>
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 6" id="open">
+                <h3>
+                  【デザイナーインタビューDay6】<br>風晴洋子/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.19 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 白いカメリアを作ることが一番大変でした。私のルックはシンプルなドレスがベースとなっていたので、装飾でいかに...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 5" id="open">
+                <h3>
+                  【デザイナーインタビューDay5】<br>北崎隼/2年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.18 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 まず何を作るかです。今回２体を作るうえで自分の能力の中で、いかにできることを使って表現しようかと悩みました...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 4" id="open">
+                <h3>
+                  【デザイナーインタビューDay4】<br>横田愛理/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.17 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 先生から、シャツは縫うのが難しいと言うことは聞いていましたが襟の部分は特に難しかったです...<br>
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 3" id="open">
+                <h3>
+                  【デザイナーインタビューDay3】<br>diva/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.16 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。 本当に初心者なので何も分かりませんでした...<br><br>
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 2" id="open">
+                <h3>
+                  【デザイナーインタビューDay2】<br>斉藤耀/1年目
+                </h3>
+                <p class="assistanceText">
+                  2021 01.15 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。自分の思い描いたデザインを如何にして実際の作品として昇華するかに大変苦労しました。自由に制作物を決定出来る機会は...
+                </p>
+              </li>
+              <li class="modal_btn_look_interview_21 1" id="open">
+                <h3>
+                  【デザイナーインタビューDay1】<br>辻巽/2年目(KFC3年目)
+                </h3>
+                <p class="assistanceText">
+                  2021 01.14 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  製作において一番大変だったことを教えてください。
+                  布量が多くて扱いが難しかった...<br><br>
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article class="blogArticle 20_interview">
+            <ul class="modal_trigger 20">
+              <!-- <li class="modal_btn_interview_20 tomorrow" id="open">
+                <h3>
+                  明日の公開をお待ちください。
+                </h3>
+                <p class="assistanceText">
+                  Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  ...
+                </p>
+              </li> -->
+              <li class="modal_btn_interview_20 19" id="open">
+                <h3>
+                  【部員インタビューDay１７】代表
+                </h3>
+                <p class="assistanceText">
+                  2020 12.19 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q：今回のショーテーマの "辿る” から、源川さんの "辿る” を教えてください。A：強いて挙げるなら、辿った先にあったものは「自己表現」でしょうか。ファックリにいると必然的に「服」を辿る機会が多いです。服を着ることは自分を”装う”ことでもあると考えると、表現の一部ですよね。その服を誰がどういう風に、どんな感情を持って着るのか...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 18" id="open">
+                <h3>
+                  【部員インタビューDay１６】ディレクターチーフ
+                </h3>
+                <p class="assistanceText">
+                  2020 12.18 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.２年間ディレクターをやってきてどうでしたか？A、一言で言うと、楽しかったです。私が通っているのがファッション専門の大学だから、ファッションを専門としない総合大学の学生が、服に対してどういう意識を持って...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 17" id="open">
+                <h3>
+                  【部員インタビューDay１５】デザイナーチーフ
+                </h3>
+                <p class="assistanceText">
+                  2020 12.17 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q：今年一年を振り返って印象的なことはありますか？A:悔しいことはやはり、お客さんを入れられずに無観客でショーを行うことです。幹部みんなで「絶対にお客さんを入れよう」という目標を持って4月から活動してきたので...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 16" id="open">
+                <h3>
+                  【部員インタビューDay１４】プレスチーフ
+                </h3>
+                <p class="assistanceText">
+                  2020 12.16 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q：ショーテーマの ”辿る” から黒田さんの "辿る”を教えてください。A：テーマの”辿る”から自分の人生を辿ってみました。幼少期のバレエやチアリーディング、高校の部活動での書道パフォーマンス、そして今のファックリ...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 15" id="open">
+                <h3>
+                  【部員インタビューDay１３】モデルマネージャーチーフ,デザイナー3年目
+                </h3>
+                <p class="assistanceText">
+                  2020 12.15 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.今年最も大変だったことはなんですか？A.モデルを集めです。最後の5-6人を集めるのに20人以上に声をかけてもなかなか集まらないような状況だったので。夜遅くまでInstagramでフリーランスモデルの...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 14" id="open">
+                <h3>
+                  【部員インタビューDay１２】デザイナー3年目
+                </h3>
+                <p class="assistanceText">
+                  2020 12.14 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.今年ファックリに入って3年目ですが、今までと違うこと、また3年目だからこそ気づいたことなどはありますか？A.他役職や全体の動きに、より...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 13" id="open">
+                <h3>
+                  【部員インタビューDay１１】デザイナー上級生
+                </h3>
+                <p class="assistanceText">
+                  2020 12.13 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.今年はデザイナー2年目だと思いますが、去年と比べて変わった点などはありますか？A.(S)ルックを制作する上で自分のできる範囲が広がりました。去年は...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 12" id="open">
+                <h3>
+                  【部員インタビューDay１０】デザイナー下級生
+                </h3>
+                <p class="assistanceText">
+                  2020 12.12 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.制作物に込められた意味はなんですか？A.頭の奥、脳の奥で辿られていく記憶、昔の記憶から最近の記憶まで、いつ、誰と、どこで、何を、なぜ、どうやって、それらは...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 11" id="open">
+                <h3>
+                  【部員インタビューDay９】ディレクター(照明音響班,音源担当)
+                </h3>
+                <p class="assistanceText">
+                  2020 12.11 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.制作物に込められた意味はなんですか？A.頭の奥、脳の奥で辿られていく記憶、昔の記憶から最近の記憶まで、いつ、誰と、どこで、何を、なぜ、どうやって、それらは...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 10" id="open">
+                <h3>
+                  【部員インタビューDay８】ディレクター（広告班・梱包係）
+                </h3>
+                <p class="assistanceText">
+                  2020 12.10 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.制作物に込められた意味を教えてください。A.「辿る」というテーマの意味合いを語るとき、「辿る」という言葉自体がもつ辞書的な意味の多義性は欠かせない要素を担って...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 09" id="open">
+                <h3>
+                  【部員インタビューDay７】ディレクター（広告班、パンフ）
+                </h3>
+                <p class="assistanceText">
+                  2020 12.09 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q 作成物に込められた意味A コロナ禍において僕たちがショーをやるということには学生がファッションに対して前向きに取り組んでいたり、ファッションに携わりたいと...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 08" id="open">
+                <h3>
+                  【部員インタビューDay６】ディレクター(広告班、インビテーション担当)
+                </h3>
+                <p class="assistanceText">
+                  2020 12.08 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.今年のインビテーションに込められた意味を教えてください。A. (M) 糸をテーマとして、生産者から消費者へ服を通じて想いが辿ることを意味しています。インビの表面に縫...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 06" id="open">
+                <h3>
+                  【部員インタビューDay５】ディレクター(広告班、インビテーション担当)
+                </h3>
+                <p class="assistanceText">
+                  2020 12.06 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.制作物に込められた意味を教えてください。A. 今回のショーのテーマである「辿る」という言葉から、衣服について考えたときに布や糸の大元である”繊維”に辿り着きました...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 05" id="open">
+                <h3>
+                    【部員インタビューDay ４】ディレクター(広告班、パンフ)
+                </h3>
+                <p class="assistanceText">
+                  2020 12.05 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  今回パンフレットを作るにあたり、制作する上で意識したことはなんですか？「辿る」というショーテーマに基づいて「文化的遺伝子」という要素（＝ショーテーマの元となった要素の一つ。パンフレット制作に...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 04" id="open">
+                <h3>
+                  【部員インタビューDay 3】プレス　二年
+                </h3>
+                <p class="assistanceText">
+                  2020 12.04 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q.今年2年目ですが、先輩になって変わったことはありますか？
+                  A.（K）商談に関する部分が一番大きいです。前までは先輩に任せきりで、プレゼンも聞いているだけのことが多かったのですが、今では後輩がいるので自分が...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 03" id="open">
+                <h3>
+                  【部員インタビューDay ２】プレス　新入生
+                </h3>
+                <p class="assistanceText">
+                  2020 12.03 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q. なぜプレスという役職を選びましたか？A. (A)　普通の大学生活では関わることのできない企業の方と関わることができたり、多くの方とコミュニケーションをとることができるという点に魅力を感じたからです...
+                </p>
+              </li>
+              <li class="modal_btn_interview_20 02" id="open">
+                <h3>
+                  【部員インタビューDay １】モデルマネージャー　一年
+                </h3>
+                <p class="assistanceText">
+                  2020 12.02 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  Q. なぜプレスという役職を選びましたか？A. (A)　普通の大学生活では関わることのできない企業の方と関わることができたり、多くの方とコミュニケーションをとることができるという点に魅力を感じたからです...
+                </p>
+              </li>
+            </ul>
+          </article>
+          <!-- これより下 modal_box -->
+          <div class="modal_area 2021total_interview">
+            <!-- <div class="modal_box box_look_interview_21 tomorrow">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    明日の投稿
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.0 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      ....
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div> -->
+            <div class="modal_box box_2021total_interview_21">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    KFC Making Collective　大野愛佳・藤原拓馬
+                  </h2>
+                  <p class="assistanceText">
+                    2021 06.20 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/2021total_interview_1.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/2021total_interview_2.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/2021total_interview_4.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/2021total_interview_3.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/2021total_interview_5.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>ノンバイナリーを自覚したきっかけは日本に来たこと。<br>
+                      <br>昔からファッションは大好きなのに、以前はちょっとでも女の子っぽい服を着たら親から「ほらやっぱり心は女の子でしょ」みたいなことを言われていて、それが嫌で自分が好きな服なんて考えずにダサくてもとにかく男の子として見られるような服を選んでた。<br>
+                      <br>でも高校を卒業して日本に来た時に、全てが新しい環境で、フェミニンなものもマニッシュなものも、好きなものを自由に買って選んでミックスするようになった。女の子っぽい服やメイク、ネイルもしたことがなかったけれど、やっていくうちにだんだんと自分も可愛くなれるんだとか、こういうミックスができるんだってすごい楽しくなって。ずっとトランスジェンダーって思ってきたけど、自分が自分をそういう箱に決めつけちゃって逆に自由にできていなかったんだって改めて思った。<br><br>
+
+                      <br>好きな服を着ると気合が入るし、ちょっとでも自分の今日の服があってないと落ち込む。だからこそ私はメンズだけ、レディースだけじゃなくて、ミックスしてファッションを楽しむことが大好きで、毎朝起きて何を着よう、何を合わせようって考えるのが楽しいと感じる。<br>
+                      ファッションがなかったらノンバイナリーであることを自覚できてなかったし、ノンバイナリーであることを自覚できてなかったら今のファッションの楽しみ方はできなかった。だから私にとってはどちらも同じくらい大事なこと。<br><br>
+
+                      <br>本当はすごい人見知りで、注目されるのも好きじゃなかった。でも自分と向き合えていなかったから、人にみられたく無いと思うのも当たり前。自分の中で自分をはっきりさせられたからこそ、「私ははっきりしたよ、だからはっきりしたところを見て！」って思えたんじゃないかな。自分がはっきりできたから自信を持てたのだと思う。それと、社会に出てからは自分から動かないと何も始まらないと思って頑張って人に話しかけたり、仕事でちょっと盛り上げようとしたり。今はむしろ人目は気にしないというか、「私を見なさい！」みたいなテンションで生きてる。<br><br>
+
+                      <br>自分が今のセクシャリティーであるからこそ持てる自信というのはある。というか、その自信は持っておかないと何の役にも立たない。でも、ノンバイナリーだからすごいとか言われるのはすごく嫌で。私がノンバイナリーであるということは、自分のセンスなんかには絶対に影響はしているけれど、でもそれ以上に私ができていることを見て欲しいと思う。<br><br>
+
+                      <br>絶対に生きてきた中で、ストレートの人が経験してないことを経験してきているから、今の私がある。けど、別にノンバイナリーだから凄いと思ってくださいっていうことではない。ノンバイナリーとしてではなくて、あなたと同じ人間として私にはこれができるんだよみたいなこと。<br><br>
+                      <br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://www.instagram.com/amitymiyabi/"
+                        target="_blank"
+                        >Model: @amitymiyabi</a
+                      ><br>
+                        <a
+                        class="blog_link"
+                        href="https://www.instagram.com/p.hayato/"
+                        target="_blank"
+                        >Photo: @p.hayato</a
+                      ><br>
+                        <a
+                        class="blog_link"
+                        href="https://www.instagram.com/_yukariyamamoto_/"
+                        target="_blank"
+                        >Make: @_yukariyamamoto_</a
+                      ><br>
+                      </span>
+                      <br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_area look_interview">
+            <!-- <div class="modal_box box_look_interview_21 tomorrow">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    明日の投稿
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.0 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      ....
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div> -->
+            <div class="modal_box box_look_interview_21 17">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay17】大畑直輝/3年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.30 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_57-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_58-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_59-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_60-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>大畑直輝/3年目<br>  <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>一番は決められないですが、一体目はメンズのテーラードジャケットを制作したことです。既製服のジャケットは主に接着芯を使われることが多いのですが、メンズの本格的なテーラードは毛芯といわれる馬の毛を使った芯地を用います。「ハ刺し」と呼ばれる工程で手縫いによって表地と一体化させます。詳しいことは調べてみてください(笑)。また、しつけ縫いをする回数が膨大でした。とにかく手作業による制作が多かったのが大変でした。<br>   <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>２体目のスカートには絵画をモチーフとしてアートフラワー をたくさん縫い付けました。アートフラワー は手作りの造花です。特殊な綿の生地を花弁の形に切り取り、一枚一枚染色してグラデーションを演出しました。ただ布を切って染めるだけでは花弁としては不完全なので、アートフラワー 用のコテを使って花弁の形に仕上げます。それによって花の立体感を出すことができます。スカート全体に花を付けたので、その量は果てしなかったです。２体目における一番大変な作業だったと思います。花の縫い付けは、知り合いに少し協力してもらいました(笑)。<br>    <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>今年はコロナのためにエスモードの授業が開講されるか分からない状況から始まりました。ようやく開講が決まった時は例年より遅く、すでに体験授業が始まっている時期でした。なんとか授業回数を確保するためにオンラインで体験授業を行ったり、1教室の人数制限があったりと、イレギュラーなことばかりで、臨機応変に協力いただいた先生方には感謝しかないです。また、今年は新入生の数が例年より少なかったのが少し残念でしたが、その分デザイナーの皆が仲良くて本当に嬉しかったです。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>ショー直前では焦りと同時にもう一年たったのかという毎年感じることのできる小さな幸せを得ていました。ショー後においてはコロナへの危機管理や本番中の行動に後悔が残り不甲斐ない自分が情けなくなりました。また、３年生の影響が大きかったので特に一緒に今までやってきたメンバーがいなくなってしまうこと悲しく思います。<br>   <br><span class="question">デザイナーを3年間続けた感想、後輩に伝えたいことを教えてください。</span><br>  <br>専門学校で服を学べて、規模の大きいショーに自分の服を出せる機会を3年も経験できたことは本当に幸せだと思っています。同期や後輩も良い人ばかりで居心地の良い空間でした。デザイナーは服を作ることがメインですが、それ以前にファックリのメンバーであり、プレス、ディレクター、モデルマネージャーの皆の力無しでは当然成し得るができません。とても感謝していますし、来年以降続ける後輩、そして新入生もそのことを忘れずにデザイナーをやってくれたらと思います。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 16">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay16】坂野瀬奈/2年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.29 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_52-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_53-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_54-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_55-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_56-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>坂野瀬奈/2年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>型紙がとっても大きくなってしまい、型紙を引く場所を確保するため部屋の机や椅子を退けるのが大変でした。また消しゴムのカスが大量に出るのでそれを集めて捨てるのも大変でした。。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>布の揺れ方や膨らみ、シルエットにこだわりました。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>大学がオンライン授業だったので、定期的に誰かに会えるのは嬉しく元気になりました。また友達とルックの相談したりして楽しかったです。他にも友達のルックが段々と出来上がる過程が見れて面白かったです。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>オンライン配信をみて画面越しだとわかりづらく自分の感覚では納得がいかなかったので、画面上でのショーだということを考慮してもっとわかりやすく大胆に作れればよかったと後悔しました。また、妥協してしまったところが多かったので戒めていきたいと思いました。<br>    <br><span class="question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br>  <br>まだ継続するか迷っていますが、今年やりきれなかったことを取り入れ計画的に制作して、楽しんでもらえるルックを作りたいです。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 15">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay15】神田里桜/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.28 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_48-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_49-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_50-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_51-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>神田里桜/1年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>どれが1番とは選べないですね〜！<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>とにかくかわいいを追求しました！好きなものを好きなだけ詰めたくて、フリルやリボンをたっぷり、うさぎも作って縫い付けました！100%かわいい、でもごちゃごちゃしないように全体のバランスに気をつけました。 あと、色味と材料選びにこだわりました。ピンクの色味や素材を変えて、8種類の布と5種類のリボン、3種類のレースを使っています◎ケープは3種類の布を重ねて、軽くふわっとしているけど豪華に見えるようにしました。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>素敵な友達や優しい先輩方、先生に出会えて幸せです！くせのつよいお友達が多くて面白いですし、それぞれ自分の世界を持っていて尊敬します！<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>直前は焦りと不安でした。ショー前1週間はかなり追い込まれていました…徹夜はちょっと辛かったです笑 ショー後は抜け殻になりました。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 14">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay14】中野るい/3年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.27 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_44-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_45-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_46-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_47-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>中野るい/3年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>   <br>パッチワーク、毛糸のステッチを入れたキルティング、刺繍、編み物、スパンコールなど手作業が多く、ルック制作に多くの時間と労力をかけたことです。<br>   <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>   <br>やはり手作業でしかできない手法を多く取り入れたことです。1体目のドレスは薄い生地でもボリュームがでるように沢山の生地を縫い足しました。2体目のジャンパースカートもボリュームのあるシルエットにするためにモヘアの生地とキルト芯でキルティング生地を作り、毛糸のステッチを手で施しました。モヘアの生地には毛糸刺繍を施し、トップスの袖部分にはステッチを入れて毛糸を詰める手法で刺繍を施しました。自分の過去を辿った上でルックを制作し、手作業にこだわったため温かみのある作品になったのではないかと感じています。<br>    <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>   <br>コロナ禍での新歓活動により例年よりも少ない新入生でしたが、人数が少ないからこそ和気藹々と楽しめた気がします！<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>   <br>ショー前はデザイナー全員の素敵なルックが何事もなく無事に、かつベストな状態でインスタライブ上に映し出されてほしいという気持ちでした。ショー後はショーが無事に成功したことにひとまず安心し、長い制作期間から解放され達成感でいっぱいでした。とりあえず部屋の掃除をしたいです笑<br>     <br><span class="question">デザイナーを3年間続けた感想、後輩に伝えたいことを教えてください。</span><br>   <br>ファックリ自体、学年問わず入サー出来ることもあってか、デザイナーのメンバーは流動性が激しく3年間で多くの人と関わったような気がします。思い返してみると、本当に沢山の思い出があって、同じ場所で同じ時間を過ごした沢山の友人や先輩、後輩が頭に浮かびます。毎年ショーを行うたびに今度はこういうのが作りたい、もっとこうすれば良かったなどと思うことがあり、年々少しづつですが、レベルアップしていく感覚がありました。サークルを続けたり続けなかったりは人それぞれですが、服作りを共にしたここでの出逢いを大切にして今後も頑張ってほしいです！！<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 13">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay13】森本未空/2年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.26 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_40-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_41-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_42-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_43-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>森本未空/2年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>ティアードスカートです。ボリュームを出したくて3段目の生地は横15m使ったのですが、そのため裁断もギャザー寄せも手間がかかって大変でした。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>双子っぽいデザインにしたかったので、ルック2体で袖をそれぞれ片方ずつにしたり生地や色を統一しつつも、それぞれに個性が出るようにこだわりました。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>当初は対面での授業が出来ずどうなることかと思いましたが、無事に対面で行うことが出来て良かったです。環境が整っていることはもちろんですが、部員でお互いのルックを褒め合ったりアドバイスを交わしたりといった時間も自分の製作のモチベーションになっていたように感じます。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>直前は、初めてのオンラインでのショーだったのでまず無事に行えるのか、作品をどこまで伝えられるかがとても不安でした。ショー後は見てくれた知人が沢山褒めてくれたこともあり、改めて成功を実感し安心しました。<br>    <br><span class="question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br>  <br>まだ続けるかはっきりと決まっていませんが、もし続けるなら今年を超えるルックに仕上げたいですし、来年で引退なので最後に対面でショーを行いたいです。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 12">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay12】樋山功太/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.25 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_37-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_38-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_39-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>樋山功太/1年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>全てです。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>テーマからブレないようにした点です。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>先生たち、先輩たちがとにかく優しくいつも助けてくれたのでとても感謝してます。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>もっと勉強しようと思いました。ショー後は特にそう思いました。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 11">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay11】佐藤大輝/2年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.24 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_33-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_34-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_35-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_36-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>佐藤大輝/2年目<br>  <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>様々な意味でバランスを取るのが大変でした。私は「辿る」というテーマから「くるみ割り人形」をコンセプトし、デザインしました。くるみ割り人形とネズミの王のキャラクターをそのままデザインしてしまうと衣装ぽくなってしまうため、如何にファッションに落とし込むかという点に最も注力しました。そのために出来る限り既製服に近い作りにし、デティールも突き詰めて考え、全体のシルエットや色見、素材のバランス感に気を付けました。また、衣装ぽくしない様に意識する中でも、「くるみ割り人形」の世界感を崩さないためにファンタジーな雰囲気を出すという事も意識していたため、そこら辺の塩梅には非常に悩み抜きました。<br>   <br><span class="qquestion">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>自分でいうのはあれなんですが、シャツとパンツのクオリティは中々なモノになっているではないかと思います(笑)。ショーでは全く見えないのは残念なのですが、パンツには後ろ腰に玉縁ポケットや脇ポケットをしっかりと作っていたり、ファスナーやベルトループを付けていたりとか。また、2体とも同じパターンではなく、それぞれのルックに合うようなシルエットになっており、くるみは細身のスラックス。ネズミは素材にギャバを使い、タックを多く取ることで、Aラインの綺麗なシルエットが出るハーフパンツになっています。これはシャツも同様で、それぞれのルックに合ったシルエット、デティールになっています。特にシャツにはそれぞれに一癖加えていまして、くるみは襟の後ろあたりに、スカーフの様なものを取り付けており、それを巻いたり、垂らしたりすることで表情が変わって見えるものになっています。それもくるみのルックの上品さの様な雰囲気を崩さないように、スカーフの長さや細さ、形にも拘りました。ネズミのシャツは、野生ぽく、男臭い感じの悪の王！ってイメージでアンティーク調のシルバーチェーンを付けたり、シャツの袖は敢えて付けず、代わりに肘上までの長さのグローブの様なものを付けたりしています。その全くショーでは見えていないグローブにもしっかりと拘ってまして(笑)。まあ、このシャツとパンツは普通に私服でも着られるようなモノになっているかなと！次にネズミのルックで一番印象的なケープなのですが、素材は毛足の長めなフェイクファーを使用しています。このフェイクファーも色味や、毛足の長さに拘って選んだ素材です。その甲斐もあり、自分のイメージに非常に近いルックに仕上がったと思います。またケープのボタンのとこのデザインも結構拘っていまして、特にボタンを留めるやつですね。レザーを使用し、かなり大きめに作りのものにすることで、少しファンタジー感な印象を与える事を意識しました。次にくるみのルックなのですが、やはり「くるみ割り人形」をコンセプトにしている事もあり、全体的にかなり力を入れたルックなんですよね。シャツやパンツは先のも述べたように拘っているのですが、このルックで印象的なのは、ベスト、腰巻ですかね。あれには素材や色味に非常に拘っていて、同じ赤色でもシャツの赤とはまた違った良い色味になっているかなと。素材には８号ハンプを使用しており、硬くキチっとした感じを出しつつ、８号のため糸目が細かく、くるみの上品さを失わない様な素材になっていると思います。また裏地としてキルトを使用し、毛抜き合わせで縫製していることにより衣装ではなく、より服らしさを表現できていると思います。ただのベストと腰巻ではなく、それぞれデザイン性も出すことが出来ているのではないかなと思います。ボタンとか紐とかはより「くるみ割り人形」の世界観も出す役割を担っており、そこには沢山のこだわりが詰まっています。まあ後は、軍兵が使用していたと言われるゲートルを付ける事で、兵隊のイメージを表現すると同時に、ルック全体が引き締まって見えるように意識しました。 以上の様に、２つとも自分の想いや沢山のこだわりが詰まったルックになっております。この文を読み、またこのルックのコンセプトとした「くるみ割り人形」を知っていると更に楽しむことが出来ると思います。<br>    <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>非常に充実した１年でした。去年に比べ、分かることも出来る事も増えたため、より先生方から沢山の事を吸収できたと思います。また今年はコロナの影響もあり、ほとんど友達と会えなかった中、エスモードでは授業を開講してくれたため、人と会える数少ない環境でした。そのため、自分としてはそこで人と関わることが出来たから、精神的にも安定していられたのかなと思います。そういう意味でも非常に濃い時間を過ごすことが出来ました。<br>    <br><span class="qquestion">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>ショー前までは自分のルックに精一杯で、自分の事しか考えられませんでした。どうすれば、自分のルックの意味を伝えられるだろうとか、良く表現する事が出来るだろうという事だけを考えて日々を過ごしていました。しかし、ショーではそれぞれの役職の努力が掛け合わさり、本当に素晴らしいものでした。また、他のデザイナーのルックもとても拘りを感じる事ができ、各々の“辿る”を感じ取ることが出来る素晴らしい作品ばかりでした。上手く言葉にすることが出来ないのですが、ショーを終え、自分の満足いくルックを作り上げた自分だけの感動から、部員皆で素晴らしいショーを作り上げた感動に変化しました。<br>    <br><span class="qquestion">デザイナーを3年間続けた感想、後輩に伝えたいことを教えてください。</span><br>  <br>私は２年生からファックリに入ったため、所属したのは２年間ですがもう引退という事で、もう１年やりたかったという気持ちでいっぱいです。しかし２年間だけですが、デザイナーに入って非常に良かったと思います。普通の大学生では滅多に出来ないような服作りの経験ができ、学生が行っているショーのクオリティとは考えられないようなモノを創り上げていく一員となれたことで、本当に充実した時間を過ごすことが出来ました。改めて服が好きだと思えました。デザイナーの後輩に伝えたいことは、今年よりも自分が満足いくルックを作って、感動するようなショーを創り上げていってほしいという事です。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 10">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay10】長瀬唯/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.23 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_31-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_32-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_30-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_29-min.JPG"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>長瀬唯/1年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>一回パターンを描いただけでは想像した通りの形には絶対にならなくて、本生地に入る前に何度もトワルを組み直さなければいけなくて焦ったこと。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>スカートの下に履いてるクリノリンです、作り方や材料とか本やネット上にも前例がなかったので自分で全て考えて作りました。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>本当に楽しかったです。コロナの影響にも関わらずエスモードは5月から毎週授業があったので充実感がありました。大学もまともに行けない中、週一のエスモードの授業は私にとって一番の楽しみでした。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>ショーの直前はモデマネやディレクターのみんなが忙しく動いているのに私たちデザイナーに出来ることはほとんどなくて、後はもう見守ることしかできないんだなあと思って少しじれったかったです。ショーの後は正直呆気なくてびっくりしました。でもチーフの話を聞いた時と、モデルさんから感謝の言葉を頂いた時に今までの大変な思い出が蘇ってきて充足感とほんの少し喪失感を覚えました。<br>    <br><span class="question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br>  <br>デザイナーとして服作りの技術面だけでなくブランドや服飾史に関する知識面においても向上することができたらいいな、と思います。あと2年生になるので先輩達のように後輩を助けてあげられるくらい心の余裕を持てるようになりたいです。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 9">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay9】木内理紗/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.22 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_25-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_26-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_27-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_28-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>木内理紗/1年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>素材選びです。自分のルックのテーマに沿っているかつ、思い描いているデザインを最大限に表現できる生地を探すのが大変でした。シーチングから本生地に移る段階で、想定していた素材では、イメージが全く異なってしまうってなったので、急いで生地を選び直しました。。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>私のルックは、一切布を裁断していないところがこだわりであり、私の作品特有のものであったと思います。生地の特性を生かしながら、パターンを引くこともなく制作しました。余計な手を加えていないので、生地自体が本来の布の落ち方などを表現したとても自然な作品になっています。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>本格的に服を作ったことは初めてでしたが、先生方が丁寧にご指導下さり、自分の作りたかった作品を作ることができました。エスモードでの授業はとても質が高く、服飾についてどんどん知識がついていくのが楽しかったです。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>ずっと憧れていたファックリのショーですが、実際にショーをして、自分でルックを制作し、ショーを自分の目で実際に見るとそれは想像以上のもので本当に感動しました。先輩方のルックを見ていると、レベルが高く本当に素晴らしくて、来年へのモチベーションがより高まりました。<br>    <br><span class="question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br>  <br>来年は、きっと2体以上の製作になると思うので、今年以上に大変だとは思いますが、今年よりレベルアップしたルックをお見せできるように頑張りたいです。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 8">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay8】山田廉之佑/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.21 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_23-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_24-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>山田廉之佑/1年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>柿渋の匂いが部屋に充満した上に部屋の至る所まで染めてしまったこと。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>表現に染色技法を用いたこと。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>先生方大好きです。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>直前はバタバタで考える暇もなかったので、終わった後は呆気ないと感じました。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 7">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay7】小島洋明/2年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.20 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_20-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_21-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_22-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>小島洋明/2年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>柄合わせとチュールドレスをひたすら縫うこと。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>シャツとハーフパンツの柄合わせ。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>自分のやりたいことを提案して形にするまでをサポートしてもらえるとてもいい環境でした。色々な人のデザインのテイストが見られるのもとても刺激的でした。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>ショー直前は正直、忙しくてドキドキする暇もありませんでしたが、ショー後は達成感や実際に作った服を観客の方に見てもらいたかったなという思いがありました。<br>    <br><span class="question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br>  <br>今のところ来年も継続するつもりですが、もし続けるなら、もっと実験的なデザインで、丁寧な服作りができたらなと思っています。<br><br><br><br><br>
+                      </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 6">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay6】風晴洋子/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.19 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_16-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_17-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_19-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_18-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                        <br>風晴洋子/1年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>白いカメリアを作ることが一番大変でした。私のルックはシンプルなドレスがベースとなっていたので、装飾でいかにルックに華を持たせることができるかということはとても重要だったと思います。一番大変だったのは大きいカメリアのカバンを作ることでしたが、そのほかに小さいカメリアを大量に作ること、またそれを全て縫い付けることまで全て手縫いで行ったのでそこが一番手間がかかったと感じます。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>私のルックはCHANELをモチーフにしてるのですが、ドレスの生地に本物のシャネルツイードを使ったことは私のこだわりであり見どころだと思います。シンプルなデザインだからこそより生地の良さがルックの見映えに直結すると思ったので、何度も生地屋を訪れて納得のいくものを選びました。ぜひそこにも注目していただきたいです。また、カメリアにはとてもこだわりました。白い大きなカメリアのカバンはルックの見どころだと思います。ヘアやイアリング、靴にもカメリアが使われているので是非見て欲しいです。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>1年を振り返って、がんばったなぁと率直に感じています。服が好きで、デザインがしたくてファックリのデザイナーになったのですが、ミシンの使い方もままならない私にとって、一から服を作るということはとても大変でした。特にパターンの引き方は、初めの方は先生が言ったことをそのままやると言った感じで、まるで理屈は分かっていませんでした。しかし、回数を重ねていくごとに今自分が引いてるパターンが何かということも少しずつ理解できるようになりました。まだまだ未熟ですが、ルック一体を作り終えることで服を作るということをようやく理解してきたと思います。またコロナ禍にも関わらず、エスモードで授業ができたことがとても嬉しかったです。コロナ禍で定期的に人と関わる機会があったことはとてもありがたかったですし、デザイナーのみんながいい人たちで本当によかったと思います。OBOGの方にもたまに会うことができ、お話が聞けてとても刺激になりました。ファックリにとってエスモードはとても繋がりが深い場所だと感じました。。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>ショー直前はルックが完成するかという焦りとともに、もうすぐショー当日だという高揚感がありました。ショー後は、無事終わったという安心感と、自分たちのルックを生で見て欲しかったという悔しさがありました。去年私は観客としてショーを見に行ったのですが、その時の感動や空気感はやっぱり会場に行った方が断然感じることができると思います。ショーが終わって、無事成功したからこそ生で見て欲しかったという気持ちが強くなりました。コロナがおさまり、来年のショーはぜひお客さんに会場に来て欲しいと思いました。<br>    <br><span class="question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br>  <br>今のところ来年も継続するつもりですが、もし続けるなら、もっと実験的なデザインで、丁寧な服作りができたらなと思っています。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 5">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay5】北崎隼/2年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.18 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_14.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_15.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_16.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_17.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                          <br>北崎隼/2年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>まず何を作るかです。今回２体を作るうえで自分の能力の中で、いかにできることを使って表現しようかと悩みました。また、そこで今回は意図的に全く服と関係のない要素を服に仕立てたのですが、その境界線をどこに引くかということにも頭を抱えました。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>目指したのは、見えない影の部分への忠実さです。一体目は思い出の地を辿る等高線ということでなるべく実際の等高線、場所的には山梨県の赤穂山のあたりなのですが、三次元を二次元に表した等高線を平面ではないものにしたく、起伏を付けました。また、２体目に関しては家系で代々伝わるソファを辿ることにし、実際にソファの作る工程を模倣し、あえて服とはミスマッチなウレタンを使いました。<br>    <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>最初はコロナの影響でショー以前に授業がこのまま受けられないのではと危惧されていたこともあり、以降は非常に緊迫した面持ちで参加していました。下級生とあまり接することがなく打ち解けるに値することの難しさを感じた一方で、３年生の来たる別れについても想いながら通っていたともいます。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>ショー直前では焦りと同時にもう一年たったのかという毎年感じることのできる小さな幸せを得ていました。ショー後においてはコロナへの危機管理や本番中の行動に後悔が残り不甲斐ない自分が情けなくなりました。また、３年生の影響が大きかったので特に一緒に今までやってきたメンバーがいなくなってしまうこと悲しく思います。<br>    <br><span class="question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br>  <br>来年はもっと主体的に取り組んでいきたいです。デザインやパターンの勉強をして、さらに良いルックを作ることができるように頑張っていきたいです。今年はルックのコンセプトやデザインは明確でも、それを形にすることは1人ではとてもできなかったと思います。多くの人たちに助けてもらい、ルックを無事完成できたことにとても感謝しています。来年は今年よりも服について考え、色々なものに触れ、よりクオリティの高いものを作れるようになりたいです。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 4">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay4】横田愛理/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.17 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_10-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_11-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_12-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_13-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>横田愛理/1年目<br>   <br><span class="question">製作において一番大変だったことを教えてください。</span><br>  <br>先生から、シャツは縫うのが難しいと言うことは聞いていましたが襟の部分は特に難しかったです。縫いと寸法がずれていて2回くらいやり直しました。また、スカートもオーガンジー素材をプリーツにするためにパターン用紙に挟んで加工する過程が地道でした。<br>    <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>  <br>プリーツの幅が綺麗に見えるようにアイロンかけをがんばりました。<br>  <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>  <br>コロナで最初は開くかわからなかったけれど無事に開いて良かったです。荻野さんのパターンに感動しました。<br>    <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>  <br>ショー直前はナイーブになって全てが嫌になるくらいの感情だったけれど、本番でディレクターの演出のもと、素敵なモデルさんに着てもらったら最高のビジュアルだったのであがりました。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 3">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay3】diva/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.16 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_8-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_9-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>diva/1年目<br>
+                      <br><span class= "question">製作において一番大変だったことを教えてください。</span><br>
+                      <br>本当に初心者なので何も分かりませんでした。<br>
+                      <br><span class= "question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>
+                      <br>生地はちょっとwaterproof。後は肌着やすい。<br>
+                      <br><span class= "question">約1年間のエスモード授業の感想を教えてください。</span><br>
+                      <br>辛いこともたくさんあるのに楽しかった。<br>
+                      <br><span class= "question">ショー直前とショー後の気持ちを教えてください。</span><br>
+                      <br>服間に合ってよかった。<br>
+                      <br><span class= "question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br>
+                      <br>皆に感謝感謝。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 2">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay2】斉藤耀/1年目
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.15 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_4-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_5-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_6-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_7-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>斉藤耀/1年目<br> 
+                      <br><span class="question">製作において一番大変だったことを教えてください。</span><br> 
+                      <br>自分の思い描いたデザインを如何にして実際の作品として昇華するかに大変苦労しました。自由に制作物を決定出来る機会は初めてだったので、デザインする段階では生地やパターンを熟考しておらず、先生に幾度も相談し、お力添えをいただきながら製作しました。<br>  
+
+                      <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br> 
+                      <br>自身の原風景をデザインに落とし込む上で何故その表現を選択するのか、直感だけでは無く人に説明出来るような明確な理由を求めた結果生まれた細部への拘りです。生地の色や質感だけで無くパターンにも拘ったところ、自分で考えなければいけない領域が増え、とても苦労しました。具体的には以下の6点です。アメジストの質感を表現する上で透明感のある紫のグラデーションを下着が透けない様なボトムスの枠内で実現するために、透明度の高いオーガンジーを自身でグラデーション染色し、パターンの異なるボトムスを6枚重ねた点。また、狐の窓を表現するためにシャツの後ろ身頃をレイヤードで菱形に肌（人間の実体としての本質）を露出させるパターン。背中の開き具合や袖のシルエットを調節するための鳩目やリボン。水晶の一面を切り取った様な形に見せる袖のシルエット。
+                      バックデザインに目を向かせるためのミニマルな比翼仕立て。前身頃を片方だけタックインしても皺がよらないような実用性を実現する深いスリット。<br>
+
+                      <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br> 
+                      <br>一般の大学生の身の上ながら専門学校で指導を仰げる環境に加えて、優しくあたたかい先生とデザイナーの面々に対して、エスモードの授業無しにはこれ以上恵まれた一年は過ごせなかっただろうなと思い感謝するばかりです。服作りに関して全くの初心者だった自分がショーに制作物を出せたのはひとえにエスモードの授業のおかげです。<br>  
+
+                      <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br> 
+                      <br>ショーが待ち遠しく思う反面、ショーの日が来なければ良いとも思っていました。
+                      自身の制作物に納得がいかず、早くショーを終えて来年の制作に取りかかりたいと思う日さえありました。
+                      直前期にデザイナーがショーの完成度を高める上で関与できる変数は制作物への拘りくらいなので、修正したい箇所が多く浮かび焦燥感に苛まれていたのだと思います。また、ショーが終わればお世話になった先輩方が卒業してしまう事が大変惜しく思われたせいか、楽しかった一年が頭に過り一瞬で12月が訪れたかの様な不思議な感覚に襲われました。ショー後の今は多幸感と一抹の喪失感に駆られています。妙な脱力感があるのでショーが12月後半で良かったです。今年はコロナの影響で他部門との関わりが薄かったため、終わってから色々な人がショーに関わっていた事を実感して感謝すると共に、もっと仲良くなれれば良かったなという思いも強まっています。<br>  
+
+                      <br><span class="question">来年はデザイナーとしてどんな1年を送りたいですか？</span><br> 
+                      <br>今年は先生や先輩に教わるばかりだったので、来年入って来る後輩に教えられる様になりたいです。どうしても直前期になると自身の制作にばかり目がいってしまうのでもっと周囲に気を配る余裕も欲しいですね。他部門の友人も増やせればと思っています<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_look_interview_21 1">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【デザイナーインタビューDay1】辻巽/2年目(KFC3年目)
+                  </h2>
+                  <p class="assistanceText">
+                    2021 01.14 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_1-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_2-min.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/tadoru_interview_3-min.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br>辻巽/2年目(KFC3年目)<br>
+                      <br><span class="question">製作において一番大変だったことを教えてください。</span><br>
+                      <br>布量が多くて扱いが難しかった<br>
+                      <br><span class="question">自分の作品にしかない見どころ、こだわった点は何ですか？</span><br>
+                      <br>シンプルさ<br>
+                      <br><span class="question">約1年間のエスモード授業の感想を教えてください。</span><br>
+                      <br>先生や同期に支えられた一年だった<br>
+                      <br><span class="question">ショー直前とショー後の気持ちを教えてください。</span><br>
+                      <br>無事に終われって気持ち<br>
+                      開放感<br>
+                      <br><span class="question">デザイナーを3年間続けた感想、後輩に伝えたいことを教えてください。</span><br>
+                      <br>服作りは楽しい<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_area 20_interview">
+            <div class="modal_box box_interview_20 19">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay１７】代表
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.19 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>【部員インタビュー】源川 まり子→代表<br>
+                      <br><span class="question">Q：今回の会場はどうやって選ばれたのでしょうか。</span><br>
+
+
+                      <br>A：会場決めはかなり難航していました。最初にディレクターのみんなが候補を沢山出してくれたのですが、コロナで貸し出し自体をやっていないところもあって。基本的に、ランウェイ形式でショーができて、お客様と入れる形と無観客両方に対応でき、部員にも最大限来てもらえる施設…という基準で考えていました。初めから無観客にして、部員も最低人数しか呼ばない、と決めてしまえば、小さめな会場でも済むので、確かにもっと沢山候補はあったかもしれないです。でも私たちがショーのコンセプトにしていた「生きている感覚」を感じてもらうために、やはり実際に来てもらうことを考えて会場を決めたいという思いがずっとあり、かなり粘りました。結果的にそれは叶わなかったのですが…こだわったことに悔いはありません。<br>
+                      ある時、昼間にこだわらず、ショーを夜に行えば選択肢の幅が広がる事に気付きました。そしたら、国立科学博物館（以下 科博）の閉館後にやるのはどうだろう？とひらめいて。もともと「辿る」というテーマを考案したときから、博物館や図書館でショーを行う案はずっと出ていました。科博は個人的にも小さい頃からずっと通いつめていた場所だったので、ご縁も感じて。本当にたくさんやりとりをして、開催できることになりました。また、正面から見たときの構図の迫力や、スロープから生まれる奥行きと遠近感など、科博のなかでも地球館地下二階は素敵なポイントが満載なんです。ここだ！ってピンと来ました。<br>
+
+
+
+                      <br><span class="question">Q：今回のショーテーマの "辿る” から、源川さんの "辿る” を教えてください。</span><br>
+
+
+                      <br>A：強いて挙げるなら、辿った先にあったものは「自己表現」ですかね。このテーマを一年かけて自分に問いかけ続けたのですが、それでも一つ答えを出すのは難しかったです。<br>
+
+                      ファックリにいると必然的に「服」を辿る機会が多いのですが、服を着ることは自分を”装う”ことでもあると考えると、表現の一部ですよね。その服を誰がどういう風に、どんな感情を持って着るのか…というストーリーそのものが、一つの表現だと思います。
+                      服というのは、着るだけで何者にもなれて。例えば、ジャージとかいわゆるダル着を着ていると、近所のコンビニでチキンとか買って、立ち食いしちゃいたい気分になったり。あくまで例ですけど（笑）でも、綺麗な服を来ていたら絶対にそんなことは出来ませんよね。自分自身を装う作業である一方、どんな状態が自分自身にとって自然体なのかを探すことでもあると思っています。
+                      個人的な考えですが、服は身体からの距離にしても、一番自分に近い存在として自分を守ってくれていて。自信がないときも、幸せなときも、何かにすがりたいと思うときも、私たちに一番近い場所で服は力を与えてくれていると思うんです。だからこそ、記憶装置としての服の在り方に私は魅力を感じます。日常の記憶の中で、着ていた服まで覚えている日は少ないと思うんですよ。でも、ある瞬間の強烈な思い出は服に宿っているし、「あの時これ着ていたな」と思い返すことはたくさんありますよね。
+                      だから、服を通して表現することは、大切な記憶を残していくことでもあると思っています。<br>
+
+                      私個人としては、踊ったり、文章を書いたり…と表現することがずっと好きです。ショーのBGMのフィナーレの曲やコンセプト文など、色々な要素を少しずつ詰めさせてもらったりもして。そういった意味では、テーマを辿る中で自分の原点って何だろう、と考えさせられる機会が多かったです。<br>
+
+
+
+                      <br><span class="question">Q：代表を務めようと思った経緯や理由を教えてさい。</span><br>
+
+
+                      <br>A：正直、入部してからの２年間は自分は代表の器ではないと思っていました。チーフや代表は、服に長けている人がやるべきだと考えていたので。もちろん服は大好きですが、この団体に入って凄い人にたくさん出会って、影響を受けてようやく、最初の頃のみんなに追いつけた感覚でした。リーダーをやることに抵抗があったわけではないんですが、周りが背中を押してくれて踏み出せた側面は大きいです。でも不思議なことに、代表という選択肢が見えた段階で、他の選択は全くイメージできなくなりました。あまりにも魅力的だったんでしょうね。そのあとは、気持ちの上での揺らぎは全くありませんでした。<br>
+
+
+                      <br><span class="question">Q：代表としてどんなポリシーを持って活動されていましたか。</span><br>
+
+
+                      <br>A：ファックリには特有の空気感というか、ファックリ「らしさ」があると思います。私自身は一時期、その「らしさ」に自分を合わせなくてはと考えて、服が好きだったはずなのに、変に焦燥感があった時期があったんです。
+                      でも、自分のポリシーを曲げずに好きな服を着ていた子が周りには沢山いて、それがとても眩しくて。私もそんな風に服を楽しめばよかったんだと改めて気づかされました。
+                      ファックリに集うみんなのベースにあるのは、純粋に服が好き、という感情です。だからこそ、感性とか「こうあらねばならない」という基準を押し付けないことは意識していました。それぞれのベクトルで服が好きならそれで十分だし、そうやって楽しめるところがファッションが色々な人に愛される理由でもあると思ったからです。<br>
+
+
+
+                      <br><span class="question">Q：３年間続けられたモチベーションを教えてください。</span><br>
+
+
+                      <br>A：人です。いる人が面白すぎたからですね。こんなに個性が豊かなのに、絶妙な空気感があるんです。切磋琢磨しながらも、お互いに波長は合うし。服を作る人もいれば、その服を輝かせるために仕事をしている人も沢山いて、それぞれの範囲で活動している人たちの努力がショーでひとつになる。何よりこの環境と仲間を手放し難かったから、ということが一番大きな理由です。<br>
+
+
+
+                      <br><span class="question">Q：この一年で印象に残っている事は何かありますか。</span><br>
+
+
+                      <br>A：やっぱりコロナというシチュエーションかなと。
+                      初めの頃は特に、何がなんだかよく分からなくて先行きが見えませんでした。だからと言って、一瞬でも止まってしまったら何も出来なくなってしまいそうで。その怖さから何がなんでも前に進めていこう、という思いでいっぱいでした。とにかく必死でしたね。<br>
+
+
+
+                      <br><span class="question">Q：コロナ禍でのショー開催について教えてください。</span><br>
+
+
+                      <br>A：やっぱり悔しいですし…そりゃ、悔しいよね。（笑）
+                      感染が拡大し始めた時点である程度大変になることは予期していましたが、正直ここまで振り回されるとは思ってもいませんでした。
+                      常に最善は尽くしてきたつもりです。必死でやってきた結果の今が、最善だったと言うしかなくて。でも、最後の最後で一部の部員のみんなにはショーに参加してもらえなくなってしまいました。すごく悔しいし、申し訳なく思っています。
+                      しかし、配信（インスタグラムのライブ配信）など、実現しようとしている新たな試みもあります。これも、私のわがままにも応えてくれた部員のおかげです。確かに悔しい思いはしていますが、なによりもこのコロナ禍でショーを開催できること自体に、本当に感謝しています。
+                      だからこそ、お客様を入れないという選択を、ある方向ではプラスに捉えてもらえる機会になればいいなと思っています。嬉しいことに、ご協力いただいている方からも「新しい形ですね」「若い人がこうしてできる範囲で頑張っている姿勢を見習いたい」と言っていただいています。今年、会場選定などにあたって本当に沢山の方にお世話になりました。この前ふと数えたら、夏くらいから今まで通算で400通弱、メールのやりとりをしていて。そのうちの半分は、私たちを応援して力を尽くしてくださった皆さんが費やした時間でもあります。本当に感謝が尽きません。皆さんの期待に応えられるように、必ずショーを成功させたいと思っています。<br>
+
+
+
+                      <br><span class="question">Q：ショーへの意気込みをどうぞ。</span><br>
+
+
+                      <br>A：この一年、コロナ禍という困難のなかでも、ここまでみんなで頑張って努力してきたので、絶対に素敵なショーになると確信しています。だからこそ、1人でも多くの方にショーを見ていただきたいです。このショーのコンセプトの中には「忘れられない一瞬を想起する」ということがあります。誰かにとって、このショーそのものが人生における「忘れられない一瞬」になったら、こんなに素敵なことはないなあと思います。そして何より、明日も頑張ろう、と思ってもらいたいですね。私たちのショーを観た人に前向きな気持ちになってほしいという想いは、今年ショーを準備する上で部員の原動力にもなっていました。
+                      まずはとにかく安全に、無事にショーを終えることだけを考えて、祈るのみです。<br>
+
+
+
+                      <br><span class="question">O：後輩に向けてメッセージをお願いします。</span><br>
+
+
+                      <br>A：今年、みんなのうち1人でも欠けたらショーは完成しえなかったと思います。素敵な同期や後輩に恵まれたからこそ、ここまで来ることができました。だからこそ、今回会場に来られなかった部員のみんなも、自分が今回のショーの作り手であるという自信を持って、来年に向けて進んで行ってほしいです。悪い状況のなかでもここまで来れたので、今より状況がよくなったら、きっとさらに良いものが生まれると思います。大好きな部員のみんなが、これからさらに密度の濃い時間をファックリという場所で共有できますように、いつも応援しています。心の底から感謝しています！<br><br><br><br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 18">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay１６】ディレクターチーフ
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.18 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>【部員インタビューDay16】伊藤香里菜→ディレクターチーフ<br>
+                      <br><span class="question">Q.２年間ディレクターやってきてどうでしたか？</span><br>
+
+                      <br>A.一言で言うと、楽しかったです。<br>
+                      私が通っているのがファッション専門の大学だから、ファッションを専門としない総合大学の学生が、服に対してどういう意識を持っているのかっていうのを、知りたかったので、ファックリに入ったんですよね。ファッションショーというものを通じでみんなが衣服についてどう思っているのか、ファッションの大学に通っている子たちとはまた違った視点から服のことを考えている場面を多く経験したので、とても良い経験になりました。<br>
+
+                      <br><span class="question">Q.チーフという役目を担った感想を教えてください。</span><br>
+
+                      <br>A.これだけ大きな人数の団体を仕切ることはこの歳でなかなかない経験だと思うので、みんなをまとめることはとても面白かったし、自分自身も人と関わる方法とか成長した部分があったと思います。<br>
+                      ディレクターは今年分業を意識して、一人一人が何かしらの仕事に集中できるように手配していたので、私はそれに関与するというよりは、仕事をお任せしてフィードバックをするぐらいのスタンスでした。だから私が全部やったというよりは、みんなが頑張ってくれて、ディレクターという一つの役職が完成したという意識が強かったです。<br>
+
+                      <br><span class="question">Q.今年一番大変だったことは何ですか？</span><br>
+
+                      <br>A、やっぱりコロナの影響をどの役職もですけれど直に受けるわけじゃないですか？ディレクターは特に物づくりに関しては本当に苦労しました。<br>
+                      対面で話す中で生まれる無駄な時間も必要なんですよね。勿論考えて考えてっていう時間も大切ですし。でも、感染防止のために会議はできるだけ短くまとめたり、そもそも対面でできなかったりしたので、良い案が出にくい状況だったと思います。それが一番ディレクターにとっては大変でした。<br>
+
+                      <br><span class="question">Q.かりな自身の大変だったことは何かありますか？</span><br>
+
+                      <br>A.みんなと会えないことですね。オンライン会議だと声や顔は確認できても、どうしても雰囲気は掴み辛いところがあって。相手がどう思っているのかを感じとる材料が少なかったので、ディレクターが今どういう雰囲気なのかが把握し辛かったところが大変でした。<br>
+
+                      <br><span class="question">Q.大変なことがある中、なぜ2年間活動を続けてこれたんですか？</span><br>
+
+                      <br>A.難しいですね…。単純にお洋服が好きだからだと思います。皆んなが着ているお洋服をみたり、お洋服の話をしたりするのは楽しいですし、そういう人たちと作り出すファッションショーも面白いんですよね。だから続けられたのは、楽しいからです。大変なお仕事があっても、みんながいたから頑張れたし、みんなの力があったから私は2年間続けられたと思います。<br>
+
+                      <br><span class="question">Q.まだファックリに所属していない方達に向けて何か一言ありますか？</span><br>
+
+                      <br>A.入るか入らないかで迷っているなら、入った方が良いと思います。<br>
+
+                      <br><span class="question">Q.その心は？</span><br>
+
+                      <br>A.19、20にもなってこれだけ同じ世代の人が、これだけの人数集まって、何かを作ることはとても難しいことですし、ましてや自分の好きな領域で何かを取り組める機会があるのであれば、それは有意義なものではないかなと思います。<br>
+                      大学生はラクな期間とみんな言いますけれど、限られた時間の中で自分がどうなりたいかを見つける、次のステップへ向けてのモラトリアムだと思うんですよ。そこをいかに有効に使うか考えたときにファックリはとても素敵な場所だと思います。だから、迷っている方がいたら入ってみて、そこで何か感じたり、考えたり、思いを巡らせてみると、また新しい世界が広がるかもしれないので、私はファックリに入ることは強く強くおすすめします。<br>
+
+                      <br><span class="question">Q.ファックリに入ってよかったですか？</span><br>
+
+                      <br>A.はい！もう120％よかったです！<br>
+
+                      <br><span class="question">Q.ではファックリに入るか迷っている人に向けて、なぜディレクターを選んだんですか？</span><br>
+
+                      <br>A.ディレクターの中との関わりを密にとって、色んなものを創り出すという、物づくりの精神見たいなものに触れたかったので、ディレクターを選びました。０から１を生み出すプロセスみたいなものってなかなか経験できないと思うので、面白いかと思って。<br><br>
+
+
+                      <br><span class="question">Q.ファックリの活動が将来に役立つと思いますか？</span><br>
+
+                      <br>A.もちろん！私はファッション専門の大学にに通っているので、将来はそういう業界に入ろうと思いますが、役職ごとに仕事をすることは、ファッション業界に通ずるものがあると感じるので、将来に繋がるのではないかと思います。今ここにいる人たちは少なからずファッションに興味があって、将来一緒にお仕事する機会ががあるかもしれないじゃないですか。そういったときに、「あの時みんなで頑張ったよね！」って言ってまたお仕事出来たら素敵なことだと思います。<br><br>
+
+
+                      <br><span class="question">Q.後輩に一言ありますか？</span><br>
+
+                      <br>A.お仕事に囚われがちなので、お洋服の話をもっとした方が良いと思います。ぜひ、お洋服について話す時間を設けて欲しいです。彼ら彼女らの世代が一番エネルギーがあって若者の文化をつくりやすい世代なので、なにかその世代で過ごした証として、ファックリがあると嬉しいなと思います。衣服に対しては答えがなくていいんですよね。自分がどうなりたいか、何になりたいかを表層的な部分ではなくて、つき詰めていってほしいです。服と対話して、人と対話して、もっともっと洋服を好きになってくれれば世界は良くなると思うんです。<br>
+
+                      <br><span class="question">Q.何かやり残したことはありますか？</span><br>
+
+                      <br>A.皆ともっとお出かけしたかったです。美術館とか、私が普段行ってるお店とか行って、いっぱいお話ししたかったです。それは来年の世代の子たちがに是非やってほしいことでもあります。切に願います！<br>
+
+                      <br><span class="question">Q.では最後にショーの意気込みをお願いします。</span><br>
+
+                      <br>A.今年はこういう状況で、ショーをやること自体、大手メゾンでもやり得なかったことなので、できる環境や、お世話になっている周りの大人の人たち、先輩、後輩、同級生に感謝しながら、ショーをできることを思う存分楽しみたいと思います。今年は特にやることに意義があると思うので、いいショーができるように全身全霊で頑張るつもりです。<br><br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 17">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay１５】デザイナーチーフ
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.17 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>【部員インタビューDay１５】大畑直輝→デザイナーチーフ<br>
+                      <br><span class="question">Q：製作物に込められた意図、意味は何ですか？</span><br>
+                      
+                      <br>A：今年のショーテーマの”辿る”に込められている、「歩きにくい道や知らない道を確かめながら苦労していく」、「あれこれ物事を考え迷う」という意味をコンセプトにして服作りを行いました。
+                      テーマは、”栄華を辿る”です。華やかさの絶頂の美しさと、一瞬的ですぐに崩れていく反面が隣り合わせに存在している事を表現したいなと思いました。
+                      古代ギリシャの伝説であるアトランティスなどから発想を得たのですが、考古学者の間で「ある」って言う人もいれば、「ない」って言う人もいるオカルト的な存在で。そういうオカルトチックな存在になぜか人々は心を惹きつけられ、現実ではないと分かっていたとしても憧れをもってしまう。そしてオカルトというのは、世の中が不安定な時に人気が出る傾向があるんです。例えば第二次世界大戦の時であったり、冷戦の時であったり。そして、それが今のコロナの時代も重なる部分があると思いました。<br>
+                      
+                      <br><span class="question">Q：工夫した点はありますか？</span><br>
+                      
+                      
+                      <br>A：一体目のルックは個人的なコンセプトを優先して制作しました。テーラードジャケットを制作したのですが、メンズのテーラードジャケットは、「テーラー」という専門の仕立て屋があるように、非常に手のかかる制作工程を必要としています。専門学校でも必修項目ではないらしいです。ファックリで服作りを学ぶと言っても、普段は大学生である僕らには色々制約がある中で、本格的なテーラリングを行うということ自体が僕なりの“辿る”でした。ダブルのピークドラペル、総毛芯仕立て、本切羽、と細かいところに拘りました。
+                      ２体目のルックは婦人服のタイユールと、スカート部分にアートフラワーを用いました。一枚一枚布から切り、染色してコテを当てて花びらを形成しました。クチュールのような細かい作業に憧れていて、一体目のテーラードジャケットも然り、手縫いでの作業がとても多かったですが、やってみると楽しかったです。
+                      <br>
+                      
+                      <br><span class="question">Q：２点目のルックのモチーフは何ですか。</span><br>
+                      
+                      <br>A：２体目は、１９世紀の画家、ローレンス・アルマ＝タデマ　の「ヘリオガバラスの薔薇」という絵画をモチーフにテーラードジャケットとスカートを製作しました。作品をぱっと見てみると綺麗な絵なのですが、よく見てみると下に描かれている奴隷たちは苦しんでいて、実は処刑をされているらしいのです。にも関わらず、上の貴族は楽しそうに優雅に見えているというこの皮肉が、アトランティスにも込められている、奢侈への批判的な意味合いとしての”栄華を辿る”に合っているなと思いました。<br>
+                      
+                      <br><span class="question">Q：ジャケットとスカートを制作されているんですね。</span><br>
+                      
+                      <br>A：大量生産とか、自動生産の時代に一つ一つ人間の手で丁寧に作っていくクラフトマンシップを大切にしたくて。
+                      テーラードジャケットって型が決まっていて、どちらかというとデザイン性が少ない方なんです。だから、型通りにいかに、どこまで極めて作ることができるかというところで。自分は型にハマった性格で型にハマった生き方をしてきていて、そういう部分がジャケットと自分は似ているなと思います。だからこそ、ジャケットが好きになったのかもしれません。
+                      あとは、この３年間の集大成という意味もあります。ファックリのデザイナーとしての活動で一番時間を費やしてきたことは、ジャケット製作といえます。ですが、今までのショーでジャケットは製作してはいけない決まりになっていたんです。でも、何とかジャケットを作ることができないかと思い、2年生の時に頑張って先生を納得させられるようなジャケットを作って。結果的に許可を頂くことができ、去年のショーでも製作することができました。今年はより本格的なメンズのテーラリングに挑戦することも大きな目標の一つでした。
+                      そう振り返ると、やはり、テーラードジャケットは自分の服作りにおいてとても大きい存在です。
+                      <br>
+                      
+                      <br><span class="question">Q：今年一年を振り返って印象的なことはありますか？</span><br>
+                      
+                      <br>A:悔しいことはやはり、お客さんを入れられずに無観客でショーを行うことです。幹部みんなで「絶対にお客さんを入れよう」という目標を持って4月から活動してきたので、この状態で仕方がないことだと分かってはいるものの、残念です。服というのは直接目で見てもらうのが一番かなと思っていて。
+                      今年はデザイナーチーフになったので当然仕事量は増えましたが、そこは自分自身が好きでやっていることなのでそこまで大変とは思わなかったです。デザイナーはショー直前になればなるほどやる事が生まれてきて忙しくなるので、これからが一番キツくなりますね（笑）<br>
+                      
+                      <br><span class="question">Q：３年間ファックリのデザイナーとして続けることができたモチベーションとは。</span><br>
+                      
+                      <br>A:服を作ることが好きということ以外の理由はないですね。
+                      あと、10%くらいは惰性です。
+                      ファックリでデザイナーという場所にいられたからこそ、普段は全く違うことを勉強をしている学生なのに同時に自分でデザインをして服を作っている…という特別で中々ない環境にいます。そしてそれが、ファックリの強みでもあります。自分の気持ちの上でも、専門の学生としてではなく一般の大学生として、どこまで服作りの深みに入ることができるかということを目標にしてきました。もちろん自分だけの力だけではないのですが、３年間でやっとここまで来れたという気持ちが今はありますね。<br>
+                      
+                      <br><span class="question">Q:後輩に向けてのメッセージをお願いします。</span><br>
+                      
+                      <br>A:まずはこのこロナの状況が続く中での厳しい状況をどうにか脱してほしいです。今年制限があって色々できなかったことを実現してください！来年どうなるのかの先が見えないし、イレギュラーなことばかりですが、是非頑張ってもらいたいです！<br><br><br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 16">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay１４】プレスチーフ
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.16 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>【部員インタビューDay１４】黒田　花音→プレスチーフ<br>
+
+                      <br><span class="question">Q：ショーテーマの ”辿る” から黒田さんの "辿る”を教えてください。</span><br>
+
+                      <br>A：テーマの”辿る”から自分の人生を辿ってみました。幼少期のバレエやチアリーディング、高校の部活動での書道パフォーマンス、そして今のファックリ。今までの経験を振り返ると、団体で何かを創り上げるという事に魅了されているんだなと気付かされました。だから、私にとっての”辿る”とは "団体で何か一つのことを創り上げる”という事です。<br>
+
+
+
+                      <br><span class="question">Q：コロナ禍でのファックリの活動はどうでしたか。</span><br>
+
+                      <br>A：このコロナ禍の中、オンラインでやらざるを得ないことが多くて、仕方ないけれども悔しいなと思いました。ZOOM上ではどうしても空気感が分からなかったり、自分が発言してもレスポンスが返ってこなかったり。特に新入生は会話に入って来づらい。自分が新入生だったら、絶対に入れないと思いますし。(笑)　既存のメンバー含め、みんなに不自由な思いをさせてしまったのかなと思います。そのような中でも、プレスのみんなが頑張って活動してくれました。<br>
+
+
+                      <br><span class="question">Q：チーフとしてどんなことを大切にされてきましたか。</span><br>
+
+                      <br>A：チーフを任された時に、”皆んなの意見を聞く”というルールを決めました。高校で部長を務めた時に、部員の意見を置き去りにして突っ走ってしまったことがあり、そのせいで部内が一時険悪になってしまって。その時に、上に立つ者はどんな時であっても、自分の意見を持つことも大切。でも、メンバーの意見を汲み取る事も同様に大切だと学んだので、この経験を今回生かそうと思いました。
+                      幹部として、ファックリを作るという立場では、”自分の服好きのベクトルを押し付けない。” という事を大切にしてきました。どんなブランドが好きであっても、どんなファッションが好きであってもそれは個人の自由であって。こうあるべきだという定義を作りたくありませんでした。<br>
+
+                      <br><span class="question">Q：プレスという仕事から得られたことはどんな事ですか。</span><br>
+
+                      <br>A：団体代表のまり子と2人で行った商談の時に、企業の方から「このインスタグラムのフォロワー数では、企業として取り組むメリットがない。」 と率直な意見を頂き、痛いところを突かれた事がありました。 今までそのことを分かってはいたのですが、学生だからということで、企業も取り合ってくれていて。そういうところに甘えていたな、と実感しました。そこから、今年はプレスの中でSNS班というのを作って部員達に協力をしてもらい、SNSでの活動を強化しました。
+
+                      また企業は、学生の声を求めていて、私たちの考えや求めている事など、私達の視野が役に立てられるということを感じました。初めての商談では、上手く自分達の想いが伝えられずにもどかしくて。大学の講義で「なぜこの先生の話は面白いのか」を考えたり、帰りの電車でもっとこうするべきだった！と反省したりして経験を積み、  ”喋る力” 、"プレゼンする力” ということも得られたと思います。<br>
+
+                      <br><span class="question">Q:３年間続けてこられたモチベーションは何ですか。</span><br>
+
+                      <br>A：一度ショーを経験してしまうと、あの緊張感、臨場感をもう一度感じたい！と思い
+                      、その気持ちが大きなモチベーションになります。そして、ショーには少なからず、自分達の頑張った成果が含まれていて。それを見届けたい、３回しか経験できないのならば（３年生で引退という決まりの為）出来る限りやりたいなと思いました。
+                      またプレスは、ファックリの魅力を外部に発信できる立場にあって。部員が創り上げた制作物やKeio Fashion Creatorという団体をもっと伝えたいという想いも、モチベーション一つです。<br>
+
+
+
+                      <br><span class="question">Q：一年を振り返っての想いや、ショーの後にやりたい事を教えてください。</span><br>
+
+                      <br>A：この１年間、とにかく必死でした。例年とは状況が違いましたし、勿論プレスチーフという立場は初めてなので。
+                      ショーが終わってしまったら、寂しくなりますね。絶対に。今でさえ今年のショーのBGMを聞くと、今までの活動が走馬灯のように浮かんできて、泣きそうになります。
+                      でも、この１年間ずっと頭のどこかではファックリという存在があったので、考えずに過ごしてみたいです。<br>
+
+
+                      <br><span class="question">Q：ショーへの意気込みをお願いします。</span><br>
+
+                      <br>A：ショーを開催できるということそれ自体や、開催に伴って力を貸してくださった方々、そして厳しい状況の中1年間一緒に頑張ってきた部員に感謝して、無事完走したいと思います。願わくば、ショーを見てくださった方々にとって、明日を生きる活力になれたら嬉しいですし、忘れられない出来事の一つとして記憶に残ればいいなと思います。<br><br><br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 15">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay１５】モデルマネージャーチーフ,デザイナー3年目
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.15 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>【部員インタビューDay13】馬場美羽→モデルマネージャーチーフ、デザイナー3年目<br>
+                      <br><span class="question">Q.今年最も大変だったことはなんですか？</span><br>
+                      A.モデルを集めです。最後の5-6人を集めるのに20人以上に声をかけてもなかなか集まらないような状況だったので。夜遅くまでInstagramでフリーランスモデルの方や事務所に声をかけましたが、返信が来なかったりギャラが希望に合わなかったりして心が折れました(笑)。<br>
+
+                      <br><span class="question">Qそんな大変だった時にどうやってモチベーションを維持をしていましたか？</span><br>
+                      A.ESMODに行ってデザイナーが頑張って作っている姿を見ると、早く集めなきゃという気持ちになりました。<br>
+
+                      <br><span class="question">Q.3年間ファックリを続けてどうでしたか？</span><br>
+                      A.3年間でデザイナーとモデマネの二役職を経験しましたが、どちらも大変でした。<br>
+
+                      <br><span class="question">Q.デザイナーは何が大変でしたか？</span><br>
+                      A.製作の時間が足りなくて常に時間に追われていたし、生地を探すのも苦労しました。とにかく初めてのことばかりだったので、慣れないことも多く、大変なことは多かったです。<br>　　
+
+                      <br><span class="question">Q.モデマネは何が大変でしたか？</span><br>
+                      A.デザイナーの時は「ルック 対 制作する自分」の問題だから、自分が頑張ればなんとかなりました。でもモデマネは「人 対 人」だから、自分が頑張っても、例えばモデルさんの予定は変えられないし、自分で返信を急ぐことはできても相手の返信のスピードを変えることは出来ない。自分が頑張るだけでは成り立たない点が大変でした。<br>
+
+                      <br><span class="question">Q.今年モデルマネージャーチーフを担ったわけですが、任命された時の心境はどうでしたか？</span><br>
+                      A.去年までモデマネではなかったので、いきなりの任命に驚きました。突然だったので何も考えていなかったというのが正直なところですね。<br>
+
+                      <br><span class="question">Q.チーフとして何が大変でしたか？</span><br>
+                      A.今までリーダーの経験をしたことがなかったので、チーフになっても何をしたらいいのか分からなくて、仕切ることもできませんでした。<br>
+                      でも、自分ができないところをみんなが補ってくれたからチーフでいられたと思います。皆に頼りながら頑張りました。<br>
+                      あとは、サークルの時間外も連絡ばかりで大変でした。ファックリに割く時間が多かったし、ちょっとした連絡も怠らないように常に携帯に張り付いていました(笑)。<br><br>
+
+
+                      <br><span class="question">Q.1年間チーフを経験して自分が成長したと思うことは何ですか？</span><br>
+                      A.具体的には分からないけれど、コミュニケーションの取り方は成長したと思うし、大人になりました。自分の仕事だけではなくて、全体を見るという意識に変わったところは成長した部分だと思います。<br><br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 14">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay１２】デザイナー3年目
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.14 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>Rui→デザイナー3年目<br>
+
+                      <br><span class="question">Q.今年ファックリに入って3年目ですが、今までと違うこと、また3年目だからこそ気づいたことなどはありますか？</span><br>
+
+                      <br>A.他役職や全体の動きに、より目を向けるようになりました。下級生が他役職の動きに興味を持ったり、積極的に活動に参加できるように何か企画したり、交流できるようにしたりすることが大切だと感じました。<br>
+
+                      <br><span class="question">Q.制作している中で印象に残っていることがあれば教えてください。</span><br>
+
+                      <br>A.今年の作品はパッチワーク、キルティング、刺繍など手縫いの作業がとても多く、作業の膨大さに何度か心が折れそうになりました。その分完成した時の達成感は大きかったです。<br>
+
+                      <br><span class="question">Q.今年はコロナ禍での一年でしたが、振り返ってみてどうでしたか？</span><br>
+
+                      <br>A.厳しい社会情勢で中々友人とも会えない中、デザイナー授業で例年通り制作の場を与えていただいたこと、デザイナーのみんなと毎週会えたこと、ショーを開催できることにも感謝で一杯です。大学がオンライン授業になり、今までの移動時間が格段に減ったことで制作にかける時間が増え、例年よりも1体あたりに手間をかけて制作できました。<br>
+
+                      <br><span class="question">Q.るいさんにとって、ファックリとはどんな場所ですか？</span><br>
+
+                      <br>A.自分の好きを認めてもらえる場所です！<br>
+
+                      <br><span class="question">Q.ショーへの意気込みやお客様へ伝えたいことをどうぞ！</span><br>
+
+                      <br>A.細かいところまでこだわって制作したルックをオンライン上でもしっかりと見ていただきたいです。オンライン開催だからこそより多くの人に気軽に見ていただけたら幸いです！<br><br><br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 13">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay11】デザイナー上級生
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.13 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br><br>Sena(S), Hayato(H),Taiki(T)<br>
+                      <br><span class="question">Q.今年はデザイナー2年目だと思いますが、去年と比べて変わった点などはありますか？</span><br>
+                      <br>A.(S)ルックを制作する上で自分のできる範囲が広がりました。去年は先生に型紙を引いてもらったりしたんですけど、今年は自分で一から原型を作って展開して型紙を引いて、、みたいな感じでやってます。思ってる以上に全然うまくいかないし、地道でめんどくさい作業なんですけど、作ってるって実感が湧いて楽しく感じます。<br>
+                      A.(H)ルック数が2体になったことです。また、服への関心が大きくなる一方でどう膨れた思考をテイストとしてデザインするか考えました。<br>
+                      A.(T)去年1年間の経験もあることから、より自分の思い描いたデザインの服を制作出来るようになりました。デザインするだけではなく服の制作も行うため、自身の技術によっては良いと思ったデザインだとしても取り入れることが出来ないです。そういう面では今年はイメージに近いモノを制作出来たため、より思い入れの強いルックが出来たと思います。<br><br>
+                      <br><span class="question">Q.ルックに込めた想いや「辿る」との関連などがあれば教えてください。</span><br>
+                      <br>A.(S)今年はやっぱりコロナなどの悲しかったり辛かったりする出来事が多い一年だったと思うんですけど、そんな時代でも、だからこそ、前向きに楽しんで謳歌していきたいなと思い今回のルックを制作しました。楽しんでいただけたら幸いです。<br>
+                      A.(H)どちらのルックも服へのコンバートを軸にしていますが、吉な明日か苦な明日か分からない今日、前を向くために楽しい記憶を形にすること。ストーリーを聞いた後で存在感が違う身近なソファのそのニュアンスを詰め込みました。<br>
+                      A.(T)私は表現を辿りました。自分が行っている服という媒体の表現、昔の自分が行っていたクラシックバレエの表現。今できる表現方法で昔の自分が行っていたものを表現することで過去と現在の自分を表したルックになっていると思います。<br><br>
+                      <br><span class="question">Q.コロナ禍での1年間になりましたが、大変だったこと、印象に残っていることはありますか？</span><br>
+                      <br>A.(H)ショーが行えるかどうか分からない状況においてこの団体の強さを感じた事です。また、コロナ禍で他チームの下級生と未だ近い距離になれてないことに悔いが残っています。<br>
+                      A.(T)モチベーションを保てるかどうかが鍵を握った一年間だったと思います。最初の方のデザイナー授業はオンラインだったり、ルックブックが延長になったのは精神的な面できつかったかなあ…と。デザイナーは時間もお金も飛ぶし、頭も使うし、もちろん大学生なので大学の授業や課題もこなした上で作らなくてはいけない。そういう面ではより自分の理想に近く、完成度の高いルックを作り上げるために高いモチベーションを保ち続けることが一番大変だったと思います。<br><br>
+                      <br><span class="question">Q.ショーへの意気込みや見所、見てくれる方に一言などあればどうぞ！</span><br>
+                      <br>A.(S)私はまだまだ全然制作が終わってなくて（笑）…でもショーまでの残りの時間を目一杯使って頑張っていきたいと思います！それとデザイナーの皆さん本当に生地の柄や素材、ディテールなどの細部にとっても凝っていて、どのルックもずっと見ていて飽きないのです。オンライン開催なので難しいかもしれませんが、是非頑張って細かいところを見て頂けたらなと思います。<br>
+                      A.(H)色や起伏、陰影、独特なフォルム、意味を持つ服ではなく服の持つ意味を解ってもらえると嬉しいです。<br>
+                      A.(T)「辿る」というテーマのため、デザイナー自身のバックグラウンドが反映されたルックが多く、一人一人の個性が顕著に出ていると思います。各々が「辿る」からどの様なコンセプトを考え、デザインしたのか。その様な面に注目して見て頂ければと！<br><br><br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 12">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay10】デザイナー下級生
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.12 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>【部員インタビューDay10】デザイナー下級生
+                      <br>長瀬唯(ゆ)<br>
+                      風晴洋子(よ)<br>
+                      木内理紗(り)<br>
+
+                      <br><span class="question">Q.作られた服に込められた意味を教えてください。</span><br><br>
+
+                      A.(ゆ)<br>
+                      1番初めに知った画家の人生とその作品を服に落とし込んで考えました。<br><br>
+
+                      A.(よ)<br>
+                      私はCHANELが好きだったのでCHANELへの気持ちとコロナの解放の意味を込めました。<br>
+                      また、自分の人生にとって大事なものとは何かをよく考えながら製作しました。<br><br>
+
+                      A.(り)<br>
+                      私の今までの人生・家庭環境を服で表現しようと思いました。<br>
+
+                      <br><span class="question">Q.制作で1番大変だったことは何ですか？</span><br><br>
+
+                      A.(ゆ)<br>
+                      オーガンジーや着物の帯を生地として使いました。両方ともほつれやすく縫いにくい生地だったので、裾処理をするのが大変でした。<br><br>
+
+                      A.(よ)<br>
+                      素材の良い生地を探すことが大変でした。<br>
+                      ツイード生地がとても歪んでしまうので、綺麗に裁断するのに手こずりました。<br><br>
+
+                      A.(り)<br>
+                      デザインにこだわっていて生地の特性を活かせるようにデザインを何回も変えたことが大変でした。<br>
+
+                      <br><span class="question">Q.1番の見どころを教えてください。</span><br><br>
+
+                      A.(ゆ)<br>
+                      中世のヨーロッパで使っていたクリノリンを自分で1から作ったのでそれを見て欲しいです。<br><br>
+
+                      A.(よ)<br>
+                      装飾のカメリアを一つ一つ手作りでたくさん作ったので、是非見て頂きたいです。<br><br>
+
+                      A.(り)<br>
+                      生地にこだわっており、本物のカーテンをそのまま使っているので生地に注目して欲しいです。<br>
+
+                      <br><span class="question">Q.デザイナーに入って良かったと思うことを教えてください。</span><br><br>
+
+                      A.(ゆ)<br>
+                      自分が欲しい服を見つけても「これ自分でもしかして作れるかもしれないな」って思えるようになって服を選ぶのがより楽しくなりました。<br><br>
+
+                      A.(よ)<br>
+                      コロナで誰にも会えなかったけど、エスモードに通っていたので人に会える機会を得られたことです。また、生地の裏を見て縫製に注目するようになり服に対する捉え方が変わりました。<br><br>
+
+                      A.(り)<br>
+                      自分の作品として何かを作れる機会はなかなかないのでその機会を得られたことが1番大きいです。
+                      服の知識、縫製の方法を知れば知るほど繋がってくる部分があったので、そこがよかったと思いました。<br><br>
+                      れ<br><span class="question">Q.ショーへの意気込みを教えてください。</span><br><br>
+
+                      A.(ゆ)<br>
+                      他の人よりも作るパーツが多く時間、お金が多くかかっているので見応えのあるルックになっていると思います。<br><br>
+
+                      A.(よ)<br>
+                      頑張って作ったのでよく細部までよく見て頂きたいです。<br><br>
+
+                      A.(り)<br>
+                      装飾を工夫をしようと思うので、残りのショーまでの期間頑張っていきたいです。<br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 11">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay９】ディレクター(照明音響班,音源担当)
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.11 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>藤田　理々愛<br><br>
+                      <br><span class="question">Q.制作物に込められた意味はなんですか？</span><br>
+                      <br>A.頭の奥、脳の奥で辿られていく記憶、昔の記憶から最近の記憶まで、いつ、誰と、どこで、何を、なぜ、どうやって、それらはぼやけたものから鮮明なものまで、自分で自分を吸い込んでしまうような印象を与えたいという想いを込めています。<br>
+                      <br><span class="question">Q.制作する中でこだわったポイント、大変だったことなどはなんですか？</span><br>
+                      <br>A.クラシックやアンビエント系の曲を主に多く使いました。部員が集めてくれた自然音や環境音を曲中に落とし込むことによってより自然の雰囲気が味わえると思います。テンポや曲調が異なった曲を配置したため、出来るだけ違和感が内容に繋いだところが工夫点と言えると思います。
+                      ショーでは、それぞれの服が主人公なのでそれぞれのお洋服やモデルさんがより輝き、素敵に魅えるように音源はそれらを引き立てられるように頑張りました。実はフィナーレの曲は代表のまりこさんがおすすめしてくださった曲で、オランダの作曲家、thom willemsの“In the middle, somewhat elevated” です。力強いような凛々しいフィナーレは今回の「辿る」に相応しい曲だと思います。お楽しみに☺︎<br>
+                      <br><span class="question">Q.今年一年活動してきてどうでしたか？</span><br>
+                      <br>A.前半はオンライン上での活動で、不安諸々ありましたが少しずつ対面で部員のみんなと直接話していろいろな刺激をもらうことができました。先輩方は素敵で本当に優しい方ばかりです。それぞれの部員がショーに向けてお互いが助け合い、意見を交換しあい、物を作っていくという事柄が素敵だなと感じました。<br>
+                      <br><span class="question">Q.ショーへの意気込み、観てくれる人に伝えたいことはなんですか？</span><br>
+                      <br>A.ショーは無観客開催ですが、配信を視聴してくださる方がまるで会場でショーを見ているかのような、私たちの本気の「辿る」が伝わってくれれば嬉しいです。<br><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 10">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay８】ディレクター（広告班・梱包係）
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.10 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>Haruka（ディレクター1年目）<br><br>
+
+                      <br><span class="question">Q.制作物に込められた意味を教えてください。</span><br>
+
+                      <br>A.「辿る」というテーマの意味合いを語るとき、「辿る」という言葉自体がもつ辞書的な意味の多義性は欠かせない要素を担っています。そこから、辞書をコンセプトにディレクター全体がものづくりを行ってきました。僕が担当した梱包の部分でも、中心となったモチーフである布と糸にこだわって制作しました。<br>
+
+                      <br><span class="question">Q.制作するうえで大変だったことはありますか？</span><br>
+
+                      <br>A.僕はファックリに新入生として入部したのですが、そもそもこのように一から何かを作る機会が今までなかった中で、企画を練って実際に制作するのが大変でした。シーリングワックスとクラフト紙を使って作成することは早めの段階で決めたのですが、いざ作成してみると違和感があり、より良いモノを作成するために工夫する過程が必要でした。<br>
+                      　
+                      <br><span class="question">Q.今年一年を通して、印象に残っていることを教えてください。</span><br>
+
+                      <br>A.ファックリには本当にいろいろな人がいて面白かったです。しっかりした技術を持っている人がたくさんいると感じました。デザイナーはもちろん、ディレクターの中でも写真の技術がすごい人や、音響や演出、配信の部分についても豊富な知識を持った先輩もいて、それを活動しながらシェアしてくれて。とても勉強になった一年でした。<br>
+                      　
+                      <br><span class="question">Q.最後に見どころをどうぞ！</span><br>
+
+                      <br>A.細かいところにも一つ一つ工夫を施しているので、ショー全体だけでなく、梱包の方法やパンフレットについてもじっくり見てみてほしいです。至る所に小さい工夫が施されているので、そういったところに気づきながらショーを観てくれたら嬉しいです。<br><br><br><br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 09">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay７】ディレクター（広告班、パンフ）
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.09 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>谷澤瑠央(ディレクター　広告班、パンフ)<br>
+                      <br><span class="question"> 作成物に込められた意味を教えてください。</span><br>
+
+
+
+                      <br> コロナ禍において僕たちがショーをやるということには学生がファッションに対して前向きに取り組んでいたり、ファッションに携わりたいと思っている人がいることを伝えたいという思いが込められています。 <br>
+
+                      <br><span class="question">Q. 制作する中で大変だったことなどはありますか？</span><br>
+
+
+
+                      <br>A. 例年だとお客さんを入れて直接見てもらうという点が魅力でしたが、今年はオンライン開催ということで新しい形態に戸惑うこともありました。通常、部員たちはオールブラックに身を包み、会場にお客さんがいることでショーの空気が作り上げられます。しかし、今年は画面上でしか実際のショーの雰囲気を伝えることができないため、お客さんがいない状況下でデザイナーが作った洋服をどう魅せれるか考えることは大変でした。 <br>
+
+
+                      <br><span class="question">Q.今年一年活動してきてどうでしたか？</span><br>
+
+
+                      <br>A.  今年は活動をすることが難しく、去年の方がカメラ、モデル、編集など様々な役割で仕事をしていたためたくさん取り組めたというのが正直なところです。しかし、仕事に取り組む時間の代わりにファッションに対して考える時間が取れました。今までは他の学生団体のショー、ドメブラ、海外ブランドのショーをただ見て満足していましたが、今はショーに込められた意味やデザインが何を指すのかを考えるようになり更にファッションについての理解を深めました。 <br>
+
+                      <br><span class="question">Q.ショーに対する意気込みを教えてください。</span><br>
+
+                      <br>A.  コロナ禍という特殊な状況だったので、オンラインでしか活動できず、大変だったけれどみんなで頑張ったので是非見てほしいです。<br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 08">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay ６】ディレクター(広告班、インビテーション担当)
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.08 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>Mimi(M)ディレクター2年目, Ryo(R)ディレクター1年目<br><br>
+
+                      <br><span class="question">Q.今年のインビテーションに込められた意味を教えてください。</span><br>
+                      
+                      <br>A. (M) 糸をテーマとして、生産者から消費者へ服を通じて想いが辿ることを意味しています。インビの表面に縫い付けた紙はハトロン紙で、服作りの際に製図からパターンメイキング用に使われる紙の種類です。また、紙の下に重ねた布はシーチングで、仮縫い用に使われる布です。服やルックを作る際には本縫いの前にシーチングで作り、縫い代やサイズ感を調節します。私たちの団体が今年テーマとする、「辿る」を服作りの過程に重ねました。
+                      また、ハトロン紙とシーチングを縫い合わせたあと、糸はあえて切らずに残しました。布は基本的に、縦糸と横糸が織られて重なってできています。一枚の布も縦横の糸が解けていくと無数の糸になるのです。普段何気なく着ている服は、パジャマでさえもその始まりを辿れば細い糸からできている、ということをみなさんに改めて意識し、服が糸から作られる過程を辿ってほしかったからです。<br><br>
+
+                      A. (R)インビテーションはショーの一部であり、日常からショーの世界観に“招待”するのがインビテーションの役割だと考えます。そのため、インビテーションのいたる所に「辿る」が表現されて、言語化できないみんなの思いが込められています。招待状を手に取ったその瞬間から、自分自身の「辿る」について思いを馳せて貰えたら嬉しいです。<br>
+
+                      <br><span class="question">Q. 制作する中でこだわったポイント、大変だったことは何ですか？</span><br>
+
+                      <br>A. (M) 断ち端や縫い目のほつれ、シーチングに残るデザイナーのチャコペンの跡、デジタルプリントではなくハンコで表記したことなど、全てが表現に繋がっていて、みなさんが自由に辿れるように作りました。大変だったことは、自分たちが考えた元のアイデアと、私たちKeio Fashion Creatorとしてのイメージをすり合わせていくことです。<br><br>
+
+                      A.(R)「辿る」を糸、布、紙という媒体でどう表現するのかということに悩まされました。表現の仕方はみんなで意見を出し合って考えました。また、全ての工程が手作業ということもあり、作業を分担するなどインビテーション班全員の連携が試された気がします。<br>
+
+                      <br><span class="question">Q．今年1年活動してきた感想を教えてください。</span><br>
+                      
+                      <br>A.(M)イレギュラーな一年で思い通りにいかずに悔しいこともありましたが、私たちなりのベストを尽くせたと思います。<br><br>
+
+                      A.(R)1年間あっという間でした。コロナ禍という状況で対面会議をなかなか実施できませんでしたが、ショーが近づくにつれ、みんなで協力して何かを作りあげる一体感を味わえて楽しかったです。またファックリのみんなと関わったり、ショーの制作に携わらせて貰ったことで“表現することの楽しさ”に改めて気付きました。ショーで自己表現を投影するのは貴重な経験だと思っています。<br>
+
+                      <br><span class="question">Q. ショーへの意気込み、観てくれる人に伝えたいこと</span><br>
+
+                      <br>A. (M)誰しも、それぞれの辿り方、辿る先があるはずです。これが何かのきっかけとしてみなさんの行動や発想のきっかけになれば幸いです。<br><br>
+
+                      (R)ショーを見ながら「辿る」ことについて一緒に愉しみながら模索しましょう！<br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 06">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay５】ディレクター1年目(広告班、キービジュアル)
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.06 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>Mizuki　ディレクター1年目(広告班、キービジュアル)<br>
+
+                      <br><span class="question">Q.制作物に込められた意味を教えてください。</span>
+
+                      <br><br>A. 今回のショーのテーマである「辿る」という言葉から、衣服について考えたときに布や糸の大元である”繊維”に辿り着きました。蚕が木枠の中で飼育されている写真から着想を得て、Instagramで投稿したときに生まれるレイアウトを繭を区切る木枠に見立てています。部員が自分を辿ったときに思いついた大切な物を布でくるみ、繭の中身としました。<br>
+
+                      <br><span class="question">Q. 制作する中でこだわったポイント、大変だったことなどは何ですか？</span><br>
+
+                      <br>A.下からライトを当てて逆光気味にすることで、中に入っているモチーフの見え具合を調節しました。また、枠の素材感、モチーフを包む布にもこだわりました。一対一の枠を綺麗に平行に撮影するのが大変でした。<br>
+
+                      <br><span class="question">Q．今年一年活動してきた感想を教えてください。</span><br>
+
+                      <br>A. コロナの影響で最初はどうなってしまうのか不安でしたが、先輩方に色々なことを教えて頂きながら普段なかなかできないような経験ができました。大変なこともありましたがそれ以上にとても楽しかったです！<br>
+
+                      <br><span class="question">Q. ショーへの意気込み、観てくれる人に伝えたいこと</span><br>
+
+                      <br>A. コロナ禍の現在にショーを開催することで、見た人を勇気づけられたり、自分自身を辿って前に進むきっかけとなるようなショーにできるよう最後まで部員一同頑張りますので、是非見てください！<br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 05">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay ４】ディレクター(広告班、パンフ)
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.04 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <br>飯田峻也 (ディレクター　広告班、パンフ)<br>
+
+                    <br><span class="question">今回パンフレットを作るにあたり、制作する上で意識したことはなんですか？</span><br>
+
+
+
+                    <br>「辿る」というショーテーマに基づいて「文化的遺伝子」という要素（＝ショーテーマの元となった要素の一つ。パンフレット制作に当てはめた場合には本、辞書、新聞などを指す）をモチーフにしています。デザイン画を邪魔することなくファックリらしさを表現できるよう、シンプルで趣のあるもの作りを念頭におきながら制作をしました。<br>
+
+                    <br><span class="question">Q.制作する中で大変だったことなどはありますか？</span><br>
+
+
+
+                    <br>A.そもそもエディトリアルデザインの経験があまりなかったので、自分のセンス・技術・知識・経験不足の中で作業を進めることが大変でした。<br>
+
+
+                    <br><span class="question">Q.今年一年活動してきてどうでしたか？</span><br>
+
+
+                    <br>A.僕は今年ファックリに入りました。大学も、年齢も、趣味嗜好も異なる人たちとの活動は、始めは戸惑いや分からないことも多かったのですが、ショーが間近となった今、それらの経験さえもショー開催という確かな実感に変わっている気がします。前半はオンライン会議がメインでしたが、ファックリのメンバーと活動できたことはとても刺激にもなりました。ファッションがきっかけとなり、ここまで自分の視野を広げられるとは思っていませんでした。<br>
+
+                    <br><span class="question">Q.ショーに対する意気込みを教えてください。</span><br>
+
+                    <br>A.オンライン形式でショーを開催できるというのは、ある意味貴重なことだと思っています。もちろんフィジカルで開催できなかったことは残念ではありますが、先の見えない情勢の中で、ショーを開催するという一つの大きな目的に沿って、各役職ごとに分担・連携し、タスクをこなしてきた成果をしっかりと目に焼き付けたいです。僕は何よりも、学生が作るショーであることに意味があると思います。ファッションショーを開催する学生団体は複数あり、それぞれの良さがあります。その中の一つであるファックリの良さを、少しでもライブ配信で感じ取ってくれたら嬉しいです。当日は配信も担当するので是非ご覧ください。<br><br><br>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 04">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay 3】プレス　二年
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.04 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>【部員インタビューDay4】プレス<br>
+                      <br>Yuto（Y）→元ディレクター・プレス2年目,Nonika（N）→2年目,Kohei （K）→2年目<br>
+
+                      <br><span class="question">Q.今年2年目ですが、先輩になって変わったことはありますか？</span><br>
+
+                      <br>A.（K）商談に関する部分が一番大きいです。前までは先輩に任せきりで、プレゼンも聞いているだけのことが多かったのですが、今では後輩がいるので自分がメインで喋らなくてはいけない責任感が増しました。去年の自分と同じくらい後輩も緊張していると思うので、自分も緊張はしますが頑張らないといけないという気持ちが強くなりました。あと商談を通してファックリ（Keio Fashion Creator）のことをさらに深く知れました。<br>
+                      <br>A.（N）やはり先輩の立場で商談に行くようになったことは大きいです。（株）マナマナさんとの商談はいつも先輩と行っていたので、初めて自分と後輩で行く時は緊張しました。責任を感じるとともに終わった後の達成感も大きかったり、企業の方にもとうとう先輩ですねと言われたり。<br>
+                      <br>A.（Y）僕は今年商談行ってなくて、やったことは協賛企業を探してメール作って…という会議内の作業だったんですけど。去年は先輩たちの指示を仰いで作業を進めてたけど、今年は自分も作業しながら後輩にもちゃんと仕事を与えて、やりやすいように教えて。そのバランスを探りながらの作業だったので、去年自分が教えてもらってありがたかったことや、去年もっとこういうところを知っておきたかった部分を後輩に教えながら作業していました。意識的に、いかにうまく引き継ぐかを考えながら作業していました。<br>
+
+                      <br><span class="question">Q.一番大変だったことはなんですか？</span><br>
+                      <br>A.（K）プレスの中で企画長になって、後輩にも仕事を割り振るようになって。「この仕事終わりました、これはどうすれば良いですか」という連絡が会議の外でも出てくるから、ファックリのことを常に気にしていないといけなくて、先輩の立場って大変なんだなと思いましたね。<br>
+
+                      <br><span class="question">Q.コロナ禍という状況は大変でしたか？</span><br>
+                      <br>A.（Y）チーフの方は大変なことはいくつもあったと思うけど、個人的に大変だったという感覚はなくて。それよりも勿体無さというか、得られるべきだったものが得られなかったなという、失望感、虚しさ、切なさというか…そういう感覚はありました。年度動き始めの会議がZoomになって、トーンも違うし、やけにみんなシーンとなっていて。ぎこちないし、業務以外の会話はないじゃないですか。雑談とかもなかったから交友関係も深めづらかったし、意図的に交友関係を育むような企画も作らないといけなかったという点は大変だったかもしれないです。<br>
+
+                      <br><span class="question">Q．２年間続けているモチベーションはなんですか？</span><br>
+
+                      <br>A.（N）マナマナさんとの関わりが大きいです。一年生の初めの方に商談に行って、最初は全然話せなくて。でもやりとりを任せられて、これで終わっちゃうのもったいないないし、先輩から引継ぎたいなと思ったのは凄く大きかったです。商談はとても楽しいし、自分が思っていたより興味を持ってくれて。自分がスタイリストという職業に興味があったことと、マナマナさんがスタイリストと関わる職業で繋がっていたこともあった。自分が興味を持てた会社ということもあって、これで関係をなくしてしまうのはもったいないなと思ったんですよね。メールの書き方も含めて、一年生の間にあんだけ学べたのは大きかったです。一年目を終えてみて、もっとプラスのことが増えてくような感じがしたから続けようと思いましたね。<br>
+                      <br>A.（Y）あとは交友関係だよね。もっとよくできるな、という伸び代を感じたこともあります。来年いても退屈しないだろうなあと思いました。学ぶというほど構えてはいないけど、自分のためになる業務や経験ができるから、二年次も残ったという感じですかね。伸び代がなかったら、一年間でここで得るべきものは得たなってなっちゃうから。そうなると交友関係だけのつながりしか残らないので、伸び代があったことはでかいですね。だからこそ、年度末にたくさん自分の意見でこうした方がいいということは言いましたし、そうやって意見を言えたのは大きいかったですね。それが実現できるかは別として、そういうディベートとかができるのも大事だと思う。<br>
+                      <br>A.（K）商談が楽しいのは本当にそうですね。あとは大学に入ってできた友達はファックリで出会った人が多いですし。恩返しじゃないですけど…この環境を続けていきたいと思ったので、後輩もそうやって思ってくれたらいいなと思ってます。<br>
+
+                      <br><span class="question">Q.残り１か月ですが、今年度のショーへの意気込みをどうぞ！</span><br>
+                      <br>A.（K）去年は誘導があったけど、今年は無観客でそこがないので。当日僕がどうにかできる仕事が多くないのですが、終わったときに少しでも貢献できたなと思いたいですね。<br>
+                      <br>A.（Y）ショー直前の各役職の動きはもっとみておきたいです。去年は一年生だったから幹部の動きとか見えていなかったと思うんですけど、来年続けるとしたら自分たちがショーの中心になって動いていると思うので。幹部の動きとか役職間の会話とかを聞いて学んで、積極的に協力したい。プレスだからできることは限られるかもしれないけど、広報もできる限り力を入れたいです。<br>
+                      <br>A.（N）もっと実感を沸かせたいです。広報もしっかりして、1人でも多くの人に見てほしいです！<br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 03">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay 2】モデルマネージャー　一年
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.03 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>Sumika（S）→元デザイナー・モデマネ1年目、Mariko（M）→1年目<br><br>
+
+                      <br><span class="question">Q.モデマネをやろうと思ったきっかけを教えてください。</span><br>
+                      <br>A.（M）まずファックリに入ったきっかけの話になりますが、自分の将来を考えたときにファッションが好きでファッション業界で働きたいなと思ったけれど、どんな仕事が自分に向いてるのかわからなくて。自分がInstagramでフォローしている人の中に、モデルさんをセッティングしたり、マネジメントしたりする仕事をしてる方がいたんですが、その人がやっていることはモデマネの仕事に繋がるのかなと思って、興味が湧きました。<br>
+ 
+                      <br><span class="question">Q.今年活動をしている中で印象に残っていることを教えてください。</span><br>
+                      <br>A.（S）今まではデザイナーをやっていて、自分のやりたいことを1人で作る感じがしていたけれど、実際モデマネなどデザイナー以外のことをやっていると、一つのショーを成し遂げるためにサポートしていく側に携われて。フィッティング時にデザイナーさんの想いを聞いて、その服を実際に見て、モデルさんに着せる…という流れがあるんですが、モデルさんとも今どういう仕事をしているかとか、会話をしながら仕事ができるのは楽しいなと思います。人となりを知れるというか。逆に、色々なモデルさんの候補を出したけれど、コロナのこともあってOKしてくれる方が少なかったのは大変でした。<br>
+  
+                      <br>A. （M）私はプレスも兼任してるんですけど、プレスだと企業の人と話す機会はあるけど、ファックリの中でみんながどういう仕事をしているのか、あんまり目に見えてなくて。モデマネとして団体に携わることによって、デザイナーさんはじめファックリの他の役職の人とも知り合って仕事を間近で見られて、みんなの動きを確認できたのが面白かったです。<br>
+ 
+                      <br><span class="question">Q.今年一年活動してきた感想やショーに向けての意気込みをどうぞ！</span><br>
+                      <br>A.（S）コロナのせいでショー参加の承諾が降りなかったモデルさんがいたり、色々大変なことがあって。でもそういう大変なことはあるからこそ、チームワークがすごく大事なんだなということを感じました。私は留学していたこともあり間を空けてファックリに戻ってきたのですが、最後のショーになるので、集大成としてサポートできたらなと思っています。<br>
+
+                      <br>A. （M）一年目という立場から見ていても、上級生がこれだけ動いて頑張っているのに、コロナのせいで無観客開催になってしまうのは本当に残念だなと思います。デザイナーの人たちも、幹部の人たちも、部員みんながもっと沢山の人に直接観てもらいたかっただろうなあと。自分にできることは少ないけれど、ファックリにいればいるほど、残念な気持ちは増してきます。無観客なのは悔しいけれど仕方のないことでもあるので、当日はモデマネとしてデザイナーさんの表現をしっかり伝えられるように、沢山サポートできたらなと思います。<br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box_interview_20 02">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【部員インタビューDay 1】プレス　新入生
+                  </h2>
+                  <p class="assistanceText">
+                    2020 12.02 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>Ayami→A　Riku（ドイリク）→R　Haruki→H<br><br>
+
+                      <br><span class="question">Q. なぜプレスという役職を選びましたか？</span><br>
+                      <br>A. (A)　普通の大学生活では関わることのできない企業の方と関わることができたり、多くの方とコミュニケーションをとることができるという点に魅力を感じたからです。<br>
+
+                      <br><span class="question">Q.皆さんいろいろな思いを持って入部してきてくれたと思いますが、今年１年間活動してきて一番楽しいと思ったことは何ですか？</span><br>
+
+                      <br>A. (R)　僕は企業の方と商談したことが一番楽しいと感じました。これまでファッションを仕事としている大人の方と話す機会がなかったので、実際に会社を訪問させていただき、実際にお話させていただくということはとても貴重な体験だったと感じました。企業の方に「どのような人材を求めていますか？」と質問させてもらった際、「強いパッションがある人を求めている」と仰っており、働いている方達皆さんがそのような気持ちを忘れずに仕事をされているんだなと実感しました。<br>
+
+                      <br><span class="question">Q.逆に、大変だったと思うことは何ですか？</span><br>
+                      <br>A.(A)　企業の方に送る企画書を作成することです。ビジネスを目的とされている企業と自分たち学生団体の利害一致をさせることが大変だと感じました。<br>
+
+                      <br><span class="question">Q.活動する前と後ではプレスに抱くイメージに何かギャップはありますか？</span><br>
+                      <br>A.(R)　学生団体ということで、企業とのやり取りがフランクなものだと思っていたのですが、実際には『企画書を作り、企業に送って商談をする』というプロセスがあることに驚きました。想像していたよりももっと本格的な活動をしていることがギャップでした。<br>
+
+                      <br><span class="question">Q.裏方としての仕事が多く、他の役職に比べるとなかなか直接的なやりがいを感じにくいプレスですが、継続的に活動する上で何かモチベーションはありましたか？</span><br>
+
+                      <br>A. (H)　デザイナーのルック作成や、インビテーション・パンフレットの作成など、活動のためには多くのお金が必要であるということに気づいた時、ファックリが継続して活動できるのはプレスがお取り組みや協賛金をいただけるよう仕事をしているからだということに気づくことができました。間接的ではありますが、僕たちが仕事をするから他の役職のみんなも頑張ることができるということを知った時、強いモチベーションに繋がりました。<br>
+
+                      <br><span class="question">Q.ショーへの意気込みをどうぞ！</span><br>
+                      <br>A. (A)　オンラインだからこそ地方に住む友達や家族にも見てもらうことができるので、メンバーみんなが頑張って準備してきた成果を結果としてみなさんにお届けできるよう、しっかりとサポートしていきたいです！<br>
+
+                      <br>A. (R)　メインは裏方の仕事ですが、各役職がそれぞれ努力して作り上げたショーを肌で感じ、それをエネルギーにして今後の活動に繋げていきたいです！<br>
+
+                      <br>A. (H)　皆さんがたくさんが大変な思いもしつつ頑張っていた姿を見ていたので、科博でできるという喜びを噛み締めつつ、ショー当日を楽しむことができたらいいなと思います。また、ショーを見て来年度以降ファックリという大きな団体がどのように活動を継続できるかを見据えつつ楽しみたいです！<br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footerLink">
+          <div class="pageLink">
+            <ul>
+              <li class="footer_menu"><a href="movie.html">MOVIE</a></li>
+              <li class="footer_menu">
+                <a href="collection.html">COLLECTION</a>
+              </li>
+              <li class="footer_menu"><a href="artworks.html">ART WORKS</a></li>
+              <li class="footer_menu"><a href="blog.html">BLOG</a></li>
+              <li class="footer_menu"><a href="concept.html">CONCEPT</a></li>
+            </ul>
+            <ul>
+              <li class="footer_menu"><a href="index.html#post">POST</a></li>
+              <li class="text_deco"><a href="">MEMBER</a></li>
+              <li class="footer_menu"><a href="news.html">NEWS</a></li>
+              <li class="footer_menu"><a href="contact.html">CONTACT</a></li>
+              <li class="footer_menu"><a href="interview.html">INTERVIEW</a></li>
+            </ul>
+          </div>
+          <div class="snsIcon">
+            <a
+            class="sns"
+              href="https://www.instagram.com/keio_fashioncreator/?hl=ja"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/glyph-logo_May2016.png" alt=""
+            /></a>
+            <a
+            class="sns"
+              href="https://twitter.com/keio_fc"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/Twitter_Logo_WhiteOnImage.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="sponsorImage logo logo-etc">
+          <a href="index.html"><img src="css/img/logo-03.png" alt="" /></a>
+          <a
+            href="https://www.look-holdings.jp/english/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/lookholdings.png" alt="SPONSOR"
+          /></a>
+          <a
+            href="https://www.readytofashion.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/rtf.png" alt="SPONSOR"
+          /></a>
+          <a
+            href="https://www.esmodjapon.co.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/esmod_japon.png" alt="SPONSOR"
+          /></a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/interview.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/tab.js"></script>
+  </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBtdsCfONzjyNQrM-wg33HDNNuiBfI7Rg8",
+    authDomain: "keiofc.firebaseapp.com",
+    databaseURL: "https://keiofc.firebaseio.com",
+    projectId: "keiofc",
+    storageBucket: "keiofc.appspot.com",
+    messagingSenderId: "485645349038",
+    appId: "1:485645349038:web:00ce5daabd0fa5a4133d3f",
+    measurementId: "G-FHST8JLNG7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>

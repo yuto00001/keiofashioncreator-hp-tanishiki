@@ -1,0 +1,57 @@
+h2,
+h3 {
+  margin: 0;
+  display: inline-block;
+}
+.inputArea {
+  width: 98%;
+}
+
+.content {
+  height: 350px;
+}
+.center > h2,
+p {
+  display: flex;
+  justify-content: center;
+}
+.center > p {
+  margin: 20px 0 50px;
+}
+.center {
+  width: 85%;
+  padding: 100px 0;
+  margin: auto;
+}
+
+.center article {
+  width: 100%;
+}
+
+.center article div {
+  display: flex;
+  flex-direction: column;
+}
+
+.requestButton {
+  margin: 20px auto;
+  padding: 5px 15px;
+}
+
+.file {
+  display: flex;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.freebirdFormviewerViewResponseConfirmContentContainer {
+  margin: 300px 0 0;
+}
+@media (min-width: 900px) {
+  .secondArea {
+    width: 400px;
+  }
+  .content {
+    height: 500px;
+  }
+}

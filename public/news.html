@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEWS</title>
+    <link rel="icon" href="css/img/logo-02.png" />
+    <link rel="stylesheet" href="css/blogCommon.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/news.css" />
+    <link rel="stylesheet" href="css/icon.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/tab.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <section>
+          <div class="hamburgerMenu">
+            <!-- スマホに対応したスタイルにするためのdiv -->
+            <div id="cover"></div>
+            <!-- マスク -->
+            <div id="menu">
+              <span class="material-icons close" id="hide">close</span>
+              <div class="menuBlock">
+                <ul>
+                  <li class="menuList"><a href="index.html">HOME</a></li>
+                  <li class="menuList"><a href="concept.html">CONCEPT</a></li>
+                  <li class="menuList"><a href="interview.html">INTERVIEW</li>
+                  <li class="menuList"><a href="blog.html">BLOG</a></li>
+                  <li class="menuList"><a href="news.html">NEWS</a></li>
+                  <li class="menuList"><a href="movie.html">MOVIE</a></li>
+                  <li><a href="movie.html#tadoru">2020-辿る-</a></li>
+                  <li><a href="movie.html#impression">2019-impression-</a></li>
+                  <li><a href="movie.html#nitijo">2018-日常の再考-</a></li>
+                  <li><a href="movie.html#inTokyo">2017-in Tokyo-</a></li>
+                  <li>
+                    <a href="movie.html#preconception">2016-preconception-</a>
+                  </li>
+                  <li><a href="movie.html#ma">2015-間-</a></li>
+                  <li>
+                    <a href="movie.html#kyutosei" class="text_deco"
+                      >2014-求と制-</a
+                    >
+                  </li>
+                  <li><a href="movie.html">----</a></li>
+                  <li class="menuList">
+                    <a href="collection.html">COLLECTION</a>
+                  </li>
+                  <li><a href="collection_2020.html">2020-辿る-</a></li>
+                  <li><a href="collection_2019.html">2019-impression-</a></li>
+                  <li><a href="collection_2018.html">2018-日常の再考-</a></li>
+                  <li><a href="collection_2017.html">2017-in Tokyo-</a></li>
+                  <li>
+                    <a href="collection_2016.html"
+                      >2016-preconception-</a
+                    >
+                  </li>
+                  <li><a href="collection_2015.html">2015-間-</a></li>
+                  <li><a href="collection_2014.html">2014-求と制-</a></li>
+                  <li><a href="collection.html">----</a></li>
+                  <li class="menuList"><a href="artworks.html">ART WORKS</a></li>
+                  <li>
+                    <a href="artworks.html#kudan">2020-look Book 九段ハウス-</a>
+                  </li>
+                  <li>
+                    <a href="artworks.html#manamana">2019-look Book マナマナ-</a>
+                  </li>
+                  <li>
+                    <a href="artworks.html#myonichikan"
+                      >2019-look Book 自由学園 明日館-</a
+                    >
+                  </li>
+                  <li>
+                    <a href="artworks.html" class="text_deco"
+                      >2019-Ad Contents-</a
+                    >
+                  </li>
+                  <li class="menuList"><a href="index.html#post">POST</a></li>
+                  <li><a href="index.html#post">----director</a></li>
+                  <li><a href="index.html#post">----press</a></li>
+                  <li><a href="index.html#post">----designer</a></li>
+                  <li><a href="index.html#post">----model manager</a></li>
+                  <li class="menuList"><a href="index.html#team">DEPT.</a></li>
+                  <li><a href="index.html#team">----カメラ</a></li>
+                  <li><a href="index.html#team">----メイク</a></li>
+                  <li><a href="index.html#team">----音楽</a></li>
+                  <li class="menuList text_deco">MEMBER</li>
+                  <li class="menuList lastMenu">
+                    <a href="contact.html">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <span class="material-icons my-icon" id="show">drag_handle</span>
+            <!-- マテリアルアイコンからペースト,md-38とかでサイズ指定可能 -->
+          </div>
+        </section>
+        <!-- Todo; div class="header" -->
+        <section >
+          <figure class="kfcLogo">
+            <a href="index.html">
+              <img src="css/img/logo-02.png" alt="logo" height="55px" />
+            </a>
+          </figure>
+          <nav class="displayNav menuContainer">
+            <ul class="tabMenu my-header">
+              <li class="tab">
+                <a href="concept.html">
+                  <p>
+                    CONCEPT
+                  </p>
+                  </a>
+              </li>
+              <li class="tab">
+                <a href="movie.html">
+                  <p>
+                    MOVIE
+                  </p>
+                </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li><a href="movie.html#tadoru">2020-辿る-</a></li>
+                    <li><a href="movie.html#impression">2019-impression-</a></li>
+                    <li><a href="movie.html#nitijo">2018-日常の再考-</a></li>
+                    <li><a href="movie.html#inTokyo">2017-in Tokyo-</a></li>
+                    <li>
+                      <a href="movie.html#preconception">2016-preconception-</a>
+                    </li>
+                    <li><a href="movie.html#ma">2015-間-</a></li>
+                    <li>
+                      <a href="movie.html#kyutosei" class="text_deco"
+                        >2014-求と制-</a
+                      >
+                    </li>
+                    <li><a href="movie.html">----</a></li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="artworks.html">
+                  <p>
+                    ART WORKS
+                  </p>
+                  </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li>
+                      <a href="artworks.html#kudan">2020-look Book 九段ハウス-</a>
+                    </li>
+                    <li>
+                      <a href="artworks.html#manamana"
+                        >2019-look Book マナマナ-</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artworks.html#myonichikan"
+                        >2019-look Book 自由学園 明日館-</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artworks.html" class="text_deco"
+                        >2019-Ad Contents-</a
+                      >
+                    </li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="interview.html">
+                  <p>
+                    INTERVIEW
+                  </p>
+                </a>
+              </li>
+              <li class="tab">
+                <a href="blog.html">
+                  <p>
+                    BLOG
+                  </p>
+                </a>
+              </li>
+              <li class="tab">
+                <a href="collection.html">
+                  <p>
+                    COLLECTION
+                  </p>
+                </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li><a href="collection_2020.html">2020-辿る-</a></li>
+                    <li><a href="collection_2019.html">2019-impression-</a></li>
+                    <li><a href="collection_2018.html">2018-日常の再考-</a></li>
+                    <li><a href="collection_2017.html">2017-in Tokyo-</a></li>
+                    <li>
+                      <a href="collection_2016.html"
+                        >2016-preconception-</a
+                      >
+                    </li>
+                    <li><a href="collection_2015.html">2015-間-</a></li>
+                    <li><a href="collection_2014.html">2014-求と制-</a></li>
+                    <li><a href="collection.html">----</a></li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="news.html">
+                  <p>
+                    NEWS
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <main>
+        <h2>NEWS</h2>
+        <section>
+          <!-- これより下 modal_btn20 -->
+          <div class="newsArticle blogArticle">
+            <ul class="modal_trigger 20">
+              <!-- <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2021.00.00</p>
+                  <p class="category">お知らせ</p>
+                </div>
+                <p class="newsTitle">
+                  タイトル
+                </p>
+              </li> -->
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2021.09.016</p>
+                  <p class="category">インタビュー</p>
+                </div>
+                <p class="newsTitle">
+                  【WWD】KEIO FASHION CREATOR紹介記事
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2021.08.05</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  【WWD】SHIBUYA109 lab. ✕ KEIO FASHION CREATOR “SDGs部”
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2021.08.04</p>
+                  <p class="category">対談</p>
+                </div>
+                <p class="newsTitle">
+                  【マイナビ】環境省職員 ✕ KEIO FASHION CREATOR ✕アパレル関係者等でサステナブルをテーマに対談
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2021.07.20</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  【RAGTAG】RAGTAG ✕ KEIO FASHION CREATOR
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2021.02.03</p>
+                  <p class="category">インタビュー</p>
+                </div>
+                <p class="newsTitle">
+                  【繊維新聞】KEIO FASHION CREATOR代表 源川まり子 インタビュー
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2020.12.28</p>
+                  <p class="category">お知らせ</p>
+                </div>
+                <p class="newsTitle">
+                  【毎日新聞】２０２０年ファッションショー『辿る』紹介記事
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2020.12.07</p>
+                  <p class="category">お知らせ</p>
+                </div>
+                <p class="newsTitle">
+                  『辿る』ショー会場公開
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2020.12.01</p>
+                  <p class="category">お知らせ</p>
+                </div>
+                <p class="newsTitle">
+                  『辿る』ファッションショー開催のお知らせ
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2020.04.04</p>
+                  <p class="category">お知らせ</p>
+                </div>
+                <p class="newsTitle">
+                  新型コロナウイルスに伴う合同新歓の中止・新歓スケジュールの変更について
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2020.__.__</p>
+                  <p class="category">インタビュー</p>
+                </div>
+                <p class="newsTitle">
+                  【PENMARK】KEIO FASHION CREATOR紹介記事
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2020.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  株式会社マナマナ× KEIO FASHION CREATORコラボ企画
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2019.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(1)〜
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2019.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(2)〜
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2019.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(3)〜
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2019.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(4)〜
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2019.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(5)〜
+                </p>
+              </li>
+              <!-- <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2019.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  〜トゥモローラ
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2019.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(4)〜
+                </p>
+              </li>
+              <li class="supplement modal_btn20" id="open">
+                <div class="flex_div">
+                  <p class="datePosted">2019.__.__</p>
+                  <p class="category">企画</p>
+                </div>
+                <p class="newsTitle">
+                  〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(4)〜
+                </p>
+              </li> -->
+            </ul class="modal_trigger 20" id="open">
+          </div>
+          <!-- これより下 modal_box -->
+          <div class="modal_area 20">
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【WWD】KEIO FASHION CREATOR紹介記事
+                  </h2>
+                  <p class="assistanceText">
+                    2021.09.16-インタビュー-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>当団体の紹介記事をWWD様のサイトに掲載していただきました。 是非ご覧ください。<br>
+                      <br>下記URLより
+                      <br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://www.wwdjapan.com/articles/1258429"
+                        target="_blank"
+                        >https://www.wwdjapan.com/articles/1258429</a
+                      >
+                      </span>
+                      <br><br><br>
+                      <span style="text-decoration: underline;">“ファッション好きな若者たち”の思い　自作のショーを通して社会とつながる慶應義塾大学のファッション団体</span>
+                      <br>
+
+                      <br>"ファッション系の大学生サークルも、最近はサステナビリティを強く意識している。現役大学生の多くは、デジタルネイティブのZ世代。その存在感は大きくなるばかりで、つながり方や対話方法を模索する企業も多いだろう。そこで「WWDJAPAN」は現役大学生らとタッグを結び、彼らのリアルやファッション業界への思いなどを届ける。どんなサークル活動をしているのか、またいち“若者”として、業界に発信したいことなどを寄稿形式で語ってもらった。"
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【WWD】SHIBUYA109 lab. ✕ KEIO FASHION CREATOR “SDGs部”
+                  </h2>
+                  <p class="assistanceText">
+                    2021.08.05-企画-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>
+                      <span style="text-decoration: underline;">三井物産アイ・ファッションとシブヤ109ラボが “SDGs部”開始　Z世代にきっかけを提供</span>
+                      <br><br>
+                      当団体とSHIBUYA109 lab.様との企画記事をWWD様のサイトに掲載していただきました。 是非ご覧ください。<br>下記URLより
+                      <br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://www.wwdjapan.com/articles/1242653"
+                        target="_blank"
+                        >三井物産アイ・ファッションとシブヤ109ラボが “SDGs部”開始　Z世代にきっかけを提供</a
+                      >
+                      </span>
+                      <br>
+                      <br>
+                      "三井物産アイ・ファッションと、SHIBUYA109エンタテイメントが運営する若者マーケティング研究機関シブヤ109 ラボ（SHIBUYA109 lab.）はこのほど、Z世代とSDGsを考える新プロジェクト「シブヤ109 ラボ アイズ（SHIBUYA109 lab. EYEZ）」を立ち上げた。「一歩踏み出せないZ世代に、企業の持つ知識やノウハウを用いて、アクションを起こすきっかけを提供したい」という。"
+                      <br>
+                      <br><br>当イベントの関連記事はTHAT’S FASHION WEEKEND様のブログ欄にも掲載されておりますので、そちらも是非ご覧ください。
+                      <br>下記URLより<br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://thatsfashionweekend.com/archives/information/181"
+                        target="_blank"
+                        >THAT’S FASHION WEEKEND トークイベント開催</a
+                      >
+                      </span>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【マイナビ】アパレル関係者 ✕ KEIO FASHION CREATOR ✕ 環境省職員でサステナブルをテーマに対談
+                  </h2>
+                  <p class="assistanceText">
+                    2021.08.04-対談-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>
+                      <span style="text-decoration: underline;">サステナブルをテーマに、アパレル関係者、モデル、学生、環境省職員が対談</span>
+                      <br><br>
+                      "「THAT'S FASHION WEEKENDトークイベント」が8月3日、東急プラザ渋谷にて開催。ファッションに敏感な学生(KeioFashionCreator)とアパレルブランドの代表者がサステナブルをテーマに話し合い、また環境省とタレントがファッションを切り口に環境問題、とりわけ世界における日本の現状について話し合った。"
+                      <br>下記URLより
+                      <br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://news.mynavi.jp/article/20210804-1938739/"
+                        target="_blank"
+                        >サステナブルをテーマに、アパレル関係者、モデル、学生、環境省職員が対談</a
+                      >
+                      </span>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【RAGTAG】RAGTAG ✕ KEIO FASHION CREATOR
+                  </h2>
+                  <p class="assistanceText">
+                    2021.07.20-企画-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br><br>
+                      当団体の部員が参加した企画の記事がRAGTAG様のonlineサイトに掲載されました。
+                      是非ご覧ください。
+                      <br>下記URLより
+                      <br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://www.ragtag.jp/closet/style_change/10.html"
+                        target="_blank"
+                        >普段の自分なら選ばない、新鮮な“自分”に変身。 | RAGTAGのお店で全身コーディネート | RAGTAG Online</a
+                      >
+                      </span>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【繊維新聞】KEIO FASHION CREATOR代表 源川まり子 インタビュー
+                  </h2>
+                  <p class="assistanceText">
+                    2021.02.03-インタビュー-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br><br>
+                      当団体２０年度代表　源川まり子のインタビュー記事を繊維新聞様のサイトに掲載していただきました。
+                      是非ご覧ください。
+                      <br>下記URLより
+                      <br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://senken.co.jp/posts/future-of-fashion-210203"
+                        target="_blank"
+                        >《私たちが考えるファッションの未来》慶応ファッションクリエイター代表　源川まり子さん　ショーを通じて社会に発信</a
+                      >
+                      </span>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【毎日新聞】２０２０年ファッションショー『辿る』紹介記事
+                  </h2>
+                  <p class="assistanceText">
+                    2020.12.28-お知らせ-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br><br>
+                      <span style="text-decoration: underline;">今年をたどる＝永山悦子　毎日新聞2020年12月28日　東京夕刊</span>
+                      <br>
+                      ２０２０年ファッションショー『辿る』の記事を毎日新聞様に書いていただきました。
+                      是非ご覧ください。<br>
+                      <br>下記URLより
+                      <br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://mainichi.jp/articles/20201228/dde/012/070/024000c"
+                        target="_blank"
+                        >見上げてごらん</a
+                      >
+                      </span>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    『辿る』ショー会場公開
+                  </h2>
+                  <p class="assistanceText">
+                    2020.12.07-お知らせ-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>
+                      <br><span style="text-decoration: underline;">今年度、Keio Fashion Creatorは東京・上野にある国立科学博物館にてファッションショーを行います。</span><br>
+                      .<br>
+                      Keio Fashion Creator 2020 Fashion Show “辿る”<br>
+                      <br>{DATE}<br>
+                      <br>2020 / 12 / 20 (SUN) 20：00〜<br>
+                      <br>Instagram LIVE<br>
+                      .<br>
+                      {PLACE}<br>
+                      <br>国立科学博物館　地球館　地下二階展示室<br>
+                      .<br>
+                      .<br>
+                      【国立科学博物館】<br>
+                      <br>㊀国立科学博物館は、1877年に創設された日本でもっとも歴史ある博物館の一つであり、自然史・科学技術史に関する国立の唯一の総合科学博物館。上野公園内にある地球館・日本館では、自然科学に関する多彩な展示を観ることができる。<br>
+                      .<br>
+                      ㊁自分自身を辿るための手がかりを得る場所。かつて自分が好きだった事物を思い出し、辿った記憶の先にある場所。<br>
+                      .<br>
+                      .<br>
+                      当日はインスタライブでの配信のみとなりますが、閉館後の夜の博物館を舞台に行われるショーを画面越しに楽しんでいただけたら幸いです。見ていただいた皆様にとっても、忘れかけていた記憶を思い出し、自分自身を辿るきっかけとなる時間になることを願っております。<br><br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://www.kahaku.go.jp/"
+                        target="_blank"
+                        >国立科学博物館公式ホームページ　https://www.kahaku.go.jp/</a
+                        ><br>
+                        <a
+                        class="blog_link"
+                        href="https://www.instagram.com/kahaku_nmns/"
+                        target="_blank"
+                        >国立科学博物館公式Instagram　https://www.instagram.com/kahaku_nmns/</a
+                        >
+                      </span><br><br><br><br>
+                      <br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    『辿る』ファッションショー開催のお知らせ
+                  </h2>
+                  <p class="assistanceText">
+                    2020.12.01-お知らせ-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br><br><br>Keio Fashion Creatorでは活動の集大成として、年に一度ファッションショーを開催しています。
+                      <br>今年度のショーは新型コロナウイルスの感染拡大防止のため、InstagramでのLIVE配信にて行います。
+                      <br>１年間の活動の成果をご披露いたしますので、皆様是非ご覧くださいませ。<br>
+                      <br>.
+                      <br>.
+                      <br>{DATE}<br>
+                      <br>2020 / 12 / 20 (SUN)
+                      <br>Instagram LIVE
+                      <br>(@keio_fashioncreator)
+                    <span>
+                      <a
+                      class="blog_link"
+                      href="https://www.instagram.com/keio_fashioncreator/"
+                      target="_blank"
+                      >https://www.instagram.com/keio_fashioncreator/</a
+                    >
+                    </span><br><br>
+                      <br>{PLACE}<br>
+                      <br>Secret（近日公開予定）
+                      <br>.
+                      <br>.
+                      <br>.
+                      <br>またこの度、Instaliveでのショー開催に伴って、Keio Fashion Creatorでは特別コンテンツを配信いたします。<br>
+                      <br>.<br>
+                      <br><span class="question">①デジタルインビテーションの配布</span><br>
+                      <br>例年はVIPのお客様にのみお送りしているインビテーションを、今年はKeio Fashion CreatorのLINE@を登録してくださった方全員にお送りします。<br>
+                      <br>LINE@では他にも、インタビュー記事の配信やショー開催のリマインドなどをお送りする予定です。<br>
+                      <br>この機会に是非ご登録ください！<br>
+                      <br><br><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/line_qr.jpg"
+                            alt=""
+                            style="width: 30%; height: auto;"
+                          />
+                        </div>
+                      </span><br>
+                      <br><span class="question">②パンフレット</span><br>
+                      <br>デザイナーのデザイン画・ルック説明をまとめたパンフレットを、Ready To FashionのエントリーURLよりご登録後、「イベントを予約」していただいた方限定でお送りいたします。<br>
+                      <br>Instaliveをご覧いただきながら読んでいただくことで、よりショーが楽しめる内容になっております。<br>
+                      <br>デザイナーがルック制作にかけた想いやコンセプトやデザイン画を、当団体のディレクターが30pに及ぶパンフレットに仕上げました。こだわりが詰まった一冊になっておりますので、是非この機会にご覧くださいませ。<br>
+                      <br>ご登録はこちらから↓<br>
+                      <br>
+                    <span>
+                      <a
+                        class="blog_link"
+                        href="https://www.readytofashion.jp/events/1303191480"
+                        target="_blank"
+                        >https://www.readytofashion.jp/events/1303191480</a
+                        >
+                    </span><br><br><br>
+                  </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    新型コロナウイルスに伴う合同新歓の中止・新歓スケジュールの変更について
+                  </h2>
+                  <p class="assistanceText">
+                    2020.04.04-お知らせ-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>　こんにちは。Keio Fashion Creatorです。<br>
+
+                      <br>　新型コロナウイルスの感染予防に伴い、新歓のスケジュールに変更がございますので、お知らせ致します（今後も変更が予想されますので、随時ご確認をお願い致します）。<br><br>
+                      
+                      <br>・4/12 OPEN CIRCLE（Ready To Fashion主催合同説明会）：中止→YouTubeにて各団体の紹介動画が公開される予定です。<br>
+                      
+                      <br>・Welcome Party：開催日時未定→５月上旬に開催を予定しておりましたが、新型コロナウイルス感染拡大の状況次第では中止の可能性がございます。まだ団体内で検討中ですので、決定次第更新致します。<br><br>
+                      
+                      <br>【入会までのフロー】<br>
+                      
+                      　①LINE＠( ご登録はコチラ から)、Instagram、Twitterなどでのイベント告知、ご質問受け付け。<br>
+                      
+                      <br>　②入部を希望する場合は、LINE@に名前・学年・大学名、個人LINEのQRコード、学生証の写真（本人確認のため）を送る。<br>
+                      
+                      <br>　③入部希望者LINEに招待。そこでの案内に従い、部費（1万円）振込、Ready To Fashionサイトより入部エントリー<br>
+                      
+                      <br>　入部エントリーの期限についても特に設けておりませんが、例年5月の末に正式入部となります。コロナウイルスの終息時期によって変更の可能性はありますが、またお知らせ致します。<br><br>
+                      
+                      <br>　ご質問等ありましたら、Instagram/TwitterのDMかLINE＠にてお気軽にお問い合わせください！<br>
+                      
+                      <br>　スケジュールが定まらずご迷惑をお掛け致しますが、安全を第一に活動を行っていきますので、ご理解の程お願い申し上げます。<br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    【PENMARK】KEIO FASHION CREATOR紹介記事
+                  </h2>
+                  <p class="assistanceText">
+                    2020.__.__-インタビュー-
+                  </p>
+                  <div class="scroll">
+                    <p><br>団体紹介の記事を慶應義塾大学のメディア・Penmarkさんに書いていただきました。<br>
+
+                      <br>入部の際の参考になるかと思いますので、ぜひご覧ください！<br>
+                      
+                      <br><br>下のURLより<br>
+                      <br>
+                      <br><span>
+                        <a
+                        class="blog_link"
+                        href="https://news.penmark.jp/community_fashioncreater/"
+                        target="_blank"
+                        >『自分たちのファッションショー？！Keio Fashion Creatorとは！』</a
+                      >
+                      </span><br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    株式会社マナマナ× KEIO FASHION CREATORコラボ企画
+                  </h2>
+                  <p class="assistanceText">
+                    2020.＿＿.＿＿-企画-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>　この度、私たちKeio Fashion Creatorでは株式会社マナマナ様に衣装のご協力をいただき、Ad Contents（部員がプロデュースした作品撮影企画）を行いました。<br>
+
+                      <br>　今回は「精神的な」「肉体的な」という二つのテーマのもとで作品作りを行い、２パターンの衣装で撮影を行いました。コンセプトやカメラ、キャプションに至るまで全て部員が担当した作品になっております。Instagramでも公開中ですので、ぜひご覧ください。<br>
+
+                      <br>　また、株式会社マナマナでは現在2021年の新卒採用を募集中です。下記リンクから会社情報をチェックしていただけます。ぜひご応募ください。<br>
+                      <br>
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://mahna.co.jp/"
+                        target="_blank"
+                        >https://mahna.co.jp/</a
+                      >
+                      </span><br>
+                      <br><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/IMG_7484-min.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/IMG_7485-min.JPG"
+                            alt=""
+                          />
+                        </div>
+                      </span><br>
+                      <br><br>【肉体的な】#1-#3<br>
+
+                      <br>あなたはいつもそうだ<br>
+                      私を引き寄せどこか遠くへ<br>
+                      その柔らかい髪と声を揺らして<br>
+                      どこか遠くへ行ってしまおう<br><br><br>
+
+ 
+
+                      <br>Photo:
+                      <br>@_____ruo Ruo Yazawa
+                      <br>@lee_musica Musica Asakawa Lee
+                      <br>Stylist:
+                      <br>@6opium Nonika Wakishima
+                      <br>@cest_carina_vie Carina Ito
+                      <br>@m__kkkk03 Miku Morimoto
+                      <br>@ur_minmin97 Harumi Takeuchi
+                      <br>Editor:
+                      <br>@ur_minmin97 Harumi Takeuchi
+                      <br>Makeup:
+                      <br>@cest_carina_vie Carina Ito
+                      <br>Model:
+                      <br>@ushi__kun Toshi Ishii<br><br><br>
+
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(1)〜
+                  </h2>
+                  <p class="assistanceText">
+                    2019.__.__-企画-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>一同「よろしくお願いします〜」<br>
+                      <br>坂巻凜太郎（以下、坂）「じゃあ、早速自己紹介？（笑）から始めましょうか。Keio Fashion Creator副代表の坂巻です。トゥモローランドではプレスのアルバイトをしてます。」<br>
+                      <br>立石沙樹（以下、立）「じゃあ次は私で。今年8月から、人事部に異動してきました。よろしくお願いします。」<br>
+                      <br>坂「はい、じゃあ航平。」<br>
+                      <br>須賀航平（以下、須）「明治大学一年の須賀航平です。Keio Fashion Creatorではプレスをやってます。幕張店のアウトレットで12月からアルバイト始めます。よろしくお願いします。」<br>
+                      <br>林大樹（以下、林）「よろしくお願いします。新宿のGOLDEN GOOSEでコントローラーの業務と販売をやってます。」<br>
+                      <br>北川彩絵（以下、北）「こんにちは！Keio Fashion Creatorの北川です。モデルマネージャーのチーフとデザイナーをやっています。トゥモローランドではJAMES PERSE 丸の内店で週二回くらいで働いています！デザイナー2年目で今回のショーでは3体作るので、日々ミシンに向き合ってます（笑）」<br>
+                      <br>山野邊彩美（以下、山）「よろしくお願いします。山野邉彩美です。今はバイヤーの業務がメインで店舗もちょこちょこ立ったりしてます。」<br>
+                      <br>坂「まずトゥモローランドにどういう方がいて、どんな会社かっていうところから話してきましょうか。トゥモローランドの社員さんにはどんな方がいらっしゃるんですか？社員の方の、キャラクターというか、なんというか。」<br>
+                      <br>山「本当にいろんな人が居ますね。ライフスタイルに特化した人もいれば、お洋服がものすごく好きな人もいる。みなさん私の知らないことを教えてくださるので。話していて刺激になるような人ばかりですね。」<br>
+                      <br>坂「ライフスタイルっていうと、それこそ杉山さん（トゥモローランド PR）みたいな。」<br>
+                      <br>山「そうですね」<br>
+                      <br>北「制限されてないっていう感じですかね」<br>
+                      <br>山「そうかもしれないですね」<br>
+                      <br>坂「確かに、今日いらっしゃってる方を見ても、あまり縛られていないというか・・・いい意味で。（笑）」<br>
+                      <br>山「でもそうですね、私も学生の頃インターン参加した時、SUPER A MARKETと同じ会社なんだっていうのと、ジャケットのフォーマルってイメージがあったんですけど、意外とそうでもないぞ、みたいな。トゥモローランドはすごく個性を大切にしてくれますね。」<br>
+                      <br>立「その中でも、エレガンスさっていうのはキーワードとしてあって、それが服なのか、考え方なのか、所作なのか。」<br>
+                      <br>須「なるほど、確かに一番最初にトゥモローランドって聞いて思い浮かぶのはエレガンスとか、大人とかそういうワードですね。」<br>
+                      <br>立「そういう要素が入っていれば、うちらしいな、っていう。逆に、みなさんが働いてみて、どういう人が多いなってありますか？」<br>
+                      <br>須「僕はまだ働いてないんですけど、面接に行った際に、人事の雫田さんと平部さんはすごく優しい印象でしたし、店舗面接に行った時は店長さんがものすごく気さくで。『緊張してるの？もうしなくていいよ、俺は人事じゃないし』なんて言ってくれたりして。店員さんも色々話しかけてくれたりして。僕のコート見て『それリラクスでしょ、いいね』みたいな。それもあって、受かりたいな、って思ったり。アイラさんはどうですか？」<br>
+                      <br>北「丸の内のJAMES PERSE、店員さんの中に妊婦さんいらっしゃるんですよ。もうお子さんもいらっしゃって。そんな人が働けるような環境って素敵だなって思います。それから、丸の内のJAMES PERSE、お客さんが入ってない時間もあるので、その時間にすごく親身になって接客のこと一緒に考えてくださるスタッフさんがたくさんいて、優しい人が多いなって印象です。すごく優しい。」<br>
+                      <br>坂「そうっすね・・・ほかのセレクトショップ知ってるの？って言われるとわからないですけど、店頭にいると、服好きだなあって思わされるような人は本当に多いですね。結構自由なんですかね。他のセレクトショップさんとかは、『コレ！みたいなイメージ』みたいなのがあったりするんですけど、意外とトゥモローランドはないかもしれないです。店頭でもだし、オフィスでのいわゆる、私服見てても。自由なイメージはあります。お二人の話もお聞きしたいです」<br>
+                      <br>林「それこそさっき山野邊が言ったようにいろんなことを教えてくれる先輩がいますね。ライフスタイルもそうですけど、言ってもビジネスなので、そういうファッションビジネス的なことを考える。ただ売っているだけじゃなくて、どう売っていくか、とか色々考えられるのは、いい会社だなって思う時ですね。」<br>
+                      <br>坂「杉山さんとかもそうですよね、普段はすごくユーモアに富んでて明るくて面白いけど、全員のことものすごくちゃんと見ててマネジメント能力が高い、本当にミスなく細かくいろいろ見てて勉強になります。」<br>
+                      <br>林「そういう人もしっかりいて、ちゃんと学べるなあって思います。」<br>
+                      <br>立「店頭では、商品のこともしっかり教えてくれる人もいます。素材のこととか、縫製とか、ちょっと高いからこそちゃんと知らなきゃいけない。それから、仕事の仕方はこの人が好きで、スタイリングはこの人が好きで、でもライフスタイルはこのが素敵だなって思ったり。いろんな面で尊敬できる人が多いですね。」<br>
+                      <br>坂「トゥモローランドにカリスマ的な人っていらっしゃるんですか？」<br>
+                      <br>林・立「それはもう山野邊ですね。（笑）」<br>
+                      <br>立「第一線。フォロワー1万人くらいいますしね。」<br>
+                      <br>山「どの分野にも、販売にも、プレスにも、バイヤーにも、スペシャルな人いますね。メディアに露出してる人は多くないですけど、丸の内の佐野さん（トゥモローランド セールスエキスパート）とかは育成面でもカリスマだし。」<br>
+                      <br>坂「最初の話に戻ってきますね。（笑）いろんな人がいる、って。」<br>
+                      <br>山「尊敬する人がいっぱいいるっていうね。」<br>
+                      <br>坂「このテーマはこの辺りで。」<br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(2)〜
+                  </h2>
+                  <p class="assistanceText">
+                    2019.__.__-企画-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>トゥモローランドで働いたきっかけ<br>
+                      <br>坂巻凜太郎（以下、坂）「じゃあ、次はトゥモローランドで働いたきっかけ。トゥモローランドを知ったきっかけというか、アルバイトし始めたきっかけとかっていうので、僕から。１０月頭くらいに、Keio Fashion Creator（以下、ファックリ）でトゥモローランドさんと何かしらのお取り組みできれば、ということで団体のプレスとしてお話しさせてもらいまして。それから営業というか渉外の部分でお仕事として関わって。自分も今後、仕事としてファッションに関わっていきたいって考えているので、まずはアルバイトから、というお話をいただいて。で、まあ巡り巡って平部さん（トゥモローランド 人事）ともお会いして、プレスのアルバイトさせてもらえることになって。うちみたいな学生団体（非営利団体）のプレスとファッション・ビジネスとして関わるプレスとは全然違うと思うので、リアルな業界を内側から勉強したいなと思ってたのですごい偶然が重なって嬉しかったですね。ビジネスになったプレスの働き方ってのは興味があったし、リアルなとこを見たい、というのがあって。だから、トゥモローランドで働くきっかけとなると、ファックリとのお取り組みからということですね。（笑）あと、取り扱いの幅広さってのもありますね、SUPER A MARKETもそうだし、それからオリジナルのクオリティとか、Editionとかのセレクトの個人的な好みとか。そういうのが働いてみたいって思ったきっかけですね。」<br>
+                      <br>北「私はここに入るときに、最初の面接ではファックリ伏せて入ったんですよ。別に意図的にじゃないけどぜんぜん違う視点から。（笑）私は将来フランスのメゾンで働きたくて、フランスのパリのIMFっていうファッションビジネスの大学院に入りたいんですけど、そこに入るためにどうしようってなったときに、販売の経験が必要だってなって。いろんなブランドを見てた時に、一番信頼できて、人も良くて、一番学べそうな所ってどこだろうって思った時に、トゥモローランドだなって。で、最初の面接でそういう熱とか夢を平部さんに伝えて。」<br>
+                      <br>立「うちのこと良くご存知だったんですね。」<br>
+                      <br>坂「そうなんですよ、うちの団体結構そういう子多いんですよ、よく買い物する子も多いですし。女の子なんか特に。」<br>
+                      <br>北「JAMES PERSEの服も持っていたので。最初はトゥモローランドに入れたらって思っていたんですけど、英語も使えるのいいね、ってなって、それから、JAMES PERSEも取り扱いだって聞いたので。そしたらたまたまそのひと月前に辞められた方が私の名前とたまたま1文字違いで、運命的に。それからJAMES PERSEの青山面接した時に、ファックリのことも伝えて。」<br>
+                      <br>立「知ってる方結構多いんですね、意外と、っていうとあれですけど、若い子たちに知られてないイメージありました。」<br>
+                      <br>山「そういう子たちが知るきっかけって・・・？」<br>
+                      <br>北「普通にショッピングしてるときに、そごうとかルミネとかブラブラしてて。それで綺麗だなって思って。ちょっと高めだけど、買ってみよう、って。トゥモローランドさんはまた他社さんとはなんかちがうなって思いますね。」<br>
+                      <br>須「自分は母親から。」<br>
+                      <br>坂「結構多いんですかね、ご両親から、とかっていうのも。」<br>
+                      <br>立「そうですね、多いと思いますけど、なんか名前だけは知ってるみたいな方も多くいらっしゃると思います。」<br>
+                      <br>山「お店立ってるときも、お母様と、とか家族で、っていうのがありますけどね。」<br>
+                      <br>須「自分は名古屋出身なんですけど、親がsacaiとか好きでよく連れていかれてたので、昔から知ってます。東京来て一人暮らし始めて、ちゃんとバイトして、何買おう、ってなったときに、じゃあトゥモローランドかなって落ち着くことは多いんですけど。」<br>
+                      <br>坂「で、なんでトゥモローランドでバイトしたかったの？（笑）」<br>
+                      <br>須「あ、それで、服好きなのでどうしてもアパレルやりたくて、僕は服で飯食ってきたかったですし。本当にぶっちゃけた話、BEAMSかトゥモローランドで迷って、個人的にオリジナルが好きな方でトゥモローランドをを5月に受けさせていただいて、落ちて、１０月にもう一回チャレンジして。やっぱりやりたかったので、そしたらなんとか雇ってもらえて。」<br>
+                      <br>坂「次は是非社員さんのきっかけみたいのも聞きたいなって思ってます、よろしいですか。」<br>
+                      <br>立「私はアパレル一本じゃなくて、いろいろな業種を受けてたんですけど、その中の一業界として受けていようと思って。着たことはないし、存在は知っていたけど、学生時代に自分が買っていたわけではなくて。それこそ学生の頃はずっとBEAMSとかUNITED ARROWSとかだったんですけど、働くなら今着ているような服のところじゃなくて、ちょっと背伸びしようと思って。アパレル業界はトゥモローランドだけ受けて、内定いただいて、ここなら挑戦してみようって思ったからですね。大人になっても着れるような服だなって思ったので、これで食ってくぞっていうそこまでの気持ちは無かったですけど、いろんな幅があるから、スタイリングのしがいもあって面白いなって思えて、トゥモローランド入ってよかったなって思います。」<br>
+                      <br>坂「服で選ばれたんですね、面白いですね。」<br>
+                      <br>立「まあ今手が届かないところの方が楽しいのかなって。着るものなんてすぐ変わるし、それこそ大学1年と4年で着てるのちがうから、っていうのもありましたし。」<br>
+                      <br>北「他はどういう業種を受けられたんですか？」<br>
+                      <br>立「他は食品メーカーとかですよ、いわゆる一般企業。特にこれがやりたいってのもなかったので、説明会とか色々行って、イメージと受けないってだけでした。アパレルもよくわかんなかったですけど、自社ブランドを着ることになるってくらいのイメージはあったのでそこはちゃんと選びましたね。服で。」<br>
+                      <br>北「そういえば、皆さん、最初は販売職で経験を積んで、って感じなんですか？」<br>
+                      <br>立「基本みんなそうなんです。みんな販売から入るんですけど、総合職採用なので、人によって販売の年次もバラバラですし、それこそ2年目でプレスに行った人もいれば、人事の先輩も、一回人事に行ってまた販売に戻る人もいるので。」<br>
+                      <br>北「上の意向って感じですか？」<br>
+                      <br>立「いやー、どうなんだろう、それもあるかもしれないけど、個人の意思が尊重される感じですね。それこそ山野邊なんかは、自分の意思でちゃんと伝わってって。」<br>
+                      <br>坂「自分の意思が尊重されるってのは聞きますね。やりたいっていうモチベーションが伴って実力があれば・・・みたいな」<br>
+                      <br>山「うん。気持ちが大事。」<br>
+                      <br>坂「みなさん大学とかはどんな感じなんですか？専門学校なのか、四年制総合大学なのか、っていう」<br>
+                      <br>林「それは僕が多分一番特殊ですね、その、僕、理系なんですよ。だからもともと就職も設計士になろうかなって。歯車メーカーとか。ずっとそっちだったんですけど、学生服飾団体まではいかないですけど、そんなようなこともしてて。」<br>
+                      <br>坂「何されてたんですか？」<br>
+                      <br>林「内緒です。（笑）まあ学生のうちからずっと服好きだなーってのはあって、たまたま東京コレクション見に来てた時にトゥモローランドの方に会って。」<br>
+                      <br>須「東京の方じゃないんですか？」<br>
+                      <br>林「地元が広島で、大学が大阪。」<br>
+                      <br>立「東京採用の関西の人だと思ってましたもん。」<br>
+                      <br>林「間違ってないけど。（笑）せっかくならアパレル受けようと思って、こことイッセイのプレスだけ。まあイッセイは落ちたんですけど。（笑）で、最後残ったのが設計のとこと、ここ。そんな感じで、二つになって最後どうしようって思ってたんですけど、やっぱり好きなこと仕事にした方が辛いとき頑張れるなって思って、そんな感じで自分はトゥモローランドに入りましたね。」<br>
+                      <br>坂「四大卒の方のが多いですか？」<br>
+                      <br>立「そうですね、大学の数も多いですしね。」<br>
+                      <br>林「ちなみに僕はアパレルの経験もインターンもしたことなくて。」<br>
+                      <br>坂「三年の終わりから腰あげてって感じですか？」<br>
+                      <br>林「まあ就活別に良くない？なんとかなるでしょって思ってて。まあ就活が悪いわけでもないけど、何かに打ち込むことのが大事だった。遊ぶとか。」<br>
+                      <br>坂「遊ばれてたんですか？」<br>
+                      <br>林「メチャメチャ遊んでましたね、山野邊もですけど。」<br>
+                      <br>山「私今でも遊んでますしね。（笑）」<br>
+                      <br>北「遊ぶ時間多いんですか？」<br>
+                      <br>山「私プライベートは全部遊びだと思ってるから。みんなによく遊んでるよねって言われるし、あ、私遊んでるのかなーって。」<br>
+                      <br>林「飲みに行くことも遊びってことでしょ？まあ確かに遊んでるイメージはある（笑）」<br>
+                      <br>山「まあ私、人と話すことが好きだし、ファッションも好きだったし。周りもそういう人が多くて。」<br>
+                      <br>坂「四大出身ですか？」<br>
+                      <br>山「そうですよ。」<br>
+                      <br>坂「専門っぽいなって思ってました。林さんの理系はほんとに意外。四大の方が大半占めるイメージなんですね。その中でも色々なところから個性を持った様々な方が集まると、こんなまとめでいいでしょうか。」<br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(3)〜
+                  </h2>
+                  <p class="assistanceText">
+                    2019.__.__-企画-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>トゥモローランドのイメージについて<br>
+                      <br>坂「僕は、オリジナルのクオリティだったり、取扱いの幅の広さだったりっていうところに魅力は感じています。ただ…僕ずっとSUPER A MARKETとかEditionがトゥモローランドって知らなかったんですけど。周りに、マジ？って言われちゃって（笑）インポートが好きなので、セレクトの幅とか観点も、ナマチェコとかフィプスとか。すごい特化してるところがあっていいなって思ってます。」<br>
+                      <br>須「名古屋にラシックってファッションビルがあるんですけど、クロムハーツとギャルソンとトゥモローだけ面構え違う感じしますね。あとEditionかな。出てくる人の感じが違います。洗練されてる。」<br>
+                      <br>北「私はルミネのトゥモローの内装がすごい好きで。いい服に囲まれてる、いい空間、っていいなって、それが好きで。」<br>
+                      <br>坂「買ってたの？」<br>
+                      <br>北「当時はたまにだけど。（笑）」<br>
+                      <br>坂「僕の初トゥモローは結構最近ですね一年前くらい。本当にトゥモローランドさんに助けられた時もあって。就活の証明写真を撮りたかったんですけど、ネクタイ忘れちゃって。それで丸の内のトゥモローランドで接客してもらって、それ買って締めていったんです。（笑）あとはインポートやってるSUPER A MARKETとかEditionとかはよく行きますね。」<br>
+                      <br>北「あと、ちょっと関係ないんですけど、将来自分の彼氏にトゥモロー着ててほしいっていうか。大人っぽくて、落ち着いてて、おしゃれで。」<br>
+                      <br>坂「それはトゥモローのイメージのエレガンスっていう部分につながるのかもね。あとはジャケットなり、ドレスの流れは感じます。」<br>
+                      <br>須「他のセレクトショップと比べると、そうかもしれないですね。」<br>
+                      <br>立「店舗でもテイストは人ごとにだいたい決まっていて。フェミニン担当とか。みんなが同じような服着ててもうちっぽくないし。っていうところで。それを考えて毎シーズン服買ったりしてますね。ずっと一つに決まってるわけではないし、お店のバランスは考えていたりもするので。私がいたメゾントゥモローランドは人数多いので、偏らないためにそういうのはきちんとしてました。店員もマネキンみたいなものなので、責任もって被らないように。同じニットでも、シャツと合わせるのか、スカートなのかっていうので、色々やったり。まあそういうのも店の人数によって色々あるとは思いますけど」<br>
+                      <br>林「まあメンズの軸はドレスとカジュアル。例えば、高いスーツ売ってるのに店員が全員パーカー着てても変だし、逆にパーカー売ってるのにみんなスーツ着てても変。そういうのも含めて、MD（販売戦略）的なこと。僕も入社する前は結構ドレスっていうか、そういうイメージがあったけど、さっきも言いましたけど、社風も結構自由。」<br>
+                      <br>山「私はEditionに一年、トゥモローランドに一年、SUPER A MARKETに一年半って感じで。私、突出してこれが好き、っていう個人的な好みも一応あるんですけど、それよりも人と話すことが好きだし、お店の色とか雰囲気っていうのがあるので、お店に行ったら私はそこのものを大事にしたいですね。」<br>
+                      <br>坂「プロとして好きなものだけ着て、それを売るっていうわけにはいきませんからね、ファッションビジネスですもんね。」<br>
+                      <br>山「好きなことを仕事にすることは、自分がブレないことも大事なんですけど、お客さんが来てくれることとか先輩後輩のサポートとか、そういう関係性があってこそのものなので。」<br>
+                      <br>坂「だからこそ山野邉さんみたいに人とのコミュニケーションが好きとかいうような、そういう+αが求められるんでしょうね」<br>
+                      <br>須「確かに。僕のトゥモローのイメージみたいなのは、何が流行ってもトゥモローでいいかな、みたいなのありますね。ヴィヴィアン・ウエストウッドみたいな超アバンギャルドがめちゃめちゃ流行らない限り。（笑）僕はノームコアが流行っている時にもよく買ってました。ノームコアかあ、じゃあトゥモローかな、みたいな。で、いまトラッドが流行ってますけど、あ、トゥモローじゃん、ていう。扱ってるアイテムがすごいシンプルで良質なものだから、ビンテージと合わせてもいい感じになるし、僕そういうのもすごい好きなので。」<br>
+                      <br>林「幅広いね」<br>
+                      <br>須「服好きなんです（笑）」<br>
+                      <br>坂「でもわかる、そんな感じありますね、何にでも合う服作ってる、それもオリジナルのクオリティってとこにも繋がってくるんですかね。」<br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(4)〜
+                  </h2>
+                  <p class="assistanceText">
+                    2019.__.__-企画-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>仕事のやりがい<br>
+                      <br>坂巻凜太郎（以下、坂）「じゃあ、次は今されているお仕事のやりがいを聞きたいです。」<br>
+                      <br>山野邊彩美（以下、山）「好きなことをできていることですね。それはやりがい。今バイヤーなんで、海外出張に行ったり、商談行ったり、デスクワークしたり、次のシーズンのこと考えたり、お店立つこともまだありますし。お店はここっていうのはないですけどね。」<br>
+                      <br>北川彩絵（以下、北）「盛り沢山ですね！」<br>
+                      <br>坂「なぜバイヤーを志望されたんですか？」<br>
+                      <br>山「将来自分が何かしたいってことを考えた時に、まあその、お店ほしいんですけど、その当時、洋服と人と話すのが好きだったので、いろんな人とかいろんな店を見て。この会社ならバイヤーがいいかなって。プレスでもいいかなーって思ってましたけど。業界のプロセスを学びたくて。」<br>
+                      <br>坂「どんなタイミングでやりがいを？」<br>
+                      <br>山「お店に見に行った時に、自分が買い付けたものがあったり、接客して売れた時とか、売れてる数字見た時とか、お店の反応見たりとか、そういうのがやりがいですね。」<br>
+                      <br>須賀航平「僕もやりたいんです、バイヤー。」<br>
+                      <br>山「一番最初に服を見れるからテンション上がりますしね。デザイナーとも話せるし、その人のマインドをダイレクトにショップにシェアできるとか。」<br>
+                      <br>坂「林さんはいかがですか？」<br>
+                      <br>林大樹（以下、林）「僕は少しコントローラーっていう、店舗の数字分析のようなマネージメント業務もしてるので、数字的な部分にやりがいを感じることが多いですね。今はGOLDEN GOOSEのワンブランドなんで、品番も多くないし、一つずつこれどうしようとか考えながらやりますね。商品数が少ない分数字も見やすいし、今伊勢丹で責任者とかやってる中で、どうやってお店の数字とるかってとこを考えてます。ECが発達する中で、どうやってお店で売っていくの？ってところ。あと、上が何考えてこれ言ってんだろうって考えながらやったり。それは、全てに言えることだけど上司にしろ後輩にしろ周りの人が言ったことの本質、「この人は何を伝えたいんだ」ってとこまで考えないと成長できないから。去年より売り上げ伸びたら去年より成長したわけでしょ。そういうのがやりがいだしモチベーションかな。でもマネジメントとかも大事だし、販売こそ、営業の最たるものだからさ。」<br>
+                      <br>北「私もお店立つにあたって、いっぱい販売のノウハウ本買ったんですよ。でも実際店舗に立ってお客様を目の前にすると全然違って。いろんなことで緊張したり。」<br>
+                      <br>林「本読むのももちろん大事だけど、人の真似は難しいかなって思うよ。自分の色ってすごい大事です。それこそ、お客さん惹きつける魅力持ってる人は物凄い売るんで。そこがモチベーションの人もいるんじゃないかなって思いますね。」<br>
+                      <br>坂「ちょっと話変わっちゃうんですけど、今、自分は古着屋とプロパーのお店とプレスっていう三本立てで働いてるんですけど、古着屋では割と売れるのにプロパーあんまり取れないや・・・みたいなの思ったりしますね。」<br>
+                      <br>林「トゥモローランドも、そのお客さんも質が高いもの求めてますしね。」<br>
+                      <br>坂「やっぱり、それぞれで接客のスタイルとかは違うのかなとか思ったり。だからちょっと難しいですね。」<br>
+                      <br>山「私が大事にしてるのは、モノを理解してそれをお客様にどう伝えるかってところですね。あと、そのお客様に興味を持つ。自分の知ってることを伝えると自然と自分の色が出るとか、また会いに来てくれる人もいるし、そういう人がいると、もっとこうしたい、って思う。だから、本をいっぱい読むよりも、話すことを楽しむのが大事かもしれないです。」<br>
+                      <br>坂「人事はいかがですか・・・？」<br>
+                      <br>立石沙樹「私は配属されたのが３ヶ月前なので探り探りです。いまお店にもたまに入るんですけど、お店に立ったりする中で、現場の声を聞いて反映させていくことを頑張りたいなって思ってます。あと、小さい喜びというか達成感というか、自分が中途採用請けおった子が評判いいよって言われたりすると嬉しいです。」<br>
+                      <br>坂「なるほど、ありがとうございます。」<br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(5)〜
+                  </h2>
+                  <p class="assistanceText">
+                    2019.__.__-企画-
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br>今後の夢<br>
+                      <br>坂巻凜太郎（以下、坂）「最後は夢について、ですね、今後どうしていきたい、とか」<br>
+                      <br>立石沙樹（以下、立）「聞きたいです」<br>
+                      <br>坂「、自分はやっぱり今年度のショーを成功させるっていう今の軸があって、近いところの夢っていうことでは。なので、就職活動とか今後のことはまだ考えられていないんですけど、ファッションに関わるという軸は決めていて。服に関わって飯を食っていきたいので。既に周りでも、大学辞めて、海外ブランド取り扱うエージェンシーで働いているような子もいたりとか、ブランドやりたいって言ってる子とかもいて。これから絶対この道でどうにかして成功してやるって決めてる子が多いんですよね。すごく刺激も受けることが多いんですが、そういう仲間とかともっとハイステージに行きたいというのが僕の夢ですね。例えば、いま東京でやってますけど、お互いでっかくなってまたパリで会おうぜ、的な。ワンピースじゃないですけど。（笑）まあファッションといっても本当に沢山の業種と関わり方ががあるので、視野を広くいきたいです。」<br>
+                      <br>須賀航平（以下、須）「そうですね、自分は今年、明治大学でファッションサークルを友人と立ち上げたのですけど…」<br>
+                      <br>坂「そう、彼すごいんですよ、相方の子と2人で100人規模の人集めて。」<br>
+                      <br>須「そうなんですよ。ずっと一緒にいるんですけど。（笑）そのサークルではファッションという文化の敷居を下げることに取り組みたいって思ってます、でもファストって意味じゃなくて、デザイナーに対してのリスペクトは必要ですけど。その、モードとかそういうことやっても、歴史の長い他の団体には敵わないかなって思って。じゃあ違う路線で勝負したいなって思って、リアルクローズ路線。まだ何をすべきかとかは（立ち上げて日が浅いこともあり）明確にわかってはいませんが、色々やってみたいです。ファッションを音楽と同じように誰もがリーチできる、親しみやすい文化にするということをサークルを通してやることが僕の夢ですかね。」<br>
+                      <br>坂「衣食住の中でも衣だけなぜか軽視されがちだし、音楽はみんな聞くし、ある程度こだわりを持ってる。それに対して、服はみんなが日常的に着て絶対必要なものなのに、こだわりを持ってる人はそれに比べて極々少数だよね。」<br>
+                      <br>須「そうなんですよ。まあ比較的新しい文化だし、しょうがないかもしれないですけど。これからいろんな文化と互いに昇華しあっていくものなのかなって。音楽も、絵画も。まあとにかく僕がやりたいのはファッションの入り口的なことです。」<br>
+                      <br>坂「いいっすねえ。」<br>
+                      <br>北川彩絵（以下、北）「私の夢は最近変わりまして。前は服が好きなのでバリバリ働いて女社長になってやるって考えてたんですけど、最近ふと立ち止まって考えてみたんですね。なんで私は服が好きなんだろうって。そうしたら気づいたことがあって、それは、私は美しいものが好きっていうことです。アパレルで数字を見てコツコツやるよりも、ただ美しいものを見ていたいってのがあって。私はオートクチュールがすごい好きで。ああいう職人さんの細かい作業とかって大事にしなきゃいけないと思うんです。廃れつつあるオートクチュールをどうしたら支えられるのかな、っていうので、メゾンに入りたいなって思って。私デザイナーもやってるんですけど、その職人さんならどうやるか、みたいなのをとことん調べたりして、真似して見たりして。」<br>
+                      <br>坂「どうです？聞いてみて。」<br>
+                      <br>山野邉彩美（以下、山）「素晴らしいですよ〜、やりたいことが決まってるのは本当に大切です。それをやりたいって言い続けたら絶対叶うと思うし。」<br>
+                      <br>林大樹（以下、林）「面接で何やりたい？って聞かれて、バイヤーとプレス以外知らないですって言ったもん。そのくらい漠然とはしてた。」<br>
+                      <br>山「私の夢は何でも屋さんだったな。」<br>
+                      <br>坂「何でも屋さんってなんですか？？」<br>
+                      <br>山「会社の中だったら、いろんな業務しながらどこでも顔出せるようなディレクターになりたいですけど、将来お店持ちたいので、友人とかと、でっかいことしよう、みたいな。」<br>
+                      <br>北「トゥモローはファーストキャリアとしてって最初から決めてる人（独立志望）での採用とかやってるんですか？」<br>
+                      <br>立・山「ないかな〜。」<br>
+                      <br>坂「夢とかには寛容なんですか？」<br>
+                      <br>立「言う分には寛容なんじゃないですか？でも例えば、何年で絶対やめるけど今は入りたいんで、とかは、受け取り方も変わっちゃう。」<br>
+                      <br>山「私の知ってる限りだと、どこの企業でも、自分のしたいことをしたいって言い続けることは大切ですよね。だし、人とのコミュニケーションも然り。でもやりたいことがあるのは素晴らしいと思います。目標があって、みんなを巻き込んで、自分も楽しんで。っていう。」<br>
+                      <br>坂「そういうこと言えるようになったのは、それこそこの団体に入ってからですし、業界も知ることができたし。それまでだと就活どうしようって思ってたけど、最近は大きなビジョンは見えるようになりましたね。それこそ、この一年で。」<br>
+                      <br>須「僕高校生の頃ずっと、結構ガチでロックスターになりたいって言ってました。バンドやってたんで。」<br>
+                      <br>山「私も結構ガチでスーパースターになりたいって言ってましたね。（笑）」<br>
+                      <br>北「私は小学校をフランスで過ごして、脳裏に漠然としたフランスへの憧れがあって、美しいものが本当に好きなので。高校の頃から舞台衣装なんか作って、何かしらのクリエイターになりたいと。」<br>
+                      <br>山「空間アドバイザーとかいう仕事作っちゃえばいいんじゃないですか？」<br>
+                      <br>坂「なんか、そういう新しい仕事作れる時代ではありますよね。言ったもん勝ちみたいな。」<br>
+                      <br>北「VMD（ヴィジュアル・マーチャンダイジング）とか。」<br>
+                      <br>山「空間づくりとかやってる人見るとそれぞれなんか強い個性感じますけどね。」<br>
+                      <br>須「そういうことは人間しかできないことですからね。AIとかが騒がれている今、貴重なことですよね。」<br>
+                      <br>坂「じゃあ、今後もそれぞれアルバイトの方も然り、団体のことも然り、今後の夢も然り、頑張っていきましょうってことでよろしいでしょうか。（笑）」<br>
+                      <br>山「はい。（笑）いやぁ、でもほんとこうやって若い子たちと話すとパワーもらえていいねぇ。私も頑張ろうって気になる。」<br>
+                      <br>林「いやぁ若いね（笑）」<br>
+                      <br>坂「じゃあ、どうもお疲れ様でした。」<br>
+                      <br>一同「ありがとうございました。」<br><br><br>
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(2)〜
+                  </h2>
+                  <p class="assistanceText">
+                    2019.__.__-企画-
+                  </p>
+                  <div class="scroll">
+                    <p></p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(2)〜
+                  </h2>
+                  <p class="assistanceText">
+                    2019.__.__-企画-
+                  </p>
+                  <div class="scroll">
+                    <p></p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    〜トゥモローランド ✕ KEIO FASHION CREATOR 対談企画(2)〜
+                  </h2>
+                  <p class="assistanceText">
+                    2019.__.__-企画-
+                  </p>
+                  <div class="scroll">
+                    <p></p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footerLink">
+          <div class="pageLink">
+            <ul>
+              <li class="footer_menu"><a href="movie.html">MOVIE</a></li>
+              <li class="footer_menu">
+                <a href="collection.html">COLLECTION</a>
+              </li>
+              <li class="footer_menu"><a href="artworks.html">ART WORKS</a></li>
+              <li class="footer_menu"><a href="blog.html">BLOG</a></li>
+              <li class="footer_menu"><a href="concept.html">CONCEPT</a></li>
+            </ul>
+            <ul>
+              <li class="footer_menu"><a href="index.html#post">POST</a></li>
+              <li class="text_deco"><a href="">MEMBER</a></li>
+              <li class="footer_menu"><a href="news.html">NEWS</a></li>
+              <li class="footer_menu"><a href="contact.html">CONTACT</a></li>
+              <li class="footer_menu"><a href="interview.html">INTERVIEW</a></li>
+            </ul>
+          </div>
+          <div class="snsIcon">
+            <a
+            class="sns"
+              href="https://www.instagram.com/keio_fashioncreator/?hl=ja"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/glyph-logo_May2016.png" alt=""
+            /></a>
+            <a
+            class="sns"
+              href="https://twitter.com/keio_fc"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/Twitter_Logo_WhiteOnImage.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="sponsorImage logo logo-etc">
+          <a href="index.html"><img src="css/img/logo-03.png" alt="" /></a>
+          <a
+            href="https://www.look-holdings.jp/english/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/lookholdings.png" alt="SPONSOR"
+          /></a>
+          <a
+            href="https://www.readytofashion.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/rtf.png" alt="SPONSOR"
+          /></a>
+          <a
+            href="https://www.esmodjapon.co.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/esmod_japon.png" alt="SPONSOR"
+          /></a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/blogModal.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/tab.js"></script>
+  </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBtdsCfONzjyNQrM-wg33HDNNuiBfI7Rg8",
+    authDomain: "keiofc.firebaseapp.com",
+    databaseURL: "https://keiofc.firebaseio.com",
+    projectId: "keiofc",
+    storageBucket: "keiofc.appspot.com",
+    messagingSenderId: "485645349038",
+    appId: "1:485645349038:web:00ce5daabd0fa5a4133d3f",
+    measurementId: "G-FHST8JLNG7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>

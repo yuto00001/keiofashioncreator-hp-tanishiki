@@ -1,0 +1,59 @@
+.top_movie {
+  margin-top: 40px;
+}
+.movie {
+  width: 100%;
+  /* margin: 80px 0px 20px; */
+  padding-top: 100px;
+}
+.movieTitle {
+  letter-spacing: 8px;
+  font-size: medium;
+}
+.movieTitle p {
+  margin-left: 2%;
+}
+.movie h2 {
+  margin-left: 0.8%;
+  font-weight: bold;
+}
+.wrap-2n .movieTitle p {
+  margin-right: 2%;
+}
+.wrap-2n .movie h2 {
+  margin-right: 0.8%;
+}
+.movie-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+  height: 0;
+  overflow: hidden;
+}
+
+.movie-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+  border: 1px solid black;
+  border-left: none;
+}
+.wrap-2n .movie-wrap iframe {
+  right: 0;
+  left: auto;
+  border-left: 1px solid black;
+  border-right: none;
+}
+.wrap-2n:nth-child(2n) {
+  text-align: end;
+}
+@media (min-width: 900px) {
+  .movieTitle {
+    font-size: 20px;
+    letter-spacing: 15px;
+  }
+  /* .movie {
+    margin: 80px 0px 150px;
+  } */
+}

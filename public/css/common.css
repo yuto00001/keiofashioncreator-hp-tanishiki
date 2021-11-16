@@ -1,0 +1,262 @@
+* {
+  align-items: flex-start;
+}
+body {
+  background-color: rgba(231, 231, 231, 0.979);
+  font-family: garamond-premier-pro, serif;
+  font-size: 11px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+  overflow-x: hidden;
+}
+body,
+h1,
+figure,
+p,
+h3,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+h2 {
+  margin-left: 3%;
+  margin-top: 0;
+  font-weight: lighter;
+}
+h3 {
+  font-weight: normal;
+  font-size: medium;
+  color: rgb(0, 0, 0);
+}
+li {
+  list-style: none;
+}
+footer {
+  background-color: whitesmoke;
+  color: rgb(0, 0, 0);
+  border-top: 1px solid rgb(0, 0, 0);
+}
+.wrapper {
+  overflow-x: hidden;
+  overflow: hidden;
+}
+.display {
+  display: none;
+}
+.assistanceText {
+  color: rgb(61, 61, 61);
+  font-size: 11px;
+}
+.kfcLogo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.title_sub {
+  width: fit-content;
+  margin: auto;
+}
+.title_sub .assistanceText{
+  letter-spacing: 5px;
+}
+.footerLink {
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  right: 5%;
+  width: 200px;
+  align-items: initial;
+}
+.pageLink {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.pageLink ul {
+  padding-left: 5%;
+}
+.pageLink li {
+  text-align: right;
+}
+.snsIcon {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.snsIcon img {
+  width: 23px;
+}
+.sns {
+  margin: 0 0 5px 10px;
+}
+.sponsorImage {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  margin: 0 10px;
+  height: 50px;
+}
+.text_deco {
+  text-decoration: line-through;
+}
+
+/* 以下ニューモフィズムスタイル */
+/* .blog */
+li#open,
+iframe.movieStyle,
+article.collectionImage,
+.viewAll {
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #959595, -3px -3px 6px #ffffff;
+  border: none;
+}
+div#close {
+  background: #dbdbdb;
+  border-radius: 5px;
+  box-shadow: 7px 7px 14px #959595, -7px -7px 14px #ffffff;
+  border: none;
+}
+.blogButton li {
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px #959595, -4px -4px 8px #ffffff;
+  border: none;
+}
+iframe.movieStyle {
+  border-radius: 5px;
+}
+.wrap-2n .movie-wrap iframe {
+  border-radius: 8px;
+  box-shadow: -5px 5px 10px #959595, 5px -5px 10px #ffffff;
+
+  border-left: none;
+}
+
+li#open:hover,
+div#close:hover,
+.blogButton li:hover,
+iframe.movieStyle:hover,
+.viewAll:hover {
+  box-shadow: 9px 9px 18px #959595, -9px -9px 18px #ffffff;
+}
+.wrap-2n .movie-wrap iframe:hover {
+  box-shadow: -9px 9px 18px #959595, 9px -9px 18px #ffffff;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: medium;
+  }
+  .logo img {
+    height: 30px;
+    margin: 10px;
+  }
+  .titleBox {
+    height: 100vh;
+    padding-top: 38vh;
+  }
+}
+@media (min-width: 501px) {
+  li#open,
+iframe.movieStyle,
+article.collectionImage,
+.viewAll {
+  box-shadow: 4px 4px 8px #959595, -4px -4px 8px #ffffff;
+}
+  footer {
+    padding: 40px 0;
+  }
+  .hover:hover,
+  .tabContent li:hover,
+  .my-icon:hover,
+  .close:hover,
+  .menuList:hover,
+  .footer_menu:hover,
+  .sns:hover,
+  .blog_link:hover,
+  .kfcLogo:hover,
+  .movieTitle_home:hover {
+    animation-duration: 1s;
+    animation-name: fade-in;
+  }
+  .titleBox {
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+  .title {
+    font-size: 35px;
+    line-height: 2;
+    letter-spacing: 45px;
+  }
+  .title_sub {
+    width: fit-content;
+    margin: auto;
+    padding-left: 30px;
+  }
+  .title_sub .assistanceText {
+    letter-spacing: 14px;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 800px) {
+  .title_sub {
+    width: fit-content;
+    margin: auto;
+    padding-left: 30px;
+  }
+  .displayNav {
+    display: none;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .display {
+    display: inline;
+  }
+  .display2 {
+    display: none;
+  }
+  .pageLink {
+    right: 0px;
+  }
+  .logo-etc {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo-etc a {
+    margin: 40px;
+  }
+  /* .titleBox {
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+  .title {
+    font-size: 35px;
+    line-height: 2;
+    letter-spacing: 45px;
+  }
+  .title_sub {
+    width: fit-content;
+    margin: auto;
+    padding-left: 30px;
+  }
+  .title_sub .assistanceText {
+    letter-spacing: 14px;
+    font-weight: bolder;
+  } */
+}
+@media (min-width: 1300px) {
+  .display2 {
+    display: inline;
+  }
+}

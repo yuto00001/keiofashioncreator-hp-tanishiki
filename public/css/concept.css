@@ -1,0 +1,19 @@
+.style {
+  width: 80%;
+  padding: 50px 0 100px;
+  margin: 0 auto;
+  font-size: 10px;
+}
+.style h2 {
+  display: inline-block;
+  margin: 30px 0 0;
+  font-weight: bold;
+}
+
+@media (min-width: 800px) {
+  .style {
+    width: 700px;
+    padding-top: 100px;
+    font-size: inherit;
+  }
+}

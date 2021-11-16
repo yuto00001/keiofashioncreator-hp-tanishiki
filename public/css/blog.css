@@ -1,0 +1,67 @@
+.sort {
+  padding: 0 0 20px 80px;
+  position: relative;
+  text-decoration: line-through;
+  top: 80px;
+}
+.description {
+  margin: 150px auto 0;
+  width: 80%;
+}
+.sortButton ul {
+  display: flex;
+  flex-direction: row;
+}
+.sortButton li {
+  padding-right: 20px;
+  padding: 5px 20px;
+  text-align: center;
+  color: rgb(63, 63, 63);
+}
+
+.blog {
+  width: 100%;
+  margin:0 0 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+/* 以下check2css */
+body * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+  .sort {
+    font-weight: 600;
+  }
+  .description {
+    width: fit-content;
+  }
+  .blog {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .blogArticle {
+    margin: 1%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blogArticle img {
+    width: 300px;
+    padding-right: 5px;
+  }
+  .blogArticle h3 {
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: lighter;
+  }
+  .scroll {
+    font-size: 13px;
+  }
+}
