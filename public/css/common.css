@@ -166,12 +166,12 @@ iframe.movieStyle:hover,
   }
 }
 @media (min-width: 501px) {
-  li#open,
+  /* li#open,
 iframe.movieStyle,
 article.collectionImage,
 .viewAll {
   box-shadow: 4px 4px 8px #959595, -4px -4px 8px #ffffff;
-}
+} */
   footer {
     padding: 40px 0;
   }
