@@ -112,7 +112,7 @@ footer {
 
 /* 以下ニューモフィズムスタイル */
 /* .blog */
-li#open,
+/* li#open,
 iframe.movieStyle,
 article.collectionImage,
 .viewAll {
@@ -150,7 +150,7 @@ iframe.movieStyle:hover,
 }
 .wrap-2n .movie-wrap iframe:hover {
   box-shadow: -9px 9px 18px #959595, 9px -9px 18px #ffffff;
-}
+} */
 
 @media (max-width: 500px) {
   h2 {

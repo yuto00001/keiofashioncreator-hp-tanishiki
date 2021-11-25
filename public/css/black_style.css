@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(0, 0, 0, 0.932);
+  background-color: #0a0a0a;
 }
 h1,h2,h3, a, .my-icon, .modal_block, .blogText h3, .blogText {
   color: rgba(190, 190, 190, 0.932);
@@ -58,9 +58,6 @@ footer a {
 
 
 /* 以下ニューモフィズムデザイン */
-body {
-  background-color: #0a0a0a;
-}
 li#open,
 iframe.movieStyle,
 article.collectionImage,
