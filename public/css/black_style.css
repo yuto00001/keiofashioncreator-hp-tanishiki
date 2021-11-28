@@ -1,0 +1,100 @@
+body {
+  background-color: #0a0a0a;
+}
+h1,h2,h3, a, .my-icon, .modal_block, .blogText h3, .blogText {
+  color: rgba(190, 190, 190, 0.932);
+}
+p, .assistanceText, .sortButton li {
+  color: rgba(190, 190, 190, 0.842);
+}
+.hover {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+.tab:hover {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+.blogButton  a {
+  color: black;
+}
+.tabMenu li a {
+  text-shadow: 0.5px 0.5px 1.5px rgb(204 204 204);
+}
+.movieTitle p, h2, .imageZone .hover a {
+  text-shadow: 0.5px 0.5px 1.8px rgb(204 204 204);
+}
+.menuList {
+  text-shadow: 0px 0px 2px rgb(204, 204, 204);
+}
+.style h2 {
+  text-shadow: 0px 0px 1px rgb(204, 204, 204);
+}
+.wrap-2n p, .wrap-2n h2 {
+  text-shadow: -1px 1px 2px rgb(204, 204, 204);
+}
+.modal_block, div#close {
+  background-color: #0a0a0adc;
+}
+.blog_link {
+  color: skyblue;
+}
+.modal_trigger li {
+  background-color: rgba(51, 51, 51, 0.096);
+}
+.modal_block > p {
+  border-bottom: 2px solid rgb(204, 204, 204);
+}
+footer a {
+  color: black;
+}
+#menu {
+  background: rgba(0, 0, 0, 0.288);
+}
+.style {
+  color: rgb(204, 204, 204);
+}
+.modal_bg {
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+
+/* 以下ニューモフィズムデザイン */
+li#open,
+iframe.movieStyle,
+article.collectionImage,
+.viewAll {
+  border-radius: 5px;
+  background: #0f0f0f;
+  box-shadow:  4px 4px 8px #060606, -4px -4px 8px #181818;
+}
+div#close {
+  border-radius: 5px;
+  background: #0f0f0f;
+  box-shadow:  4px 4px 7px #060606, -4px -4px 7px #181818;
+  border: none;
+}
+.blogButton li {
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow:  3px 3px 8px #060606, -3px -3px 8px #181818;
+  border: none;
+}
+iframe.movieStyle {
+  border-radius: 5px;
+}
+.wrap-2n .movie-wrap iframe {
+  border-radius: 5px;
+  background: #0f0f0f;
+  box-shadow:  4px 4px 8px #060606, -4px -4px 8px #181818;
+  border-left: none;
+}
+
+li#open:hover,
+div#close:hover,
+.blogButton li:hover,
+iframe.movieStyle:hover,
+.viewAll:hover {
+  box-shadow:  8px 8px 12px #000000, -8px -8px 12px #181818;
+}
+.wrap-2n .movie-wrap iframe:hover {
+  box-shadow:  7px 7px 12px #000000, -7px -7px 12px #181818;
+}

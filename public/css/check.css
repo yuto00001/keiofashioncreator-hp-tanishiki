@@ -378,12 +378,12 @@ section.team {
   }
 }
 
-* {
+/* * {
   background-color: #111;
-}
-h1,h2,h3, p, .assistanceText, .my-icon, .modal_block {
+} */
+/* h1,h2,h3, p, .assistanceText, .my-icon, .modal_block {
   color: whitesmoke;
-}
+} */
 /* ダークモード対応 */
 /* @media (prefers-color-scheme: dark) {
   body {
