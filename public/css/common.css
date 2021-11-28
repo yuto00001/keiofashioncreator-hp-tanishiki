@@ -115,7 +115,9 @@ footer {
 li#open,
 iframe.movieStyle,
 article.collectionImage,
-.viewAll {
+.viewAll,
+.modal_btn_topNews,
+.modal_trigger .supplement {
   border-radius: 8px;
   box-shadow: 3px 3px 6px #959595, -3px -3px 6px #ffffff;
   border: none;

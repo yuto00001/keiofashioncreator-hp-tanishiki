@@ -58,10 +58,13 @@ footer a {
 
 
 以下ニューモフィズムデザイン
+.blog
 li#open,
 iframe.movieStyle,
 article.collectionImage,
-.viewAll {
+.viewAll,
+.modal_btn_topNews,
+.modal_trigger .supplement {
   border-radius: 5px;
   background: #0f0f0f;
   box-shadow:  4px 4px 8px #060606, -4px -4px 8px #181818;
