@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #0a0a0a;
 }
 h1,h2,h3, a, .my-icon, .modal_block, .blogText h3, .blogText {
@@ -57,11 +57,14 @@ footer a {
 }
 
 
-/* 以下ニューモフィズムデザイン */
+以下ニューモフィズムデザイン
+.blog
 li#open,
 iframe.movieStyle,
 article.collectionImage,
-.viewAll {
+.viewAll,
+.modal_btn_topNews,
+.modal_trigger .supplement {
   border-radius: 5px;
   background: #0f0f0f;
   box-shadow:  4px 4px 8px #060606, -4px -4px 8px #181818;
@@ -97,4 +100,4 @@ iframe.movieStyle:hover,
 }
 .wrap-2n .movie-wrap iframe:hover {
   box-shadow:  7px 7px 12px #000000, -7px -7px 12px #181818;
-}
+} */

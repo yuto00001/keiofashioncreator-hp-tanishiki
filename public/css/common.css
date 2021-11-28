@@ -111,11 +111,13 @@ footer {
 }
 
 /* 以下ニューモフィズムスタイル */
-/* .blog */
-/* li#open,
+.blog
+li#open,
 iframe.movieStyle,
 article.collectionImage,
-.viewAll {
+.viewAll,
+.modal_btn_topNews,
+.modal_trigger .supplement {
   border-radius: 8px;
   box-shadow: 3px 3px 6px #959595, -3px -3px 6px #ffffff;
   border: none;
@@ -150,7 +152,7 @@ iframe.movieStyle:hover,
 }
 .wrap-2n .movie-wrap iframe:hover {
   box-shadow: -9px 9px 18px #959595, 9px -9px 18px #ffffff;
-} */
+}
 
 @media (max-width: 500px) {
   h2 {
@@ -166,12 +168,6 @@ iframe.movieStyle:hover,
   }
 }
 @media (min-width: 501px) {
-  /* li#open,
-iframe.movieStyle,
-article.collectionImage,
-.viewAll {
-  box-shadow: 4px 4px 8px #959595, -4px -4px 8px #ffffff;
-} */
   footer {
     padding: 40px 0;
   }
