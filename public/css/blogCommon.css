@@ -67,7 +67,14 @@
   height: 93vh;
   z-index: 2;
 }
-
+.modal_block_top {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 160px;
+}
 #modal > p {
   margin: 0 0 20px;
 }
@@ -178,9 +185,6 @@
     height: 70vh;
     overflow-wrap: break-word;
   }
-  /* .scroll p {
-    font-size: 11px;
-  } */
 }
 @media (min-width: 500px) {
   .modal_box_image {
@@ -195,6 +199,9 @@
     top: 40px;
     bottom: initial;
   }
+.modal_block_top {
+    top: 120px;
+}
   .year {
     margin-top: 100px;
   }
