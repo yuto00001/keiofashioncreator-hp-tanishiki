@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/movie.css" />
     <link rel="stylesheet" href="css/black_style.css" />
     <!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
+    <!-- モーダルを消すアクションのためにjqueryが必要 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
   <body>
@@ -243,7 +244,7 @@
               </div>
               <div class="assistanceText" id="direct">---keio fashion creator---</div>
             </div>
-            <div class="modal_box" style="display: block;">
+            <div class="modal_box modal_box_top" style="display: block;">
               <div class="modal_bg"></div>
               <div class="modal_inner">
                 <div class="modal_block_top">
@@ -1127,7 +1128,7 @@
           </div>
         </div>
         <div class="sponsorImage logo logo-etc">
-          <a href="index.html"><img src="css/img/logo-03.png" alt="" /></a>
+          <a href="index.html" class="kfc_footer_logo"><img src="css/img/logo-03.png" alt="" /></a>
           <a
             href="https://www.readytofashion.jp/"
             target="_blank"
