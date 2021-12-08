@@ -23,4 +23,7 @@ $(function () {
   $(".modal_close , .modal_bg").click(function () {
     $(".modal_box").fadeOut(); // モーダルを非表示にする
   });
+  $(".kfcLogo .kfc_footer_logo").click(function () {
+    $(".modal_box_top").fadeIn(); // モーダルを表示する
+  });
 });

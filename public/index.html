@@ -243,6 +243,24 @@
               </div>
               <div class="assistanceText" id="direct">---keio fashion creator---</div>
             </div>
+            <div class="modal_box modal_box_top" style="display: block;">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block_top">
+                  <div class="movie-wrap_topmovie">
+                    <!-- srcのURLの最後に「?autoplay=1&mute=1」をつけると、ミュート状態で自動再生できる -->
+                    <iframe
+                    class="movieStyle iframe_top"
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/6MYjSn-87TU?rel=0"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
         </section>
         <section id="topNews">
           <!-- トップニュースクラスにpickNewsをつけると、文字が赤くなる。 -->
@@ -976,7 +994,7 @@
                     <p class="assistanceText">----</p>
                     <h3>谷舗悠人</h3>
                     <p class="display">
-                      主にHPの管理をしております。HPの制作に携われる方、勉強してみたいと思っている方（そして当団体のイメージに好感を持てる方）は是非入部お待ちしております。使用言語は問いません。サーバーサイドでも構いません（教えられませんが）。HPだけでなく、ミニゲームやWebアプリの制作にも乗り出せると面白そうですね。<br>当団体にはたくさんの素材(画像,動画,文章etc...)がアーカイブされていますし、ビジュアル面で言えばセンスの良い部員達が進んで協力してくれるでしょう。制作する上で得られる恩恵は意外と多いのです。<br>因みにですが、このHP重くね、と思った方、大変申し訳ございません。僕達に出来得る限りの対策は講じているのですが、なにせサイズ大きめの画像数が多いので、仕方ない部分もあるのです。これを改善できる方、もしくはHPに関する質問がある方は、TOPの右上にあるハンバーガーメニューを押下後のCONTACTにて、お待ちしております。<br>部員のブログやインタビューは結構面白いので是非ご覧くださいな。
+                      主にHPの管理をしております。HPの制作に携われる方、勉強してみたいと思っている方（そして当団体のイメージに好感を持てる方）は是非入部お待ちしております。使用言語は問いません。サーバーサイドでも構いません（教えられませんが）。HPだけでなく、ミニゲームやWebアプリの制作にも乗り出せると面白そうですね。<br>当団体にはたくさんの素材(画像,動画,文章etc...)がアーカイブされていますし、ビジュアル面で言えばセンスの良い部員達が進んで協力してくれるでしょう。制作する上で得られる恩恵は意外と多いのです。<br>HPに関する質問がある方は、TOPの右上にあるハンバーガーメニューを押下後のCONTACTにて、お待ちしております。<br>部員のブログやインタビューは結構面白いので是非ご覧くださいな。
                     </p>
                   </div>
                 </div>
@@ -1142,6 +1160,12 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/quicklink/2.0.0-alpha/quicklink.umd.js"></script>
+    <script>
+      window.addEventListener('load', () => {
+      quicklink.listen();
+      });
+    </script>
   </body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
