@@ -58,7 +58,7 @@
 }
 @media (max-width: 499px) {
   .movie-wrap_topmovie {
-    height: 170vw;
+    height: 100%;
 }
 }
 @media (min-width: 900px) {

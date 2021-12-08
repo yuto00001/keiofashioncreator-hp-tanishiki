@@ -183,7 +183,8 @@
   }
   .modal_block_top {
     width: 100vw;
-    top: 125px;
+    top: 25vw;
+    height: 85%;
 }
   .scroll {
     height: 70vh;
