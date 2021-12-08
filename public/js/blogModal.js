@@ -23,7 +23,24 @@ $(function () {
   $(".modal_close , .modal_bg").click(function () {
     $(".modal_box").fadeOut(); // モーダルを非表示にする
   });
+  $(".modal_bg").click(function () {
+    $(".movie-wrap_topmovie").fadeOut(); //動画を再生停止にする
+  });
   $(".kfcLogo .kfc_footer_logo").click(function () {
     $(".modal_box_top").fadeIn(); // モーダルを表示する
   });
+
+  (function(){
+    var CloseTrigger = function(el){
+    var $video = $('.video-stream');
+    $(el).on('click', function() {
+    videoControl("pauseVideo");
+    });
+    function videoControl(action){
+    var $playerWindow = $('#popup-YouTube-player')[0].contentWindow;
+    $playerWindow.postMessage('{"event":"command","func":"'+action+'","args":""}', '*');
+    }
+    };
+    var closeBtnClick = new CloseTrigger('.modal_bg');
+    })();
 });
