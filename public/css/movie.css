@@ -56,6 +56,11 @@
 .wrap-2n:nth-child(2n) {
   text-align: end;
 }
+@media (max-width: 499px) {
+  .movie-wrap_topmovie {
+    height: 170vw;
+}
+}
 @media (min-width: 900px) {
   .movieTitle {
     font-size: 20px;

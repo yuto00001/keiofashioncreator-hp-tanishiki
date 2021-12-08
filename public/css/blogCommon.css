@@ -181,6 +181,10 @@
   .modal_block {
     padding: 20px 5px 0;
   }
+  .modal_block_top {
+    width: 100vw;
+    top: 125px;
+}
   .scroll {
     height: 70vh;
     overflow-wrap: break-word;
