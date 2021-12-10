@@ -160,8 +160,7 @@
   margin: 0 0 3px;
   border-bottom: 2px solid #000000;
 }
-
-@media screen and (max-width: 499px) {
+@media (max-width: 499px) {
   .modal_trigger {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -181,15 +180,17 @@
   .modal_block {
     padding: 20px 5px 0;
   }
+  .scroll {
+    height: 70vh;
+    overflow-wrap: break-word;
+  }
+}
+@media (max-width: 699px) {
   .modal_block_top {
     width: 100vw;
     top: 20vw;
     height: 73%;
 }
-  .scroll {
-    height: 70vh;
-    overflow-wrap: break-word;
-  }
 }
 @media (min-width: 500px) {
   .modal_box_image {

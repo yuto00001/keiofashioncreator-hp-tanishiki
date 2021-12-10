@@ -56,7 +56,7 @@
 .wrap-2n:nth-child(2n) {
   text-align: end;
 }
-@media (max-width: 499px) {
+@media (max-width: 599px) {
   .movie-wrap_topmovie {
     height: 100%;
 }
