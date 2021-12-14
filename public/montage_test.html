@@ -104,7 +104,6 @@
             <!-- マテリアルアイコンからペースト,md-38とかでサイズ指定可能 -->
           </div>
         </section>
-        <!-- Todo; div class="header" -->
         <section >
           <figure class="kfcLogo">
             <a href="index.html">
@@ -223,6 +222,28 @@
         </section>
       </header>
       <main>
+        <section class="music">
+            <div class="audio_wrap">
+              <audio id="audio" src="css/audio/Hyakki_Yagyo.m4a" autoplay loop >
+              </audio>
+              <div class="audio_button" id="Audio-Control">
+                <!-- <button onclick="disableMute()" type="button">
+                </button> -->
+                  <div class="on">OFF</div>
+                  <div class="off active">ON</div>
+              </div>
+            </div>
+        </section>
+        <!-- <section class="music">
+            <div class="audio_wrap">
+              <audio id="audio" src="css/audio/Hyakki_Yagyo.m4a" autoplay loop >
+              </audio>
+              <div class="audio_button" id="Audio-Control">
+                <button onclick="enableMute()" class="on " type="button">OFF</button>
+                <button onclick="disableMute()" class="off active" type="button">ON</button>
+              </div>
+            </div>
+        </section> -->
         <section class="trailer">
           <div class="modal_box" style="display: block;">
             <div class="modal_bg"></div>
@@ -245,7 +266,7 @@
         </section>
         <div class="flex_erea">
           <section class="comment_show_movie">
-            <article class="movie top_movie" id="impression">
+            <article class="movie" id="impression">
               <div class="movieTitle">
                 <h2>MONTAGE RUNWAY SHOW 2021</h2>
                 <p>配信までしばらくお待ちください</p>
@@ -425,6 +446,7 @@
     <script src="js/hamburger.js"></script>
     <script src="js/tab.js"></script>
     <script src="js/blogModal.js"></script>
+    <script src="js/audio.js"></script>
   </body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
