@@ -1,5 +1,5 @@
 /* 以下〈ブラック〉ニューモフィズムデザイン */
-/* .blog
+.blog
 li#open,
 iframe.movieStyle,
 article.collectionImage,
@@ -108,50 +108,4 @@ footer a {
 }
 .modal_bg {
   background-color: rgba(0, 0, 0, 0.575);
-} */
-
-/* ------------------------------------------------------------------------------------------------------------ */
-
-/* 以下〈ホワイト〉ニューモフィズムスタイル */
-.blog
-li#open,
-iframe.movieStyle,
-article.collectionImage,
-.viewAll,
-.modal_btn_topNews,
-.modal_trigger .supplement {
-  border-radius: 8px;
-  box-shadow: 3px 3px 6px #959595, -3px -3px 6px #ffffff;
-  border: none;
-}
-div#close {
-  background: #dbdbdb;
-  border-radius: 5px;
-  box-shadow: 7px 7px 14px #959595, -7px -7px 14px #ffffff;
-  border: none;
-}
-.blogButton li {
-  border-radius: 15px;
-  box-shadow: 4px 4px 8px #959595, -4px -4px 8px #ffffff;
-  border: none;
-}
-iframe.movieStyle {
-  border-radius: 5px;
-}
-.wrap-2n .movie-wrap iframe {
-  border-radius: 8px;
-  box-shadow: -5px 5px 10px #959595, 5px -5px 10px #ffffff;
-
-  border-left: none;
-}
-
-li#open:hover,
-div#close:hover,
-.blogButton li:hover,
-iframe.movieStyle:hover,
-.viewAll:hover {
-  box-shadow: 9px 9px 18px #959595, -9px -9px 18px #ffffff;
-}
-.wrap-2n .movie-wrap iframe:hover {
-  box-shadow: -9px 9px 18px #959595, 9px -9px 18px #ffffff;
 }
