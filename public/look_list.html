@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>look_list</title>
+    <link rel="icon" href="css/img/logo-02.png" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/icon.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/tab.css" />
+    <link rel="stylesheet" href="css/concept.css" />
+    <link rel="stylesheet" href="css/look_list.css" />
+    <link rel="stylesheet" href="css/black_style.css" />
+    <link rel="stylesheet" href="css/black_style_esp.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-image: url(css/img/flower_montage.jpg); background-position: center; ">
+    <div class="wrapper">
+      <header>
+        <section>
+          <div class="hamburgerMenu">
+            <!-- スマホに対応したスタイルにするためのdiv -->
+            <div id="cover"></div>
+            <!-- マスク -->
+            <div id="menu">
+              <span class="material-icons close" id="hide">close</span>
+              <div class="menuBlock">
+                <ul>
+                  <li class="menuList"><a href="index.html">HOME</a></li>
+                  <li class="menuList"><a href="concept.html">CONCEPT</a></li>
+                  <li class="menuList"><a href="interview.html">INTERVIEW</li>
+                  <li class="menuList"><a href="blog.html">BLOG</a></li>
+                  <li class="menuList"><a href="news.html">NEWS</a></li>
+                  <li class="menuList"><a href="movie.html">MOVIE</a></li>
+                  <li><a href="movie.html#tadoru">2020-辿る-</a></li>
+                  <li><a href="movie.html#impression">2019-impression-</a></li>
+                  <li><a href="movie.html#nitijo">2018-日常の再考-</a></li>
+                  <li><a href="movie.html#inTokyo">2017-in Tokyo-</a></li>
+                  <li>
+                    <a href="movie.html#preconception">2016-preconception-</a>
+                  </li>
+                  <li><a href="movie.html#ma">2015-間-</a></li>
+                  <li>
+                    <a href="movie.html#kyutosei" class="text_deco"
+                      >2014-求と制-</a
+                    >
+                  </li>
+                  <li><a href="movie.html">----</a></li>
+                  <li class="menuList">
+                    <a href="collection.html">COLLECTION</a>
+                  </li>
+                  <li><a href="collection_2020.html">2020-辿る-</a></li>
+                  <li><a href="collection_2019.html">2019-impression-</a></li>
+                  <li><a href="collection_2018.html">2018-日常の再考-</a></li>
+                  <li><a href="collection_2017.html">2017-in Tokyo-</a></li>
+                  <li>
+                    <a href="collection_2016.html"
+                      >2016-preconception-</a
+                    >
+                  </li>
+                  <li><a href="collection_2015.html">2015-間-</a></li>
+                  <li><a href="collection_2014.html">2014-求と制-</a></li>
+                  <li><a href="collection.html">----</a></li>
+                  <li class="menuList"><a href="artworks.html">ART WORKS</a></li>
+                  <li>
+                    <a href="artworks_kudan.html">2020-look Book 九段ハウス-</a>
+                  </li>
+                  <li>
+                    <a href="artworks_manamana.html">2019-look Book マナマナ-</a>
+                  </li>
+                  <li>
+                    <a href="artworks_myonichikan.html"
+                      >2019-look Book 自由学園 明日館-</a
+                    >
+                  </li>
+                  <li>
+                    <a href="artworks.html" class="text_deco"
+                      >2019-Ad Contents-</a
+                    >
+                  </li>
+                  <li class="menuList"><a href="index.html#post">POST</a></li>
+                  <li><a href="index.html#post">----director</a></li>
+                  <li><a href="index.html#post">----press</a></li>
+                  <li><a href="index.html#post">----designer</a></li>
+                  <li><a href="index.html#post">----model manager</a></li>
+                  <li class="menuList"><a href="index.html#team">DEPT.</a></li>
+                  <li><a href="index.html#team">----カメラ</a></li>
+                  <li><a href="index.html#team">----メイク</a></li>
+                  <li><a href="index.html#team">----音楽</a></li>
+                  <li class="menuList text_deco">MEMBER</li>
+                  <li class="menuList lastMenu">
+                    <a href="contact.html">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <span class="material-icons my-icon" id="show">drag_handle</span>
+            <!-- マテリアルアイコンからペースト,md-38とかでサイズ指定可能 -->
+          </div>
+        </section>
+        <!-- Todo; div class="header" -->
+        <section >
+          <figure class="kfcLogo">
+            <a href="index.html">
+              <img src="css/img/logo-02.png" alt="logo" height="55px" />
+            </a>
+          </figure>
+          <nav class="displayNav menuContainer">
+            <ul class="tabMenu my-header">
+              <li class="tab">
+                <a href="concept.html">
+                  <p>
+                    CONCEPT
+                  </p>
+                  </a>
+              </li>
+              <li class="tab">
+                <a href="movie.html">
+                  <p>
+                    MOVIE
+                  </p>
+                </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li><a href="movie.html#tadoru">2020-辿る-</a></li>
+                    <li><a href="movie.html#impression">2019-impression-</a></li>
+                    <li><a href="movie.html#nitijo">2018-日常の再考-</a></li>
+                    <li><a href="movie.html#inTokyo">2017-in Tokyo-</a></li>
+                    <li>
+                      <a href="movie.html#preconception">2016-preconception-</a>
+                    </li>
+                    <li><a href="movie.html#ma">2015-間-</a></li>
+                    <li>
+                      <a href="movie.html#kyutosei" class="text_deco"
+                        >2014-求と制-</a
+                      >
+                    </li>
+                    <li><a href="movie.html">----</a></li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="artworks.html">
+                  <p>
+                    ART WORKS
+                  </p>
+                  </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li>
+                      <a href="artworks_kudan.html">2020-look Book 九段ハウス-</a>
+                    </li>
+                    <li>
+                      <a href="artworks_manamana.html"
+                        >2019-look Book マナマナ-</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artworks_myonichikan.html"
+                        >2019-look Book 自由学園 明日館-</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artworks.html" class="text_deco"
+                        >2019-Ad Contents-</a
+                      >
+                    </li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="interview.html">
+                  <p>
+                    INTERVIEW
+                  </p>
+                </a>
+              </li>
+              <li class="tab">
+                <a href="blog.html">
+                  <p>
+                    BLOG
+                  </p>
+                </a>
+              </li>
+              <li class="tab">
+                <a href="collection.html">
+                  <p>
+                    COLLECTION
+                  </p>
+                </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li><a href="collection_2020.html">2020-辿る-</a></li>
+                    <li><a href="collection_2019.html">2019-impression-</a></li>
+                    <li><a href="collection_2018.html">2018-日常の再考-</a></li>
+                    <li><a href="collection_2017.html">2017-in Tokyo-</a></li>
+                    <li>
+                      <a href="collection_2016.html"
+                        >2016-preconception-</a
+                      >
+                    </li>
+                    <li><a href="collection_2015.html">2015-間-</a></li>
+                    <li><a href="collection_2014.html">2014-求と制-</a></li>
+                    <li><a href="collection.html">----</a></li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="news.html">
+                  <p>
+                    NEWS
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <main>
+        <section class="style">
+          <div class="top_look_movie">
+            <ul class="number"><li class="top_text">No.　</li></ul>
+            <ul class="designer_name"><li class="top_text">Designer</li></ul>
+            <ul class="movie_name"><li class="top_text">Inspired Films</li></ul>
+          </div>
+          <div class="look_section_cover">
+            <div class="look_section">section 1</div>
+            <div class="look_movie">
+              <ul class="number">
+                <li>No.1</li>
+                <li>No.2</li>
+                <li>No.3</li>
+                <li>No.4</li>
+                <li>No.5</li>
+                <li>No.6</li>
+                <li>No.7</li>
+                <li>No.8</li>
+                <li>No.9</li>
+                <li>No.10</li>
+                <li>No.11</li>
+                <li>No.12</li>
+                <li>No.13</li>
+              </ul>
+              <ul class="designer_name">
+                <li>長瀬唯</li>
+                <li>長瀬唯</li>
+                <li>土井璃久</li>
+                <li>成田万里奈</li>
+                <li>米田優希</li>
+                <li>小暮凌</li>
+                <li>小塩菜夏</li>
+                <li>木村陽葉里</li>
+                <li>間宮友輔</li>
+                <li>北崎隼</li>
+                <li>齋藤直也</li>
+                <li>齊藤耀</li>
+                <li>齊藤耀</li>
+              </ul>
+              <ul class="movie_name">
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/13580" target="_blank">パーフェクトブルー</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/13580" target="_blank">パーフェクトブルー</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/30238" target="_blank">台風クラブ</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/90932" target="_blank">ヤクザと家族</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/83796" target="_blank">パラサイト</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/36034" target="_blank">American Gigolo</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/67" target="_blank">Black Swan</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/30436" target="_blank">Alice in Wonderland</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/3580" target="_blank">戦場のメリークリスマス</a></span></li>
+                <li class="small_li"><span><a class="blog_link" href="https://filmarks.com/movies/58745" target="_blank"></span>Birdman<span class="small_text">(The Unexpected virtue of Ignorance)</span></a></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/21470" target="_blank">インシテミル</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/26112" target="_blank">Midnight in Paris</a></span></li>
+                <li><span><a class="blog_link" href="https://filmarks.com/movies/6491" target="_blank">GATTACA</a></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="look_section">section 2</div>
+          <div class="look_movie">
+            <ul class="number">
+              <li>No.14</li>
+              <li>No.15</li>
+              <li>No.16</li>
+              <li>No.17</li>
+              <li>No.18</li>
+              <li>No.19</li>
+              <li>No.20</li>
+              <li>No.21</li>
+              <li>No.22</li>
+              <li>No.23</li>
+              <li>No.24</li>
+              <li>No.25</li>
+              <li>No.26</li>
+              <li>No.27</li>
+              <li>No.28</li>
+            </ul>
+            <ul class="designer_name">
+              <li>火浦梨沙</li>
+              <li>鈴木奈都</li>
+              <li>佐武南奈美</li>
+              <li>谷岡花菜</li>
+              <li>閆赫</li>
+              <li>小竿陽美</li>
+              <li>別府駿</li>
+              <li>能島風香</li>
+              <li>原田望子</li>
+              <li>風晴洋子</li>
+              <li>風晴洋子</li>
+              <li>神田里桜</li>
+              <li>青柳江里子</li>
+              <li>湯藤春奈</li>
+              <li>木内理紗</li>
+            </ul>
+            <ul class="movie_name">
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/60905" target="_blank">The Greatest Showman</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/54596" target="_blank">タイピスト</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/15488" target="_blank">ハウルの動く城</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/1266" target="_blank">幸せのレシピ</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/83342" target="_blank">Midsommar</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/16512" target="_blank">TRUST ME</a></span></li>
+              <li class="small_li"><span><a class="blog_link" href="https://filmarks.com/movies/53962" target="_blank"><span class="small_text">THE PLACE BEYOND THE PINES</span></a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/61040" target="_blank">BROOKLYN</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/23149" target="_blank">The Virgin Suicides</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/33730" target="_blank">オズの魔法使い</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/33730" target="_blank">オズの魔法使い</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/3590" target="_blank">魔女の宅急便</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/13755" target="_blank">The Fall 落下の王国</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/66867" target="_blank">Annihilation</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/73566" target="_blank">Shape of water</a></span></li>
+            </ul>
+          </div>
+          <div class="look_section">section 3</div>
+          <div class="look_movie">
+            <ul class="number">
+              <li>No.29</li>
+              <li>No.30</li>
+              <li>No.31</li>
+              <li>No.32</li>
+              <li>No.33</li>
+              <li>No.34</li>
+              <li>No.35</li>
+              <li>No.36</li>
+              <li>No.37</li>
+              <li>No.38</li>
+              <li>No.39</li>
+              <li>No.40</li>
+            </ul>
+            <ul class="designer_name">
+              <li>山田彩華</li>
+              <li>生方紗貴</li>
+              <li>高澤豪汰</li>
+              <li>玉山友恵</li>
+              <li>許朔</li>
+              <li>杉浦碧</li>
+              <li>木内理紗</li>
+              <li>本山理奈</li>
+              <li>永田雅富</li>
+              <li>我謝伊吹</li>
+              <li>相馬颯</li>
+              <li>北崎隼</li>
+            </ul>
+            <ul class="movie_name">
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/80446" target="_blank">Little Women</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/60907" target="_blank">NEON DEMON</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/32569" target="_blank">Train Spotting</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/57481" target="_blank">PAN</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/8273" target="_blank">METROPOLIS</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/21023" target="_blank">THE RED SHOES</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/36460" target="_blank">TIME</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/41117" target="_blank">SPEC</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/33064" target="_blank">トウキョウソナタ</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/34806" target="_blank">天使の涙</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/80819" target="_blank">JOKER</a></span></li>
+              <li><span><a class="blog_link" href="https://filmarks.com/movies/34033" target="_blank">The Alien</a></span></li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footerLink">
+          <div class="pageLink">
+            <ul>
+              <li class="footer_menu"><a href="movie.html">MOVIE</a></li>
+              <li class="footer_menu">
+                <a href="collection.html">COLLECTION</a>
+              </li>
+              <li class="footer_menu"><a href="artworks.html">ART WORKS</a></li>
+              <li class="footer_menu"><a href="blog.html">BLOG</a></li>
+              <li class="footer_menu"><a href="concept.html">CONCEPT</a></li>
+            </ul>
+            <ul>
+              <li class="footer_menu"><a href="index.html#post">POST</a></li>
+              <li class="text_deco"><a href="">MEMBER</a></li>
+              <li class="footer_menu"><a href="news.html">NEWS</a></li>
+              <li class="footer_menu"><a href="contact.html">CONTACT</a></li>
+              <li class="footer_menu"><a href="interview.html">INTERVIEW</a></li>
+            </ul>
+          </div>
+          <div class="snsIcon">
+            <a
+            class="sns"
+              href="https://www.instagram.com/keio_fashioncreator/?hl=ja"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/glyph-logo_May2016.png" alt=""
+            /></a>
+            <a
+            class="sns"
+              href="https://twitter.com/keio_fc"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/Twitter_Logo_WhiteOnImage.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="sponsorImage logo logo-etc">
+          <a href="index.html"><img src="css/img/logo-03.png" alt="" /></a>
+          <a
+            href="https://www.readytofashion.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/rtf.png" alt="SPONSOR"
+          /></a>
+          <a
+            href="https://www.esmodjapon.co.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/esmod_japon.png" alt="SPONSOR"
+          /></a>
+          <a
+            href="https://www.instagram.com/shibuya109lab.eyez/?hl=ja"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="css/img/109logo-min.png" alt="SPONSOR"
+          /></a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/hamburger.js"></script>
+    <script src="js/tab.js"></script>
+  </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBtdsCfONzjyNQrM-wg33HDNNuiBfI7Rg8",
+    authDomain: "keiofc.firebaseapp.com",
+    databaseURL: "https://keiofc.firebaseio.com",
+    projectId: "keiofc",
+    storageBucket: "keiofc.appspot.com",
+    messagingSenderId: "485645349038",
+    appId: "1:485645349038:web:00ce5daabd0fa5a4133d3f",
+    measurementId: "G-FHST8JLNG7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>
