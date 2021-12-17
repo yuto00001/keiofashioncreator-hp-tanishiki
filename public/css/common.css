@@ -40,6 +40,7 @@ footer {
   background-color: whitesmoke;
   color: rgb(0, 0, 0);
   border-top: 1px solid rgb(0, 0, 0);
+  height: 160px;
 }
 .wrapper {
   overflow-x: hidden;
@@ -64,6 +65,22 @@ footer {
 }
 .title_sub .assistanceText{
   letter-spacing: 5px;
+}
+.footer_flex {
+  display: flex;
+  width: 55%;
+  z-index: 2;
+}
+.footer_flex a {
+  margin: 8px auto;
+  padding-bottom: 10px;
+  width: 100px;
+}
+.footer_flex a img {
+  margin: 0 auto;
+  margin-top: 13px;
+  position: center;
+  display: flex;
 }
 .footerLink {
   display: flex;
@@ -126,6 +143,10 @@ footer {
 @media (min-width: 501px) {
   footer {
     padding: 40px 0;
+    height: 210px;
+  }
+  .footer_flex {
+    width: fit-content;
   }
   .hover:hover,
   .tabContent li:hover,
