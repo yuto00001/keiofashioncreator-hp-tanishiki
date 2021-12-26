@@ -29,6 +29,8 @@ font-size: 9px;
   display: flex;
   justify-content: flex-end;
   margin: 60px 15px 0;
+  color: rgba(190, 190, 190, 0.932);
+  cursor: pointer;
 }
 button {
   background-color: transparent;
