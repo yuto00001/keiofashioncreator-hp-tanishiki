@@ -6,10 +6,10 @@
   height: 100%;
 }
 .movie {
-  padding-top: 40px;
+  padding-top: 70px;
 }
 .montage_text {
-margin: 10px auto 0;
+margin: 10px auto 10px;
 line-height: 2;
 font-size: 9px;
 }
