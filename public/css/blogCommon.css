@@ -205,6 +205,9 @@
     top: 40px;
     bottom: initial;
   }
+  .modal_block_teaser {
+    padding: 0;
+  }
 .modal_block_top {
     top: 120px;
 }
@@ -215,5 +218,8 @@
 @media (min-width: 1000px) {
   .modal_block {
     width: 1000px;
+  }
+  .modal_block_teaser {
+    width: 80%;
   }
 }
