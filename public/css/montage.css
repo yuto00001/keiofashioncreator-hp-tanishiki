@@ -71,10 +71,16 @@ button {
 #Audio-Control button:not(.active):hover {
   background: rgba(204, 204, 204, 0.3);
 }
+.takuma {
+  display: inline;
+}
 @media (max-width: 499px) {
   .modal_trigger li {
     width: 85%;
     margin: 15px auto;
+  }
+  .takuma {
+    display: none;
   }
 }
 @media (min-width: 500px) {
