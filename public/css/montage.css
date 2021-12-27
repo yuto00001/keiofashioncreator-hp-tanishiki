@@ -6,10 +6,10 @@
   height: 100%;
 }
 .movie {
-  padding-top: 40px;
+  padding-top: 70px;
 }
 .montage_text {
-margin: 10px auto 0;
+margin: 10px 13px 10px;
 line-height: 2;
 font-size: 9px;
 }
@@ -71,10 +71,16 @@ button {
 #Audio-Control button:not(.active):hover {
   background: rgba(204, 204, 204, 0.3);
 }
+.takuma {
+  display: inline;
+}
 @media (max-width: 499px) {
   .modal_trigger li {
     width: 85%;
     margin: 15px auto;
+  }
+  .takuma {
+    display: none;
   }
 }
 @media (min-width: 500px) {
@@ -105,7 +111,7 @@ button {
   }
   .montage_text {
     width: 25%;
-    margin: 100px auto 0;
+    margin: 60px auto 0;
     letter-spacing: 3px;
   }
   .blog {
@@ -129,4 +135,79 @@ button {
   .blogArticle {
     margin: 0 auto;
   }
+}
+@media (min-width: 2500px) {
+  h2 {
+    font-size: 60px;
+  }
+  nav li p {
+    padding: 20px 50px 20px 0px;
+    font-size: 25px;
+}
+.kfcLogo {
+  height: 70px;
+}
+
+  .montage_text {
+    margin: 100px auto 0;
+    line-height: 4;
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .comment_show_movie {
+    width: 85%;
+  }
+  .modal_trigger li {
+    width: 530px;
+    margin-right: 60px;
+  }
+  .assistanceText {
+    font-size: 18px;
+  }
+  .blogArticle h3 {
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.blogArticle h3 {
+padding-bottom: 5px;
+font-size: large;
+font-weight: lighter;
+}
+}
+@media (min-width: 3000px) {
+  h2 {
+    font-size: 70px;
+  }
+  .kfcLogo {
+    height: 85px;
+  }
+  .montage_text {
+    margin: 120px 0 0;
+    line-height: 5;
+    letter-spacing: 7px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .comment_show_movie {
+    width: 85%;
+  }
+  .modal_trigger li {
+    width: 800px;
+    margin-right: 90px;
+  }
+  .assistanceText {
+    font-size: 21px;
+  }
+  .blogArticle h3 {
+    padding-bottom: 20px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.blogArticle h3 {
+padding-bottom: 5px;
+font-size: large;
+font-weight: lighter;
+}
 }

@@ -217,9 +217,13 @@
 }
 @media (min-width: 1000px) {
   .modal_block {
-    width: 1000px;
+    width: 93%;
   }
   .modal_block_teaser {
     width: 80%;
+  } }
+@media (min-width: 2500px) {
+  .modal_block {
+    width: 78%;
   }
 }
