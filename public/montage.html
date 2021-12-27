@@ -21,7 +21,7 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
-  <body>
+  <body style="background-image: url(css/img/flower_montage.jpg);">
     <div class="wrapper">
       <header>
         <section>
@@ -223,6 +223,18 @@
         </section>
       </header>
       <main>
+        <section class="music">
+          <div class="audio_wrap">
+            <audio id="audio" src="css/audio/kfc_hp.mp3" autoplay loop >
+            </audio>
+            <div class="audio_button" id="Audio-Control">
+              <!-- <button onclick="disableMute()" type="button">
+              </button> -->
+                <div class="on">AUDIO</div>
+                <div class="off active">　ON/OFF</div>
+            </div>
+          </div>
+      </section>
         <div class="flex_erea">
           <section class="comment_show_movie">
             <article class="movie" id="impression">

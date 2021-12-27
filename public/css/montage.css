@@ -111,7 +111,7 @@ button {
   }
   .montage_text {
     width: 25%;
-    margin: 95px auto 0;
+    margin: 60px auto 0;
     letter-spacing: 3px;
   }
   .blog {
@@ -170,9 +170,6 @@ button {
     font-size: 25px;
     font-weight: bold;
 }
-.modal_block {
-  /* padding: 40px 100px 20px; */
-}
 .blogArticle h3 {
 padding-bottom: 5px;
 font-size: large;
@@ -207,9 +204,6 @@ font-weight: lighter;
     padding-bottom: 20px;
     font-size: 38px;
     font-weight: bold;
-}
-.modal_block {
-  /* padding: 40px 100px 20px; */
 }
 .blogArticle h3 {
 padding-bottom: 5px;
