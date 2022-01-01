@@ -1,8 +1,9 @@
-$(function () {
-  var audioBtn = $('.audio_button'),
-  audioWrap = $('.audio_wrap'),
-  audio = document.getElementById('audio');
+var audioBtn = $('.audio_button'),
+movieStert = $('.iframe_top'),
+audioWrap = $('.audio_wrap'),
+audio = document.getElementById('audio');
 
+$(function () {
   audioBtn.on('click', function () {
     if( audioWrap.hasClass('play') ) {
       audio.pause();
@@ -13,6 +14,15 @@ $(function () {
     }
   });
 });
+$(function () {
+  movieStert.on('click', function () {
+    if( audioWrap.hasClass('play') ) {
+      audio.pause();
+      audioWrap.removeClass('play');
+    }
+  });
+});
+
 // audio = document.getElementById('audio');
 
 // function enableMute() {

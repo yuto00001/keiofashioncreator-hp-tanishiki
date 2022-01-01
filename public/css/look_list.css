@@ -1,0 +1,73 @@
+
+
+.style {
+  width: 100%;
+  font-size: 11px;
+  line-height: 3;
+}
+.look_section {
+  display: flex;
+  justify-content: space-around;
+}
+.top_look_movie {
+  width: 95%;
+  margin: 50px auto 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.look_movie {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.number {
+  margin-left: 10%;
+}
+.designer_name {
+  width: 18%;
+  margin-left: 5%;
+}
+.movie_name {
+  width: 40%;
+  margin-left: 5%;
+}
+.top_text {
+  margin-bottom: 12px;
+}
+.small_text {
+  font-size: 10px;
+}
+footer {
+  background-color: white;
+}
+@media (max-width: 350px) {
+  .look_movie {
+    width: 100%;
+  }
+  .small_li_yakuza {
+    line-height: 1.1;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 699px) {
+  .small_li {
+    line-height: 1.1;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 700px) {
+  .style {
+    font-size: 16px;
+    font: medium;
+    line-height: 2.5;
+  }
+  .number {
+    margin-left: 18%;
+  }
+  .small_text {
+    font-size: 16px;
+  }
+}
+

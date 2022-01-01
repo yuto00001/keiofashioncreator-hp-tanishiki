@@ -40,6 +40,7 @@ footer {
   background-color: whitesmoke;
   color: rgb(0, 0, 0);
   border-top: 1px solid rgb(0, 0, 0);
+  height: 160px;
 }
 .wrapper {
   overflow-x: hidden;
@@ -64,6 +65,22 @@ footer {
 }
 .title_sub .assistanceText{
   letter-spacing: 5px;
+}
+.footer_flex {
+  display: flex;
+  width: 55%;
+  z-index: 2;
+}
+.footer_flex a {
+  margin: 8px auto;
+  padding-bottom: 10px;
+  width: 100px;
+}
+.footer_flex a img {
+  margin: 0 auto;
+  margin-top: 13px;
+  position: center;
+  display: flex;
 }
 .footerLink {
   display: flex;
@@ -110,50 +127,6 @@ footer {
   text-decoration: line-through;
 }
 
-/* 以下ニューモフィズムスタイル */
-.blog
-li#open,
-iframe.movieStyle,
-article.collectionImage,
-.viewAll,
-.modal_btn_topNews,
-.modal_trigger .supplement {
-  border-radius: 8px;
-  box-shadow: 3px 3px 6px #959595, -3px -3px 6px #ffffff;
-  border: none;
-}
-div#close {
-  background: #dbdbdb;
-  border-radius: 5px;
-  box-shadow: 7px 7px 14px #959595, -7px -7px 14px #ffffff;
-  border: none;
-}
-.blogButton li {
-  border-radius: 15px;
-  box-shadow: 4px 4px 8px #959595, -4px -4px 8px #ffffff;
-  border: none;
-}
-iframe.movieStyle {
-  border-radius: 5px;
-}
-.wrap-2n .movie-wrap iframe {
-  border-radius: 8px;
-  box-shadow: -5px 5px 10px #959595, 5px -5px 10px #ffffff;
-
-  border-left: none;
-}
-
-li#open:hover,
-div#close:hover,
-.blogButton li:hover,
-iframe.movieStyle:hover,
-.viewAll:hover {
-  box-shadow: 9px 9px 18px #959595, -9px -9px 18px #ffffff;
-}
-.wrap-2n .movie-wrap iframe:hover {
-  box-shadow: -9px 9px 18px #959595, 9px -9px 18px #ffffff;
-}
-
 @media (max-width: 500px) {
   h2 {
     font-size: medium;
@@ -170,6 +143,10 @@ iframe.movieStyle:hover,
 @media (min-width: 501px) {
   footer {
     padding: 40px 0;
+    height: 210px;
+  }
+  .footer_flex {
+    width: fit-content;
   }
   .hover:hover,
   .tabContent li:hover,

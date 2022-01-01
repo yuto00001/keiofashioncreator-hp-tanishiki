@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="css/movie.css" />
     <link rel="stylesheet" href="css/montage.css" />
     <link rel="stylesheet" href="css/black_style.css" />
+    <link rel="stylesheet" href="css/black_style_esp.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
-  <body>
+  <body style="background-image: url(css/img/flower_montage.jpg);">
     <div class="wrapper">
       <header>
         <section>
@@ -104,7 +105,6 @@
             <!-- マテリアルアイコンからペースト,md-38とかでサイズ指定可能 -->
           </div>
         </section>
-        <!-- Todo; div class="header" -->
         <section >
           <figure class="kfcLogo">
             <a href="index.html">
@@ -223,39 +223,30 @@
         </section>
       </header>
       <main>
-        <section class="trailer">
-          <div class="modal_box" style="display: block;">
-            <div class="modal_bg"></div>
-            <div class="modal_inner">
-              <div class="modal_block_top">
-                <div class="movie-wrap_topmovie">
-                  <!-- srcのURLの最後に「?autoplay=1&mute=1」をつけると、ミュート状態で自動再生できる -->
-                  <iframe
-                  class="movieStyle iframe_top"
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/6MYjSn-87TU?rel=0"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                  ></iframe>
-                </div>
-              </div>
+        <section class="music">
+          <div class="audio_wrap">
+            <audio id="audio" src="css/audio/kfc_hp.mp3" autoplay loop >
+            </audio>
+            <div class="audio_button" id="Audio-Control">
+              <!-- <button onclick="disableMute()" type="button">
+              </button> -->
+                <div class="on">AUDIO</div>
+                <div class="off active">　ON/OFF</div>
             </div>
           </div>
-        </section>
+      </section>
         <div class="flex_erea">
           <section class="comment_show_movie">
-            <article class="movie top_movie" id="impression">
+            <article class="movie" id="impression">
               <div class="movieTitle">
                 <h2>MONTAGE RUNWAY SHOW 2021</h2>
-                <p>配信までしばらくお待ちください</p>
               </div>
               <div class="movie-wrap">
                 <iframe
                 class="movieStyle"
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/6MYjSn-87TU?rel=0"
+                src="https://www.youtube.com/embed/q3Vmq4JzNjw?rel=0"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
@@ -264,7 +255,7 @@
             </article>
           </section>
           <section class="montage_text">
-            <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+            <p>あなたの人生の物語が強靭な社会の不条理によって無力にもズタズタに切り刻まれてしまい、あなたは途方に暮れ、深い悲しみの中にいたとする。そのとき、苦悩に痙攣する心の中にも、あなたの最も大切とするものが切り刻まれずに変わらずあり続けるということを忘れないでいて欲しい。そこは日付や社会の不条理とは無関係で、誰にも到達できない心の奥底。あなたが座礁して前に進めなくなったとき、大切なそれらのものは途轍もない推進力となってあなたを次のカットへと推し進める。だから、不条理なことや時間を蝕むことに泣かないで。あなたが大切にするものはずっと、変わらずにあるから。そして、切り刻まれた大きな物語はあなたが大切にするものによって遊星のように自然に引き合い、またひとつに統合されてゆく。</p>
           </section>
         </div>
         <section class="blog">
@@ -272,30 +263,31 @@
           <article class="blogArticle 21">
             <ul class="modal_trigger 21">
               <li class="modal_btn21" id="open">
-                <h3>更新をお待ちください</h3>
+                <h3>Keio Fashion Creator × 三越劇場</h3>
                 <p class="assistanceText">
-                  MONTAGE 2021. 12/27 by Keio Fashion Creator
-                </p>
-                <p class="assistanceText">
-                  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...<br>
+                  映画は複数のカットを断続的に映し出すことによって物語を前進させる。その上で、本来完璧な形で存在した『完成した一つの大きな物語』は映画というシステムに落とし込む上で意図的に断ち切られ、断片的に撮影される。すなわち、カメラのカットとは物語を切断する行為...<br>
                 </p>
               </li>
               <li class="modal_btn21" id="open">
-                <h3>更新をお待ちください</h3>
+                <h3>劇場裏オフショット</h3>
                 <p class="assistanceText">
-                  MONTAGE 2021. 12/27 by Keio Fashion Creator
+                  2021.12.19 by Keio Fashion Creator
                 </p>
                 <p class="assistanceText">
-                  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...<br>
+                  <br>三越劇場裏で撮影されたバックヤードのオフショット集<br><br><br>
                 </p>
               </li>
               <li class="modal_btn21" id="open">
-                <h3>更新をお待ちください</h3>
+                <h3>MONTAGE Trailer</h3>
                 <p class="assistanceText">
-                  MONTAGE 2021. 12/27 by Keio Fashion Creator
-                </p>
-                <p class="assistanceText">
-                  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...<br>
+                  Cast : Onyo @___nyoz
+                  Producer : Hiroki Kataoka
+                  Production Manager : Osamu Mabuchi
+                  Director of Photography : Issey Muraoka
+                  1st Camera Assistant : Narumi Nitta
+                  Lighting Director : Akihiro Numata
+                  Edit/Music (Keio Fashion Creator) : Hayato Kitazaki @restof.days
+                  Production : NEWTOWN @newtown.inc<br>
                 </p>
               </li>
             </ul>
@@ -307,14 +299,25 @@
               <div class="modal_inner">
                 <div class="modal_block">
                   <h2 class="modalh2">
-                    更新をお待ちください
+                    Keio Fashion Creator　×　三越劇場
                   </h2>
                   <p class="assistanceText">
-                    MONTAGE 2021 012/27by Keio Fashion Creator
+                    2021. 12.19 by Keio Fashion Creator
                   </p>
                   <div class="scroll">
                     <p>
-                      --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                      <br><br>映画は複数のカットを断続的に映し出すことによって物語を前進させる。
+                      <br>その上で、本来完璧な形で存在した『完成した一つの大きな物語』は映画というシステムに落とし込む上で意図的に断ち切られ、断片的に撮影される。すなわち、カメラのカットとは物語を切断する行為であると言える。<br>
+                      <br>そして、カットによって分断された物語は編集の際に再度繋ぎ合わされるわけだが、それは単純にカットを順番に流すという行為にとどまらず、様々な技法を用いてカットを“縫合”することによって断片的であった映像がまた一つの大きな物語として蘇る。そこで用いられるカットとカットをつなぎ合わせ、物語を前進させる編集技術のことを映画用語で“MONTAGE”と呼ぶ。<br>
+                      <br>私たちはMONTAGEという映像技術と人生の在り方に共通点を見出した。<br>
+                      <br>映画が本来『完成した一つの物語』であるのと同じように、人生もまた俯瞰的に見れば『一つの大きな物語』なのである。しかし、生きていく中でしばしば社会の不条理や不安感によって苛まれ、もがき苦しむことがある。<br>
+                      <br>そのような時、私たちはまるで自分の人生がそこで終わってしまうのではないかという感覚さえ覚え、行先の見えない状況に強烈な不安を覚える。一本の線のように止まることのない人生の中でも、幾度もの節目、すなわちカットを経験するわけだ。<br>
+                      <br>しかし、私たちはそれでも前に進み続けなくてはならない。<br>
+                      <br>その時、憔悴した私たちを次のカットへと押し進める何か、すなわち”記銘”をだれもが経験の内に秘めている。それは言葉であるかもしれないし、関係であるかもしれない。<br>
+                      <br>鬱屈した時代を歩む私たちは今まさに、記銘を自らと縫合し、次のカットへの移行を、つまりMONTAGEをすべき時である。<br>
+                      <br>三越劇場はこの意味で、最も相応しく、最も呼応する歴史を背負った場であった。<br>
+                      <br>関東大震災を受け、文化的復興を担うため建設された三越劇場。この場所で、日本で初めてファッションショーが行われて一世紀を間近に控えた今、無慈悲な自然災害に苛まれている我々は、共に新たな一歩を踏み出すことを決意した。<br>
+                      <br>これより我々によって上映されるのは映画ではない。映画から抽出され、衣服として、三次元に展開された記銘の結晶である。我々は、この結晶が三越劇場という空間を以ってあなたと縫合され、新たなあゆみの糧となることを願う。<br><br><br><br><br>
                     </p>
                   </div>
                   <div id="close" class="modal_close">閉じる</div>
@@ -326,14 +329,193 @@
               <div class="modal_inner">
                 <div class="modal_block">
                   <h2 class="modalh2">
-                    更新をお待ちください
+                    劇場裏オフショット
                   </h2>
                   <p class="assistanceText">
-                    MONTAGE 2021 012/27by Keio Fashion Creator
+                    2021.12.19 by Keio Fashion Creator
                   </p>
                   <div class="scroll">
                     <p>
-                      --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                      <span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_1.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_2.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_3.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_4.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_5.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_6.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_7.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_8.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_9.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_10.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_11.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_12.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_13.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_14.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_15.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_16.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_17.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_18.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_19.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_20.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_21.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_22.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_23.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_24.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_25.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_26.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_27.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_28.JPG"
+                            alt=""
+                          />
+                          <img
+                          class="modal_box_image"
+                          src="css/img/montage_back_35.JPG"
+                          alt=""
+                        />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_29.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_31.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_32.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_30.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/montage_back_33.JPG"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image takuma"
+                            src="css/img/montage_back_34.JPG"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br><br><br><br><br>
                     </p>
                   </div>
                   <div id="close" class="modal_close">閉じる</div>
@@ -343,19 +525,33 @@
             <div class="modal_box box21">
               <div class="modal_bg"></div>
               <div class="modal_inner">
-                <div class="modal_block">
-                  <h2 class="modalh2">
-                    更新をお待ちください
-                  </h2>
-                  <p class="assistanceText">
-                    MONTAGE 2021 012/27by Keio Fashion Creator
-                  </p>
-                  <div class="scroll">
-                    <p>
-                      --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                    </p>
+                <div class="modal_block modal_block_teaser">
+                  <iframe
+                  class="movieStyle iframe_top"
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/6MYjSn-87TU?rel=0"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box" style="display: none;">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block_top">
+                  <div class="movie-wrap_topmovie">
+                    <iframe
+                      class="movieStyle iframe_top"
+                      id="popup-YouTube-player"
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/6MYjSn-87TU?rel=0&enablejsapi=1"
+                      frameborder="0"
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                      ></iframe>
                   </div>
-                  <div id="close" class="modal_close">閉じる</div>
                 </div>
               </div>
             </div>
@@ -400,31 +596,39 @@
           </div>
         </div>
         <div class="sponsorImage logo logo-etc">
-          <a href="index.html"><img src="css/img/logo-03.png" alt="" /></a>
-          <a
-            href="https://www.readytofashion.jp/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img src="css/img/rtf.png" alt="SPONSOR"
-          /></a>
-          <a
-            href="https://www.esmodjapon.co.jp/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img src="css/img/esmod_japon.png" alt="SPONSOR"
-          /></a>
-          <a
-            href="https://www.instagram.com/shibuya109lab.eyez/?hl=ja"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img src="css/img/109logo-min.png" alt="SPONSOR"
-          /></a>
+          <div class="footer_flex">
+            <a
+              href="index.html">
+              <img src="css/img/logo-03.png" alt="" />
+            </a>
+            <a
+              href="https://www.readytofashion.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/rtf.png" alt="SPONSOR"
+            /></a>
+          </div>
+          <div class="footer_flex">
+            <a
+              href="https://www.esmodjapon.co.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/esmod_japon.png" alt="SPONSOR"
+            /></a>
+            <a
+              href="https://www.instagram.com/shibuya109lab.eyez/?hl=ja"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/109logo-min.png" alt="SPONSOR"
+            /></a>
+          </div>
         </div>
       </footer>
     </div>
     <script src="js/hamburger.js"></script>
     <script src="js/tab.js"></script>
     <script src="js/blogModal.js"></script>
+    <script src="js/audio.js"></script>
   </body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
