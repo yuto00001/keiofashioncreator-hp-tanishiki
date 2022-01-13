@@ -26,6 +26,9 @@ h2 {
   width: 33.3%;
   flex: 1;
 }
+.collection_kfc_logo {
+  margin: auto 0;
+}
 .lastArticle {
   margin-bottom: 80px;
 }
