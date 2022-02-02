@@ -1,10 +1,18 @@
 .top_movie {
   margin-top: 40px;
 }
+<<<<<<< HEAD
+.movie {
+  width: 100%;
+    /* margin: 80px 0px 20px; */
+  padding-top: 100px;
+}
+=======
   .movie {
     width: 100%;
     padding-top: 100px;
   }
+>>>>>>> c7ea442100905246f3a4e46a8048b6b1fe4ad3d6
 .movieTitle {
   letter-spacing: 8px;
   font-size: medium;
