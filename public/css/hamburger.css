@@ -6,6 +6,13 @@
   top: 18px;
   right: 18px;
 }
+@media (min-width: 2000px) {
+  .material-icons {
+    top: 40px;
+    right: 40px;
+    font-size: 500px;
+  }
+  }
 .wrapper {
   box-sizing: border-box;
   /* CSS ボックスモデルの既定では、要素に割り当てられた width および height は、要素のコンテンツ領域のみに適用されます。要素に境界線やパディングがある場合、画面にレンダリングされる矩形の大きさは width および height にこれらを加えたものになります。つまり、 width および height を設定する際には、境界線やパディングが加えられるように値を調整しなければなりません。 */
