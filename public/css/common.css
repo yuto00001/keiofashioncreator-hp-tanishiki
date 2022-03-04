@@ -233,3 +233,25 @@ footer {
     display: inline;
   }
 }
+@media (min-width: 2000px) {
+.kfcLogo > a > img {
+  height: 150px;
+  }
+.tab > a > p {
+  font-size: 28px;
+  }
+.tabMenu li a {
+  font-size: 15px;
+  }
+.tabMenu {
+  margin: 1% 2%;
+  }
+}
+@media (min-width: 3000px) {
+  .kfcLogo > a > img {
+    height: 250px;
+  }
+  .tab > a > p {
+    font-size: 40px;
+  }
+}
