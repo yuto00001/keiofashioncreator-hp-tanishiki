@@ -1,13 +1,516 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>check
-  </title>
-</head>
-<body>
-  kutara
-</body>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chief_comment</title>
+    <link rel="icon" href="css/img/logo-02.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/icon.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/tab.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/chief_comment.css" />
+    <link rel="stylesheet" href="css/black_style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <section id="hamburgerMenu">
+          <div class="hamburgerMenu">
+            <!-- スマホに対応したスタイルにするためのdiv -->
+            <div id="cover"></div>
+            <!-- マスク -->
+            <div id="menu">
+              <span class="material-icons close" id="hide">close</span>
+              <div class="menuBlock">
+                <ul>
+                  <li class="menuList"><a href="index.html">HOME</a></li>
+                  <li class="menuList"><a href="concept.html">CONCEPT</a></li>
+                  <li class="menuList"><a href="interview.html">INTERVIEW</li>
+                  <li class="menuList"><a href="blog.html">BLOG</a></li>
+                  <li class="menuList"><a href="news.html">NEWS</a></li>
+                  <li class="menuList"><a href="">特設ページ一覧</a></li>
+                  <li><a href="montage.html">2021-MONTAGE-配信用ページ</a></li>
+                  <li><a href="look_list.html">2021-MONTAGE-ルック・映画リスト</a></li>
+                  <li class="menuList"><a href="movie.html">MOVIE</a></li>
+                  <li><a href="movie.html#tadoru">2020-辿る-</a></li>
+                  <li><a href="movie.html#impression">2019-impression-</a></li>
+                  <li><a href="movie.html#nitijo">2018-日常の再考-</a></li>
+                  <li><a href="movie.html#inTokyo">2017-in Tokyo-</a></li>
+                  <li>
+                    <a href="movie.html#preconception">2016-preconception-</a>
+                  </li>
+                  <li><a href="movie.html#ma">2015-間-</a></li>
+                  <li>
+                    <a href="movie.html#kyutosei" class="text_deco"
+                      >2014-求と制-</a
+                    >
+                  </li>
+                  <li><a href="movie.html">----</a></li>
+                  <li class="menuList">
+                    <a href="collection.html">COLLECTION</a>
+                  </li>
+                  <li><a href="collection_2021.html">2021-MONTAGE-</a></li>
+                  <li><a href="collection_2020.html">2020-辿る-</a></li>
+                  <li><a href="collection_2019.html">2019-impression-</a></li>
+                  <li><a href="collection_2018.html">2018-日常の再考-</a></li>
+                  <li><a href="collection_2017.html">2017-in Tokyo-</a></li>
+                  <li>
+                    <a href="collection_2016.html"
+                      >2016-preconception-</a
+                    >
+                  </li>
+                  <li><a href="collection_2015.html">2015-間-</a></li>
+                  <li><a href="collection_2014.html">2014-求と制-</a></li>
+                  <li><a href="collection.html">----</a></li>
+                  <li class="menuList"><a href="artworks.html">ART WORKS</a></li>
+                  <li>
+                    <a href="artworks_kudan.html">2020-look Book 九段ハウス-</a>
+                  </li>
+                  <li>
+                    <a href="artworks_manamana.html">2019-look Book マナマナ-</a>
+                  </li>
+                  <li>
+                    <a href="artworks_myonichikan.html"
+                      >2019-look Book 自由学園 明日館-</a
+                    >
+                  </li>
+                  <li>
+                    <a href="artworks.html" class="text_deco"
+                      >2019-Ad Contents-</a
+                    >
+                  </li>
+                  <li class="menuList"><a href="index.html#post">POST</a></li>
+                  <li><a href="index.html#post">----director</a></li>
+                  <li><a href="index.html#post">----press</a></li>
+                  <li><a href="index.html#post">----designer</a></li>
+                  <li><a href="index.html#post">----model manager</a></li>
+                  <li class="menuList"><a href="index.html#team">DEPT.</a></li>
+                  <li><a href="index.html#team">----カメラ</a></li>
+                  <li><a href="index.html#team">----メイク</a></li>
+                  <li><a href="index.html#team">----音楽</a></li>
+                  <li class="menuList text_deco">MEMBER</li>
+                  <li class="menuList lastMenu">
+                    <a href="contact.html">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <span class="material-icons my-icon" id="show">drag_handle</span>
+            <!-- マテリアルアイコンからペースト,md-38とかでサイズ指定可能 -->
+          </div>
+        </section>
+        <section id="kfcLogo + nav">
+          <figure class="kfcLogo">
+            <a href="index.html">
+              <img src="css/img/logo-02.png" alt="logo" height="55px" />
+            </a>
+          </figure>
+          <nav class="displayNav menuContainer">
+            <ul class="tabMenu my-header">
+              <li class="tab">
+                <a href="concept.html">
+                  <p>
+                    CONCEPT
+                  </p>
+                  </a>
+              </li>
+              <li class="tab">
+                <a href="movie.html">
+                  <p>
+                    MOVIE
+                  </p>
+                </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li><a href="movie.html#tadoru">2020-辿る-</a></li>
+                    <li><a href="movie.html#impression">2019-impression-</a></li>
+                    <li><a href="movie.html#nitijo">2018-日常の再考-</a></li>
+                    <li><a href="movie.html#inTokyo">2017-in Tokyo-</a></li>
+                    <li>
+                      <a href="movie.html#preconception">2016-preconception-</a>
+                    </li>
+                    <li><a href="movie.html#ma">2015-間-</a></li>
+                    <li>
+                      <a href="movie.html#kyutosei" class="text_deco"
+                        >2014-求と制-</a
+                      >
+                    </li>
+                    <li><a href="movie.html">----</a></li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="artworks.html">
+                  <p>
+                    ART WORKS
+                  </p>
+                  </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li>
+                      <a href="artworks_kudan.html">2020-look Book 九段ハウス-</a>
+                    </li>
+                    <li>
+                      <a href="artworks_manamana.html"
+                        >2019-look Book マナマナ-</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artworks_myonichikan.html"
+                        >2019-look Book 自由学園 明日館-</a
+                      >
+                    </li>
+                    <li>
+                      <a href="artworks.html" class="text_deco"
+                        >2019-Ad Contents-</a
+                      >
+                    </li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="interview.html">
+                  <p>
+                    INTERVIEW
+                  </p>
+                </a>
+              </li>
+              <li class="tab">
+                <a href="blog.html">
+                  <p>
+                    BLOG
+                  </p>
+                </a>
+              </li>
+              <li class="tab">
+                <a href="collection.html">
+                  <p>
+                    COLLECTION
+                  </p>
+                </a>
+                <section class="tabContent tabHidden" id="about">
+                  <ul>
+                    <li><a href="collection_2021.html">2021-MONTAGE-</a></li>
+                    <li><a href="collection_2020.html">2020-辿る-</a></li>
+                    <li><a href="collection_2019.html">2019-impression-</a></li>
+                    <li><a href="collection_2018.html">2018-日常の再考-</a></li>
+                    <li><a href="collection_2017.html">2017-in Tokyo-</a></li>
+                    <li>
+                      <a href="collection_2016.html"
+                        >2016-preconception-</a
+                      >
+                    </li>
+                    <li><a href="collection_2015.html">2015-間-</a></li>
+                    <li><a href="collection_2014.html">2014-求と制-</a></li>
+                    <li><a href="collection.html">----</a></li>
+                  </ul>
+                </section>
+              </li>
+              <li class="tab">
+                <a href="news.html">
+                  <p>
+                    NEWS
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <main>
+        <section class="chief">
+          <ul class="slider">
+            <li>
+                <div class="memberText">
+                  <div class="member_div">
+                    <div class="info">
+                      <img src="css/img/chief_top_noni.jpeg" alt="image01" />
+                      <div class="info_2">
+                        <p class="assistanceText">代表</p>
+                        <p class="assistanceText">慶應義塾大学文学部3年</p>
+                        <h3>長瀬唯</h3>
+                      </div>
+                    </div>
+                    <p class="info_main">
+                      Keio Fahion Creatorはファッションショーという媒体を介して、社会に対する意思表明を行う団体です。ファッションショーは、極めて短い時間の中で全てが完結する物語だと言えます。私たちは1年もの時間をかけて、その物語を創り上げています。それぞれが異なるバックボーンと価値観を持つ百人以上もの部員が、1つのストーリーを作ることは決して容易くはありません。ですが、様々な想いや感情、そして私たちの意思が宿った物語には、観る人の心に訴えかける何かがあると信じています。
+                      　当団体が重んじる「意思」とは一体何なのか。意思とは’光’である、と私は考えています。意思は粒子となり、服のみならず空間全体をも形成します。そして同時に、波となって観客の元へ届けられるでしょう。それは明るい光、青い光、あるいは鋭い光かもしれません。受け手側によって多様に変化する光を実際に肌で感じ取っていただき、「意思を纏う」ことの意味について共に思案していただければと思います。
+                      　Keio Fashion Creatorは2002年に創立され、今年度で20年目を迎えます。今年、私たちは部員一人ひとりがクリエイターとして、学生団体の枠を越えた活動を行うことを目標としています。20年という長い年月に内包された沢山の想いを感じながら、新たな時代を創造していく私たちの活動を見守っていただければと思います。
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <div class="memberText">
+                  <div class="member_div">
+                    <div class="info">
+                      <img src="css/img/chief_top_tanipo.jpg" alt="image01" />
+                      <div class="info_2">
+                        <p class="assistanceText">デザイナーチーフ</p>
+                        <p class="assistanceText">慶応義塾大学環境情報学部3年</p>
+                        <h3>土井璃久</h3>
+                      </div>
+                    </div>
+                    <p class="info_main">
+                      デザイナーは、その名の通り服を0から作り上げる役職です。服を作るにあたって、世界各地に点在するフランス発祥の服飾専門学校「 ESMOD JAPON 」と連携し、基礎から服作りを学びます。毎週土曜日、二人のESMODの講師の方にデザインやパターン、縫製等を一から教えてもらいながら作業を行っています。<br><br>
+                      　ファッションとは、自己表現でありながら自己防衛でもあると、私は捉えています。我々は、服という媒体を通じてアイデンティティの確立と保護を同時に行ってます。布という一枚の壁が内在的感情を外界に向けて発信するとともに、自己を纏った鎧として、外界との精神的な境界に存在しているのです。今まで服を着るだけだった人も、服を「作る」というプロセスが加わることで、より前述した動詞の意味が協調されます。自らの思想、生き様を抽出し、服のデザインに落とし込み、パターンを引き、縫製をし、三次元へと展開させる。これら一連のプロセスを経て、完成したルックをモデルが着て、ランウェイを歩く。その瞬間は、何にも代え難いものであり、人生の財産へと昇華されていきます。
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+              <div class="memberText">
+                <div class="member_div">
+                  <div class="info">
+                    <img src="css/img/chief_top_des.jpg" alt="image01" />
+                    <div class="info_2">
+                      <p class="assistanceText">プレスチーフ</p>
+                      <p class="assistanceText">慶応義塾大学経済学部3年</p>
+                      <h3>岩瀬ひより</h3>
+                    </div>
+                  </div>
+                  <p class="info_main">
+                    ファッションショーを行う上で、デザイナーという役　職はkeio fashion creatorの根幹とも言える存在です。
+                      デザイナーは世界各地に点在するフランス発祥の服飾専門学校「ESMOD」と連携し、基礎から服作りを学びます。毎週土曜日、二人のESMODの講師の方にデザインやパターン、縫製等を一から教えてもらいながら作業を行っています。<br>
+                      当団体のデザイナーの大半は服飾系の専門学校ではなく4年制の総合大学に通っています。
+                      各々の学びがデザインやクリエイションに相乗効果を生み出し、ファッションに限らず様々な分野における多角的な視点を涵養することができる点が最大の特徴です。
+                      また、「デザイナー」と聞くと専門性が高く自分には分不相応だと感じる学生もいるかもしれません。ですが、当団体のデザイナーは入部するまで服を作ったことがない人が殆どです。
+                      ミシンの使い方すら分からない状態から長い時間を費やして部員が作り上げた服、そしてその服をモデルが身に纏い歩く姿は観た人の心に響くものがあります。
+                      <span>
+                        <a
+                        class="blog_link"
+                        href="https://www.esmodjapon.co.jp/"
+                        target="_blank"
+                        >ESMOD JAPON</a
+                      >
+                      </span>」と連携し、基礎から服作りを学びます。毎週土曜日、二人のESMODの講師の方にデザインやパターン、縫製等を一から教えてもらいながら作業を行っています。<br>
+                      当団体のデザイナーの大半は服飾系の専門学校ではなく4年制の総合大学に通っています。
+                      各々の学びがデザインやクリエイションに相乗効果を生み出し、ファッションに限らず様々な分野における多角的な視点を涵養することができる点が最大の特徴です。
+                      また、「デザイナー」と聞くと専門性が高く自分には分不相応だと感じる学生もいるかもしれません。ですが、当団体のデザイナーは入部するまで服を作ったことがない人が殆どです。
+                      ミシンの使い方すら分からない状態から長い時間を費やして部員が作り上げた服、そしてその服をモデルが身に纏い歩く姿は観た人の心に響くものがあります。
+                  </p>
+                </div>
+              </div>
+          </li>
+            <li>
+                <div class="memberText">
+                  <div class="member_div">
+                    <div class="info">
+                      <img src="css/img/chief_top_pre.jpg" alt="image01" />
+                      <div class="info_2">
+                        <p class="assistanceText">ディレクターチーフ</p>
+                        <p class="assistanceText">慶応義塾大学文学部</p>
+                        <h3></h3>
+                      </div>
+                    </div>
+                    <p class="info_main">
+                      ディレクターの活動は、簡潔に言えばショールックを除く制作全般と言えます。それゆえ、撮影やデザインの技術、新しいものを常に求める好奇心、企画進行能力など、この役職で求められるスキルや知識は様々です。
+                      　私は今年度のディレクターチーフとして、”co-creation（共に・相互に作ること）”を活動の指針としています。この指針は単に部員間での協調を促したいわけではなく、ディレクターの行う制作においては、その相互性を重んじたいという考えに起因します。一般に制作というと「孤高の芸術家」といった言葉が表すように「独り」のイメージがありますし、実際にそういう側面があることは否定できません。しかし、私たちが主催するファッションショーには、各部員から私たちを手助けしてくださる大人の方々に到るまで、多くの「他者」の存在が不可欠であり、その文脈において制作は「他者」との綿密で双方向的なコミュニケーションの過程を経て成されるものであると考えられます。
+                      <br><br>
+                      　前述したとおり、ディレクターの活動には幅広いスキルや知識が求められます。ですが、より良い制作のために求められる最たるものは、制作に関わる者同士での密度の高いコミュニケーションであり、それらを大切にする制作活動を目指していきたいと私は考えます。
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <div class="memberText">
+                  <div class="member_div">
+                    <div class="info">
+                      <img src="css/img/chief_top_dir.jpg" alt="image01" />
+                      <div class="info_2">
+                        <p class="assistanceText">モデルマネージャーチーフ</p>
+                        <p class="assistanceText">慶応義塾大学経済学部3年</p>
+                        <h3>斎藤勇太</h3>
+                      </div>
+                    </div>
+                    <p class="info_main">
+                      
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <div class="memberText">
+                  <div class="member_div">
+                    <div class="info">
+                      <img src="css/img/chief_top_mod.jpg" alt="image01" />
+                      <div class="info_2">
+                        <p class="assistanceText">MODEL MANAGER CHIEF</p>
+                        <p class="assistanceText">駒澤大学</p>
+                        <h3>佐藤美和</h3>
+                      </div>
+                    </div>
+                    <p class="info_main">
+                      私たちは一年間の集大成として12月にファッションショーを行いますが、モデルマネージャーはそれにおいてとても大切且つ、責任のある役職だと感じています。今年は挑戦の一年ということで、例年に増してさまざまな企画を組んでおり、その一つ一つの企画を通して、モデルハンティングや撮影当日のモデル管理を学ぶ機会がたくさんあります。私たちの集大成であるファッションショーに歩いていただくモデルの選定、管理を通して各々が責任とKeio fashion creatorの一員であるという自覚が持てるようにと考えています。また、デザイナーと向き合い、今年のテーマである“montage”におけるデザイナーの解釈を表現できるモデルを選べるよう、そして私たちのファッションショーが部員、観客の今後の人生のmontageとして、次なるステージへの一歩となるように邁進していきたいと考えています。
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <!-- <li>
+              <img src="css/img/chief_top_tanipo.jpg" alt="image01" />
+              <div class="memberText">
+                <div class="member_div">
+                  <p class="assistanceText"></p>
+                  <p class="assistanceText">----</p>
+                  <h3></h3>
+                  <p class="info_main">
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+                <img src="css/img/.jpg" alt="image01" />
+                <div class="memberText">
+                  <div class="member_div">
+                    <p class="assistanceText"></p>
+                    <p class="assistanceText"></p>
+                    <h3></h3>
+                    <p class="info_main">
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <img src="css/img/.png" alt="image01" />
+                <div class="memberText">
+                  <div class="member_div">
+                    <p class="assistanceText"></p>
+                    <p class="assistanceText">_____</p>
+                    <h3>_____</h3>
+                    <p class="info_main">
+                      _____
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <img src="css/img/.jpg" alt="image01" />
+                <div class="memberText">
+                  <div class="member_div">
+                    <p class="assistanceText"></p>
+                    <p class="assistanceText"></p>
+                    <h3></h3>
+                    <p class="info_main">
+                      
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <img src="css/img/.jpg" alt="image01" />
+                <div class="memberText">
+                  <div class="member_div">
+                    <p class="assistanceText"></p>
+                    <p class="assistanceText"></p>
+                    <h3></h3>
+                    <p class="info_main">
+                      
+                    </p>
+                  </div>
+                </div>
+            </li> -->
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <div class="footerLink">
+          <div class="pageLink">
+            <ul>
+              <li class="footer_menu"><a href="movie.html">MOVIE</a></li>
+              <li class="footer_menu">
+                <a href="collection.html">COLLECTION</a>
+              </li>
+              <li class="footer_menu"><a href="artworks.html">ART WORKS</a></li>
+              <li class="footer_menu"><a href="blog.html">BLOG</a></li>
+              <li class="footer_menu"><a href="concept.html">CONCEPT</a></li>
+            </ul>
+            <ul>
+              <li class="footer_menu"><a href="index.html#post">POST</a></li>
+              <li class="text_deco"><a href="">MEMBER</a></li>
+              <li class="footer_menu"><a href="news.html">NEWS</a></li>
+              <li class="footer_menu"><a href="contact.html">CONTACT</a></li>
+              <li class="footer_menu"><a href="interview.html">INTERVIEW</a></li>
+            </ul>
+          </div>
+          <div class="snsIcon">
+            <a
+            class="sns"
+              href="https://www.instagram.com/keio_fashioncreator/?hl=ja"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/glyph-logo_May2016.png" alt=""
+            /></a>
+            <a
+            class="sns"
+              href="https://twitter.com/keio_fc"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/Twitter_Logo_WhiteOnImage.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="sponsorImage logo logo-etc">
+          <div class="footer_flex">
+            <a
+              href="index.html">
+              <img src="css/img/logo-03.png" alt="" />
+            </a>
+            <a
+              href="https://www.readytofashion.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/rtf.png" alt="SPONSOR"
+            /></a>
+          </div>
+          <div class="footer_flex">
+            <a
+              href="https://www.esmodjapon.co.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/esmod_japon.png" alt="SPONSOR"
+            /></a>
+            <a
+              href="https://www.instagram.com/shibuya109lab.eyez/?hl=ja"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="css/img/109logo-min.png" alt="SPONSOR"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/hamburger.js"></script>
+    <script src="js/artworks.js"></script>
+    <script src="js/tab.js"></script>
+  </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBtdsCfONzjyNQrM-wg33HDNNuiBfI7Rg8",
+    authDomain: "keiofc.firebaseapp.com",
+    databaseURL: "https://keiofc.firebaseio.com",
+    projectId: "keiofc",
+    storageBucket: "keiofc.appspot.com",
+    messagingSenderId: "485645349038",
+    appId: "1:485645349038:web:00ce5daabd0fa5a4133d3f",
+    measurementId: "G-FHST8JLNG7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </html>
