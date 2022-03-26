@@ -3,20 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chief_comment</title>
+    <meta name=”description” content=”2002年に慶應義塾大学の「ファッションビジネス研究会」から独立する形で設立。2009年からESMODJAPONと提携、2010年から毎年ショーを開催。2012年にインカレ化し、毎年120名程度の部員が所属。社会に対する問いかけや主張を「服」や「ファッションショー」を通じて表現”>
+    <title>KeioFashionCreator｜MONTAGE</title>
     <link rel="icon" href="css/img/logo-02.png" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/icon.css" />
-    <link rel="stylesheet" href="css/hamburger.css" />
-    <link rel="stylesheet" href="css/tab.css" />
-    <link rel="stylesheet" href="css/slider.css" />
-    <link rel="stylesheet" href="css/chief_comment.css" />
-    <link rel="stylesheet" href="css/black_style.css" />
+    <!-- <link href="js/slick-theme.css" rel="stylesheet" type="text/css" />
+    <link href="js/slick.css" rel="stylesheet" type="text/css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="css/icon.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/tab.css" />
+    <link rel="stylesheet" href="css/check.css" />
+    <link rel="stylesheet" href="css/pagination.css" />
+    <link rel="stylesheet" href="css/blogCommon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/movie.css" />
+    <link rel="stylesheet" href="css/black_style.css" />
+    <!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -35,9 +48,10 @@
                   <li class="menuList"><a href="interview.html">INTERVIEW</li>
                   <li class="menuList"><a href="blog.html">BLOG</a></li>
                   <li class="menuList"><a href="news.html">NEWS</a></li>
-                  <li class="menuList"><a href="">特設ページ一覧</a></li>
+                  <li class="menuList"><a href="montage.html">特設ページ一覧</a></li>
                   <li><a href="montage.html">2021-MONTAGE-配信用ページ</a></li>
                   <li><a href="look_list.html">2021-MONTAGE-ルック・映画リスト</a></li>
+                  <li class="menulist"><a href="spiral1.html">KFC×SPIRAL</a></li>
                   <li class="menuList"><a href="movie.html">MOVIE</a></li>
                   <li><a href="movie.html#tadoru">2020-辿る-</a></li>
                   <li><a href="movie.html#impression">2019-impression-</a></li>
@@ -225,197 +239,861 @@
         </section>
       </header>
       <main>
-        <section class="chief">
-          <ul class="slider">
-            <li>
-                <div class="memberText">
-                  <div class="member_div">
-                    <div class="info">
-                      <img src="css/img/chief_top_noni.jpeg" alt="image01" />
-                      <div class="info_2">
-                        <p class="assistanceText">代表</p>
-                        <p class="assistanceText">慶應義塾大学文学部3年</p>
-                        <h3>長瀬唯</h3>
-                      </div>
-                    </div>
-                    <p class="info_main">
-                      Keio Fahion Creatorはファッションショーという媒体を介して、社会に対する意思表明を行う団体です。ファッションショーは、極めて短い時間の中で全てが完結する物語だと言えます。私たちは1年もの時間をかけて、その物語を創り上げています。それぞれが異なるバックボーンと価値観を持つ百人以上もの部員が、1つのストーリーを作ることは決して容易くはありません。ですが、様々な想いや感情、そして私たちの意思が宿った物語には、観る人の心に訴えかける何かがあると信じています。
-                      　当団体が重んじる「意思」とは一体何なのか。意思とは’光’である、と私は考えています。意思は粒子となり、服のみならず空間全体をも形成します。そして同時に、波となって観客の元へ届けられるでしょう。それは明るい光、青い光、あるいは鋭い光かもしれません。受け手側によって多様に変化する光を実際に肌で感じ取っていただき、「意思を纏う」ことの意味について共に思案していただければと思います。
-                      　Keio Fashion Creatorは2002年に創立され、今年度で20年目を迎えます。今年、私たちは部員一人ひとりがクリエイターとして、学生団体の枠を越えた活動を行うことを目標としています。20年という長い年月に内包された沢山の想いを感じながら、新たな時代を創造していく私たちの活動を見守っていただければと思います。
-                    </p>
+        <section id="kfcTitle" class="titleBox">
+          <i class="fa fa-bars"></i>
+            <div class="title_sub">
+              <div class="title">
+                <h1>Keio</h1>
+                <h1>Fashion</h1>
+                <h1>Creator</h1>
+              </div>
+              <div class="assistanceText" id="direct">---keio fashion creator---</div>
+            </div>
+            <!-- <div class="modal_box modal_box_top" style="display: block;">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block_top">
+                  <div class="movie-wrap_topmovie">
+                    <iframe
+                    class="movieStyle iframe_top"
+                    id="popup-YouTube-player"
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/6MYjSn-87TU?rel=0&enablejsapi=1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                    ></iframe>
                   </div>
                 </div>
+              </div>
+            </div> -->
+        </section>
+        <section id="topNews">
+          <!-- トップニュースクラスにpickNewsをつけると、文字が赤くなる。 -->
+        <div class="newsArticle blogArticle">
+          <ul class="modal_trigger_topNews">
+            <li class="supplement modal_btn_topNews" id="open">
+              <div class="flex_div">
+                <p class="datePosted">2021.01.01</p>
+                <p class="category">KFC</p>
+              </div>
+              <p class="newsTitle">
+                【団体沿革】
+              </p>
+          </li>
+            <li class="supplement modal_btn_topNews" id="open">
+              <div class="flex_div">
+                <p class="datePosted">2021.12.16</p>
+                <p class="category">NEWS</p>
+              </div>
+              <p class="newsTitle">
+                【ショー会場公開　三越劇場】
+              </p>
             </li>
-            <li>
-                <div class="memberText">
-                  <div class="member_div">
-                    <div class="info">
-                      <img src="css/img/chief_top_tanipo.jpg" alt="image01" />
-                      <div class="info_2">
-                        <p class="assistanceText">デザイナーチーフ</p>
-                        <p class="assistanceText">慶応義塾大学環境情報学部3年</p>
-                        <h3>土井璃久</h3>
-                      </div>
-                    </div>
-                    <p class="info_main">
-                      デザイナーは、その名の通り服を0から作り上げる役職です。服を作るにあたって、世界各地に点在するフランス発祥の服飾専門学校「 ESMOD JAPON 」と連携し、基礎から服作りを学びます。毎週土曜日、二人のESMODの講師の方にデザインやパターン、縫製等を一から教えてもらいながら作業を行っています。<br><br>
-                      　ファッションとは、自己表現でありながら自己防衛でもあると、私は捉えています。我々は、服という媒体を通じてアイデンティティの確立と保護を同時に行ってます。布という一枚の壁が内在的感情を外界に向けて発信するとともに、自己を纏った鎧として、外界との精神的な境界に存在しているのです。今まで服を着るだけだった人も、服を「作る」というプロセスが加わることで、より前述した動詞の意味が協調されます。自らの思想、生き様を抽出し、服のデザインに落とし込み、パターンを引き、縫製をし、三次元へと展開させる。これら一連のプロセスを経て、完成したルックをモデルが着て、ランウェイを歩く。その瞬間は、何にも代え難いものであり、人生の財産へと昇華されていきます。
-                    </p>
-                  </div>
-                </div>
-            </li>
-            <li>
-              <div class="memberText">
-                <div class="member_div">
-                  <div class="info">
-                    <img src="css/img/chief_top_des.jpg" alt="image01" />
-                    <div class="info_2">
-                      <p class="assistanceText">プレスチーフ</p>
-                      <p class="assistanceText">慶応義塾大学経済学部3年</p>
-                      <h3>岩瀬ひより</h3>
-                    </div>
-                  </div>
-                  <p class="info_main">
-                    ファッションショーを行う上で、デザイナーという役　職はkeio fashion creatorの根幹とも言える存在です。
-                      デザイナーは世界各地に点在するフランス発祥の服飾専門学校「ESMOD」と連携し、基礎から服作りを学びます。毎週土曜日、二人のESMODの講師の方にデザインやパターン、縫製等を一から教えてもらいながら作業を行っています。<br>
-                      当団体のデザイナーの大半は服飾系の専門学校ではなく4年制の総合大学に通っています。
-                      各々の学びがデザインやクリエイションに相乗効果を生み出し、ファッションに限らず様々な分野における多角的な視点を涵養することができる点が最大の特徴です。
-                      また、「デザイナー」と聞くと専門性が高く自分には分不相応だと感じる学生もいるかもしれません。ですが、当団体のデザイナーは入部するまで服を作ったことがない人が殆どです。
-                      ミシンの使い方すら分からない状態から長い時間を費やして部員が作り上げた服、そしてその服をモデルが身に纏い歩く姿は観た人の心に響くものがあります。
+          </ul>
+        </div>
+        <div class="modal_area 20">
+          <div class="modal_box box_topNews">
+            <div class="modal_bg"></div>
+            <div class="modal_inner">
+              <div class="modal_block">
+                <h2 class="modalh2">
+                  【団体沿革】
+                </h2>
+                <p class="assistanceText">
+                  2021-----KFC
+                </p>
+                <div class="scroll">
+                  <br><br><br>
+                  <p>　2002年に慶應義塾大学の「ファッションビジネス研究会」から独立する形で設立。2009年からESMOD JAPONと提携した授業を開始し、2010年から毎年ショーを開催している。2012年にインカレ化し、今年度は合計で120名程度の部員が所属。社会に対する問いかけや主張を「服」や「ファッションショー」を通じて表現する。<br><br>
+                    <br>
                       <span>
                         <a
                         class="blog_link"
-                        href="https://www.esmodjapon.co.jp/"
+                        href="https://keiofashioncreator.com/concept.html"
                         target="_blank"
-                        >ESMOD JAPON</a
+                        >Keio Fashion Creator --CONCEPT--</a
                       >
-                      </span>」と連携し、基礎から服作りを学びます。毎週土曜日、二人のESMODの講師の方にデザインやパターン、縫製等を一から教えてもらいながら作業を行っています。<br>
-                      当団体のデザイナーの大半は服飾系の専門学校ではなく4年制の総合大学に通っています。
-                      各々の学びがデザインやクリエイションに相乗効果を生み出し、ファッションに限らず様々な分野における多角的な視点を涵養することができる点が最大の特徴です。
-                      また、「デザイナー」と聞くと専門性が高く自分には分不相応だと感じる学生もいるかもしれません。ですが、当団体のデザイナーは入部するまで服を作ったことがない人が殆どです。
-                      ミシンの使い方すら分からない状態から長い時間を費やして部員が作り上げた服、そしてその服をモデルが身に纏い歩く姿は観た人の心に響くものがあります。
+                      </span><br><br><br>
                   </p>
                 </div>
+                <div id="close" class="modal_close">閉じる</div>
               </div>
-          </li>
+            </div>
+          </div>
+          <div class="modal_box box_topNews">
+            <div class="modal_bg"></div>
+            <div class="modal_inner">
+              <div class="modal_block">
+                <h2 class="modalh2">
+                  【ショー会場公開情報　三越劇場】
+                </h2>
+                <p class="assistanceText">
+                  -お知らせ-
+                </p>
+                <div class="scroll">
+                  <p>
+                    <br>RUNWAY SHOW 2021 “MONTAGE”<br>
+                    <br>憔悴して前に進めなくなった時、心の奥底に変わらず在り続けるものが、推進力となってあなたを次のカットへと推し進める。<br>
+                    <br>だから不条理なことや時間を蝕むことに泣かないで。あなたが大切にするものは、ずっと変わらずにあるから。<br>
+                    <br>そして、切り刻まれた大きな物語はあなたが大切にするものによって遊星のように自然に引き合い、また一つに統合されていく。<br><br><br>
+                    <br>{PLACE}
+                    <br>The Mitsukoshi Theater<br>
+                    <br>{LIVE STREAM}
+                    <br>12/26 (sun) 21:00 on Instagram
+                    <br>12/27 (mon) 10:00 on Youtube<br>
+                  </p>
+                  <!-- <p>
+                    <br>
+                    <br><span style="text-decoration: underline;">今年度、Keio Fashion Creatorは東京・上野にある国立科学博物館にてファッションショーを行います。</span><br>
+                    .<br>
+                    Keio Fashion Creator 2020 Fashion Show “辿る”<br>
+                    <br>{DATE}<br>
+                    <br>2020 / 12 / 20 (SUN) 20：00〜<br>
+                    <br>Instagram LIVE<br>
+                    .<br>
+                    {PLACE}<br>
+                    <br>国立科学博物館　地球館　地下二階展示室<br>
+                    .<br>
+                    .<br>
+                    【国立科学博物館】<br>
+                    <br>㊀国立科学博物館は、1877年に創設された日本でもっとも歴史ある博物館の一つであり、自然史・科学技術史に関する国立の唯一の総合科学博物館。上野公園内にある地球館・日本館では、自然科学に関する多彩な展示を観ることができる。<br>
+                    .<br>
+                    ㊁自分自身を辿るための手がかりを得る場所。かつて自分が好きだった事物を思い出し、辿った記憶の先にある場所。<br>
+                    .<br>
+                    .<br>
+                    当日はインスタライブでの配信のみとなりますが、閉館後の夜の博物館を舞台に行われるショーを画面越しに楽しんでいただけたら幸いです。見ていただいた皆様にとっても、忘れかけていた記憶を思い出し、自分自身を辿るきっかけとなる時間になることを願っております。<br><br>
+                    <span>
+                      <a
+                      class="blog_link"
+                      href="https://www.kahaku.go.jp/"
+                      target="_blank"
+                      >国立科学博物館公式ホームページ　https://www.kahaku.go.jp/</a
+                      ><br>
+                      <a
+                      class="blog_link"
+                      href="https://www.instagram.com/kahaku_nmns/"
+                      target="_blank"
+                      >国立科学博物館公式Instagram　https://www.instagram.com/kahaku_nmns/</a
+                      >
+                    </span><br><br><br><br>
+                    <br>
+                  </p> -->
+                </div>
+                <div id="close" class="modal_close">閉じる</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <section id="movie">
+          <article class="movie">
+            <div class="movieTitle movieTitle_home">
+              <a href="movie.html#tadoru">
+                <p>The 2020 ShowTheme</p>
+                <h2>『辿る』</h2>
+              </a>
+            </div>
+            <div class="movie-wrap">
+              <iframe
+              class="movieStyle"
+                width="100%"
+                height="100%"
+              src="https://www.youtube.com/embed/nY5wgMrLHZc?rel=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+          <article class="movie wrap-2n">
+            <p class="display"></p>
+            <div class="movieTitle movieTitle_home wrap-2n">
+              <a href="movie.html#impression">
+                <p>The 2019 ShowTheme</p>
+              <h2>『IMPRESSION』</h2>
+              </a>
+            </div>
+            <div class="movie-wrap">
+              <iframe
+                class="movieStyle"
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/sB-MPGj8tzw?modestbranding=1?rel=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+        </section>
+        <section id="collection" class="imageZone">
+          <h2 class="hover"><a href="collection.html">COLLECTION</a></h2>
+          <article class="collectionImage">
+            <img src="css/img/montage1.jpg" alt="" loading="lazy" />
+            <img src="css/img/montage2.jpg" alt="" loading="lazy" />
+            <img src="css/img/montage3.jpg" alt="" loading="lazy" />
+            <img src="css/img/montage4.jpg" alt="" loading="lazy" />
+          </article>
+          <h2 class="hover"><a href="artworks.html">ART WORKS</a></h2>
+          <article class="collectionImage">
+            <img src="css/img/kudan-04.jpg" alt="" />
+            <img src="css/img/kudan-02.JPG" alt="" />
+            <img src="css/img/kudan-03.jpg" alt="" />
+            <img src="css/img/kudan-08.jpg" alt="" />
+          </article>
+        </section>
+        <section id="blog" class="blog">
+          <article class="blogArticle">
+            <ul class="modal_trigger 20">
+              <li class="modal_btn20" id="open">
+                <h3>
+                  パリで見たモード（１）街歩きの楽しみ＋古着屋・ショップ巡り
+                </h3>
+                <p class="assistanceText">
+                  MARIKO MINAGAWA 2020 4.21 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  夏休みを利用して３週間ほどパリに行ってきた。せっかくなのでいくつかに分けて、見たものや感じたことを書いていきたい。
+                  まず1本目の今回は、街歩きの楽しみについてお話ししたい。ついでに古着屋やショップ巡りのレポをしたいと思う。...
+                </p>
+              </li>
+              <li class="modal_btn20" id="open">
+                <h3>疑問から生まれる感動</h3>
+                <p class="assistanceText">
+                  NONIKA WAKISHIMA 2020.4.7.by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  先日、私はふとした瞬間に素朴な疑問が頭の中に浮かんできた。いや、「素朴」という言葉で簡単に片付けてはいけない大きな疑問であるかもしれない。
+                  その疑問こそ、「私は生まれて来てから今までに何着の服を纏って来たのだろう？」というものである。人によってその全体数には大きな差が生まれるだろう。服への関心度、経済状況、拠点とする場所など要因は様々である。...
+                </p>
+              </li>
+              <li class="modal_btn20" id="open">
+                <h3>
+                  あの人みたいになりたいからって、あの人みたいになったらフェイク
+                </h3>
+                <p class="assistanceText">
+                  KOHEI EGUCHI 2020.4.10 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  これは僕が好きなリリックの一節であり、同時に僕のモットーとしている言葉である。短い文だがこれって結構深いと思う。中学生の時に初めてこの一節を聴いた時、ただ単純にカッコいい〜と思っていただけであったが、時間が経ち今日この言葉を考えてみるともうちょっと深く考えることができるようになった。...
+                </p>
+              </li>
+              <li class="modal_btn20 4" id="open">
+                <h3>グアテマラの文化から考えるフォークロア</h3>
+                <p class="assistanceText">
+                  NODOKA JIN 2020. 4.16 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  私は高校生の頃から中南米諸国に関心があり、それらの地域について調べる機会が多かったため、今回はこの地域に絡めた話をしようと思う。
+                  まず皆さんはグアテマラという国を知っているだろうか？
+                  グアテマラは中南米に位置する、スペイン語を公用語とする国である。日本人にはあまりなじみのない国のように感じられるかもしれない。...
+                </p>
+              </li>
+              <li class="modal_btn20" id="open">
+                <h3>私の古着屋開拓</h3>
+                <p class="assistanceText">
+                  MOE NAKATA 2020.4.8. by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  東京に住み始めて4ヶ月。わたしは友達の影響もあり、古着屋をよく訪れる。
+                  友達とは主に原宿の古着屋を見るが、一人では主に高円寺の古着屋を見ることが多い。
+                  わたしは高円寺の古着を見る時間が1番好きだ。高円寺には何度行っても回りきれない数の古着屋がある。ふらっと歩いていくうちに気になった古着屋に入ることができる。...
+                </p>
+              </li>
+              <li class="modal_btn20" id="open">
+                <h3>中途半端であること</h3>
+                <p class="assistanceText">
+                  MARUNA KAWASHIMA 2020.4.9.by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  私は、他の人よりも多趣味な傾向がある。両親が私のやりたいことはなんでも協力的にやらせてくれる人だったというのもあるが、聴く音楽のジャンルも読む本のジャンルも様々だし、少しだけ写真をかじったりもしたし、政治や時事問題について考え議論する事も好きだし、...
+                </p>
+              </li>
+              <li class="modal_btn20" id="open">
+                <h3>広がるかわいい</h3>
+                <p class="assistanceText">
+                  MARUNA KAWASHIMA 2020 4.11 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  日本では最近若者の間でよく使われるようになった“かわいい”の範囲は広がりつつある。おじいちゃんやおばあちゃんに対する“かわいい”、少しブサイクな犬にも“かわいい”、その流れに乗ってか、食べ物にもどんどん“かわいい”は取り入れられている。そんな中、...
+                </p>
+              </li>
+              <li class="modal_btn20 8" id="open">
+                <h3>自由と平等</h3>
+                <p class="assistanceText">
+                  MOE NAKATA 2020 4.12 by Keio Fashion Creator
+                </p>
+                <p class="assistanceText">
+                  「○○ちゃんの学校の制服かわいいよね〜」
+                  女子高校生のこんな会話をよく耳にする。私は中学校も高校も制服で登校することがなかったので他の学校の制服のデザインを羨ましいと感じたことは一度もない。しかしバイトを始めて私は制服というものがもたらす平等性を感じたのだ。
+                  私たちは「自分」を個性のままに発揮したいという気持ちを...
+                </p>
+              </li>
+            </ul>
+          </article>
+          <a class="viewAll blogText" href="blog.html">VIEW ALL </a>
+          <ul class="blogButton"></ul>
+          <!-- これより下 modal_box -->
+          <div class="modal_area 20">
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    パリで見たモード（１）街歩きの楽しみ＋古着屋・ショップ巡り
+                  </h2>
+                  <p class="assistanceText">
+                    MARIKO MINAGAWA 2020 4.21 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br />　夏休みを利用して３週間ほどパリに行ってきた。せっかくなのでいくつかに分けて、見たものや感じたことを書いていきたい。<br />
+                      <br />　まず1本目の今回は、街歩きの楽しみについてお話ししたい。ついでに古着屋やショップ巡りのレポをしたいと思う。
+                      海外の街はそれだけで新鮮だが、パリは格別だろう。なんてったって街並みの綺麗さは桁違いだ。メトロに乗ればすぐ着くとわかっていても、私は暇さえあればGoogle
+                      map片手に歩いていた。おかげでパリ滞在中は毎日8kmくらい歩いていて、残念なことに日焼けもだいぶ進んだ。
+                      初めてのパリだったので下調べもたくさんしたが、評判通り良かったのはやはりマレ地区周辺。下の地図だと赤く囲われているところ一体がマレ地区だ。３区にあるマレはセーヌ川の右岸に位置し、おしゃれな場所としては有名だが、その中でも私のおすすめは北マレ。メトロ3・5・8・9・11号線のRépublique（リパブリック）駅からセーヌ川の方へ、つまり南に向かう歩き方だ。<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-11.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br />　わかりにくいが、黄色のハイライトを引いてあるのがRépublique駅。その周りにお店が集中しているのがお分かりいただけると思う。<br />ではお気に入りのお店たちを早速紹介！<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-10.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <a
+                        class="blog_link"
+                        href="https://instagram.com/ofrparis"
+                        target="_blank"
+                        >① Ofr Bookshop</a
+                      ><br />
+                      <br />　こちらは駅から歩いて3分くらいのところにある本屋さん。と言っても勿論ただの本屋ではない。店主のこだわりがつまった古今東西の雑誌や本が並んでいる。モード、カルチャー、アート、建築、焼き物、旅から小説まで。言語はフランス語と英語が多め。<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-14.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-07.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </span>
+                      <br />　店構えは普通に入りやすい。昔ながらというよりは今っぽいつくり。中には所狭しと本や雑誌が並んでいる。奥はギャラリースペースになっていて、期間限定で色々なアーティストが展示をしているらしい。お店オリジナルのエコバッグや帽子なんかも売っている。
+                      分厚めの本が多いので、持ち帰ることを考えるとあまり向かないが、ぜひ行くだけでもオススメしたい。私は立ち読みで1時間半くらい普通に過ぎてしまった。気に入った薄めの雑誌を買ったら、お会計の時に「この雑誌の新刊は来週入荷するからまたおいで！インスタもフォローしておきなね」と店主のおじさんが気さくに話してくれた。<br />
+                      <br />　<a
+                        class="blog_link"
+                        href="https://instagram.com/thebrokenarm"
+                        target="_blank"
+                        >② The broken arm</a
+                      >
+                      ①のお店から徒歩2分くらいのこちらは、友達が絶賛していたので最初の週末に行こうとしたら日曜はお休みで、二度目でクリア。フランスは日曜休業のお店がとても多いので注意しましょう！<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-02.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-04.jpg"
+                            alt=""
+                          />
+                        </div> </span
+                      ><br />
+                      <br />　このお店は“De Jeunes Gens Modernes”（英訳：The
+                      young modern
+                      people）というウェブマガジン(下リンク)を運営しているメンバーが2013年にオープンさせた。Webで紹介するのは彼らの理想のライフスタイルであり、その理想を実現させようとこのセレクトショップを開いたという。最近は紙媒体やショップへの風向きは強く、ウェブマガジン・ウェブストアに移行する流れが多いが、The
+                      Broken Arm はその逆を行っているとも言える。<br />
+                      <a
+                        class="blog_link"
+                        href="https://desjeunesgensmodernes.fr"
+                        target="_blank"
+                        >https://desjeunesgensmodernes.fr/</a
+                      ><br />
+                      <a
+                        class="blog_link"
+                        href="https://www.instagram.com/desjeunesgensmodernes/"
+                        target="_blank"
+                        >https://www.instagram.com/desjeunesgensmodernes/</a
+                      ><br />
+                      　私が行ったときは、レディース、メンズともに前面に出ていたのはPRADA。他にはRaf
+                      Simons、Jacquemus、Lemaire、Martine Rose、Kiko
+                      Kostadinov、そしてギャルソンとマルジェラなどがセレクトされていた。JacquemusやLemaireはこの近くにアトリエを構えており、ローカルなハイブランドを大事にしている印象。見ている中で素敵だったのは、こちらも地元のブランドでレザーグッズを中心に発表しているIssac
+                      Reina（<a
+                        class="blog_link"
+                        href="https://www.instagram.com/isaacreinaparis/"
+                        target="_blank"
+                        >https://www.instagram.com/isaacreinaparis/</a
+                      >）のカバン。フォルムは一見昔ながらなのに、カラーやちょっとしたウィットの効いたデザインが多くてとても素敵だった。<br />
+                      ③ Chez snow bunny Vintage store
+                      <a
+                        class="blog_link"
+                        href="https://www.instagram.com/chezsnowbunny/"
+                        target="_blank"
+                        >https://www.instagram.com/chezsnowbunny/</a
+                      >
+                      駅に戻る道すがら見つけたこちらのお店は、ウィメンズのヴィンテージショップ。店構えはガーリーな感じなのだが、入るとなかなか面白かった。<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-15.jpg"
+                            alt=""
+                          />
+                        </div> </span
+                      ><br />
+                      <br />　割と綺麗な古着が多く、ハイブランドではDior、Chanel、Max
+                      Mara、Nina
+                      Ricci、Burberryなどが€100くらいからセレクトされている。それに混じって80s～90sを中心にフランスの古着がセレクトされていて、€10～という安さで買える。女の子が思う「かわいい」を凝縮させたようなお店。ポップでキッチュな古着を求める貴女、ぜひここへ！これ誰が着るの？と言いたくなるような色使いのトップスや、ガッチガチの肩パッドが可愛い80sっぽさ抜群のセットアップ、そして純粋にレトロで可愛いフレンチシックな古着まで。ハンガーを繰る手が止まらないので、ぜひ一度行ってみてほしい。こちらも日曜は定休。店内は広くはないが、地元の若者で賑わっていた。<br />
+                      <br />④ OULTMA
+                      <a
+                        class="blog_link"
+                        href="https://www.instagram.com/oultmaparis/"
+                        target="_blank"
+                        >https://www.instagram.com/oultmaparis/</a
+                      >
+                      <br />　街歩きもお洋服見るのも、楽しいけど足は疲れるしそろそろお腹が空く頃では？ちょっとコーヒー飲みたいな、と思って立ち寄ったこちらのカフェ。思いがけない出会いがあったので記念に。<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-06.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-01.jpg"
+                            alt=""
+                          />
+                        </div> </span
+                      ><br />
+                      <br />マレ地区の真ん中にあるこちらのカフェはモロッカンスタイルのお店。パリのカフェはオープンテラスが中心で、同じような店構えのカフェが多い中でこちらはいわゆる今っぽいカフェだ。日当たり抜群の店内は漆喰が塗られたみたいな白の壁。メニューはいろんな種類のコーヒーと、手作りのサンドイッチやパウンドケーキ、クッキーなど。私はアメリカンとチョコケーキをオーダーした。
+                      このお店に立っていたお兄さん、まず日本人？と言われてそうですと言うと、めちゃめちゃ嬉しそうな顔をして丁寧にメニューの説明をしてくれた。学生？何をしにパリに？東京では何の勉強をしてるの？と色々質問されて話していると、なんと「来週からファッションの仕事で東京に行く」とのこと。詳しく話を聞くと、自分でブランドもやっていて、インスタを見ると１LDKなどでモデルもやっていることも判明。話に花が咲いた。<br />
+                      　このお兄さんにオススメされて、並びにある古着屋へ。このカフェを出て左方向に10歩。なぜか「日本人の方、割引します」と書いてあるお店で、中にあるものも状態がとても良くて素敵だった。だが急いでいてお店の名前をメモするのを忘れ、写真もないため今回は紹介を断念。どなたか行って私にお店の名前を教えてください。
+                      ということで、ぜひ皆さんもマレで休憩したくなったらこちらへ。日本人にめちゃくちゃ優しいお兄さんが迎えてくれるかも。
+                      その他にもマレにはショップや古着屋がたくさん！<br />
+                      　チェーンだとMad Vintageなどもマレに店を構えている。Mad
+                      Vintageは日本で言うフラミンゴやNew York
+                      Joeみたいなイメージ。アイテムによって価格が均一なことが多く、ジャケットで€25、Tシャツだと€10くらいから買えてリーズナブル。店構えも入りやすいので、ぶらっと立ち寄るのにおすすめ。<br />
+                      　余談だが、私はパリについてすぐに行ったときに、ここで気に入ったジャケットを見つけた。でもこんなに衝動買いをしていたら破産する！と思って一度考えようと思い買わずに帰り、後日購入を決意。ところがもう一度お店に行こうとしたら、なぜか店にたどり着けなかった。もはや幻だったのか、と思うレベルに何度トライしてもダメで、まさかの断念…。皆さん、鉄則ですが気に入ったものはその場で買う勇気、大事です。Mad
+                      Vintageはチェーンなので、多分幻ではないはず。マレでもどこでも、パリに行ったら行ってみてください。
+                      <a
+                        class="blog_link"
+                        href="https://www.instagram.com/madvintageparis/"
+                        target="_blank"
+                        >https://www.instagram.com/madvintageparis/</a
+                      ><br />
+                      　ライフスタイルショップだとMerci(<a
+                        class="blog_link"
+                        href="https://www.instagram.com/merciparis/"
+                        target="_blank"
+                        >https://www.instagram.com/merciparis/</a
+                      >)やEMPRIENTES(<a
+                        class="blog_link"
+                        href="https://www.instagram.com/empreintesparis/"
+                        target="_blank"
+                        >https://www.instagram.com/empreintesparis/</a
+                      >)がおすすめ。
+                      Merciは洋服から家具、食器まで扱う大型の人気セレクトショップ。価格帯はちょっと高めだが、お土産などにはうってつけだろう。私が行った時は、アジアからの客でとても賑わっていた。<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-03.jpg"
+                            alt=""
+                          />
+                        </div> </span
+                      ><br />
+                      <br />　EMPRIENTESは食器を中心にセレクト。最近リニューアルしたばかりとのことで、地元の人も多く買いに来ていた。フランスのデザイナーのものはもちろんだが、中には日本のものも。私たちが普段何気なく見ているものがクールだと捉えられるのは少し不思議だけれど、そういった「東洋」や「日本」へのステレオタイプみたいなものはフランスにいて多々感じたし、そのギャップがとても面白かった。<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-09.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-13.jpg"
+                            alt=""
+                          />
+                        </div> </span
+                      ><br />
+                      <br />　番外編⑤ヴァンヴ蚤の市
+                      ここで番外編。マレからは外れるが、紹介しておきたいのが蚤の市！パリには主に３つの蚤の市があり、ヴァンヴ、クリニャンクール、モンパルナスが有名。私はこの中でヴァンヴとクリニャンクールに行ったのだが、正直、断然ヴァンヴをおすすめする。<br />
+                      　ヴァンヴの蚤の市はパリの南西にあり、メトロ13号線のPorte
+                      de
+                      Vanves駅から歩いてすぐ。この近辺は治安も良く、でも観光地と言う雰囲気でもないので落ち着いて買い物を楽しめる。標識に従って歩いて行くと、すぐに蚤の市が登場。アンティークの食器、切手、家具、洋服、小物、アクセサリー、手芸用品などを扱うお店が本当にたくさんある。ヴァンヴはパリの蚤の市の中では一番小規模とされるのだが、とはいえ奥まで歩くと一本道にずらっと店が並ぶため、じっくり見ると２〜３時間あっても見切れない。<br />
+                      <br /><span>
+                        <div class="blog_image_div">
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-05.jpg"
+                            alt=""
+                          />
+                          <img
+                            class="modal_box_image"
+                            src="css/img/blog-parismode-08.jpg"
+                            alt=""
+                          />
+                        </div> </span
+                      ><br />
+                      <br />　なぜヴァンヴを推すかというと、そのセレクトの良さとローカルな感じが気に入ったからだ。クリニャンクールはとても広くて面白かったが、割と観光名所なので値引き交渉をしてもそんなに下げてくれない。そして周辺の治安はあまり良くなく、周りにはパチモンの服や靴を扱う店がずらっと並ぶ。大きすぎて、あの店にもう一回行きたい！と思ってもたどり着くのは結構大変とも言える。その点ヴァンヴは一本道なのでわかりやすく、値下げもガンガンしてくれる。ちょっと高いなぁ、と言うか言わないかくらいのタイミングで下げてくるので楽しい。<br />
+                      　アクセサリーだと€10前後から、食器などは状態にもよるが€５前後の店が多い。€２均一のボックスを漁って掘り出し物を見つけるのも醍醐味だろう。ヴィンテージを扱う服屋も何軒かあり、60s〜70sのフランスの古着を扱うお店やジャケットだけを大量に置いてある店などテイストもそれぞれで面白い。何より置いてあるものはレトロで、いわゆるパリっぽさ満載なのだ。単価が安いので、ついあれもこれも…となりがち。私はヴィンテージのイヤリング（€５）を二つ、銀のメダイ（€３）、食器（€５）を二つくらいちょこちょこ買った。現金しか使えないお店が多いので要注意！結構歩くのと集中して見るのに体力を使うので、腹ごしらえはしっかりしてから行きましょう。<br />
+                      <br />　いかがでしたか？今回はこの辺で終わり。美術館巡りなどまだまだ描きたいネタはたくさんあるのでまた書いていきたい。皆さんのパリ欲が膨らんでいたら幸いです。最後まで読んでいただきありがとうございました！<br /><br /><br />
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">疑問から生まれる感動</h2>
+                  <p class="assistanceText">
+                    NONIKA WAKISHIMA 2020.4.7.by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br />　先日、私はふとした瞬間に素朴な疑問が頭の中に浮かんできた。いや、「素朴」という言葉で簡単に片付けてはいけない大きな疑問であるかもしれない。<br />
+                      <br />　その疑問こそ、「私は生まれて来てから今までに何着の服を纏って来たのだろう？」というものである。人によってその全体数には大きな差が生まれるだろう。服への関心度、経済状況、拠点とする場所など要因は様々である。
+                      私の境遇で考えてみるとする。私は、服に関心があり、現在はアルバイトをし、また都内住みであるため稼いだお金をファッションに注ぎ込み安い環境であると言える。また、ファッションに携わる団体、バイト先に所属しているため一般的にいう「お洒落ピープル」を目にする機会が日常的に多い。<br />
+                      <br />　そんな私は、1ヶ月に多くて２〜３着の服を買う。現在家にある服（トップス、スウェット、アウター、ボトム）は最低でも100以上。厳密に計算するのは面倒臭いので、計算しないが最低でも、今までに1000以上のファッションアイテムを身につけてきたことは確かだ。その１つ１つのアイテムは「誰か」によってデザインされたものである。誰かの豊かな想像力、美的センスによって何もない状態（頭の中にしかなかった空想）から実際に誰かが魂を込めて「物体」にした作品。その「誰か」は、どのようなきっかけでそのアイテムのデザインを思いついたのだろう。誰もいない空気の乾ききった砂漠、永遠に続くかと思ってしまう果てしない海、起床して「うるさいなあ」と思いながらボタンを押す目覚まし時計、電車に乗って窓から見えるたわいも無い風景、いや、視覚的な体験から発想されたものとは限らない。家に帰って浴びるシャワーの音、急かすような車のクラクション、貧乏揺りの微かな一定のリズムを刻む音、聴覚的な体験かもしれない。<br />
+                      <br />
+                      このように、考えられる例を挙げればきりが無いのだが、この世の中に存在するもの全てがデザインをしようと思えるような、きっかけとなる体験を「誰か」に投げかけていると私は感じている。私が生まれて来てから今まで纏ってきた1000以上の服たち、もっと広い視野で考えるとこの世に存在する服たちには１つ１つ誕生した物語があると思うと、私の心は大きく揺さぶられ、とても感動する。この気付きを他人に理解してもらえれば嬉しいのだが、同感を強要することはない。私は、ただこの小さな１つの疑問（私にとっては大きな疑問）を通して、自分の服に対する考えを深めることができたため、それだけで幸せである。<br /><br /><br />
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    あの人みたいになりたいからって、あの人みたいになったらフェイク
+                  </h2>
+                  <p class="assistanceText">
+                    KOHEI EGUCHI 2020.4.10 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br />
+                      　これは僕が好きなリリックの一節であり、同時に僕のモットーとしている言葉である。短い文だがこれって結構深いと思う。中学生の時に初めてこの一節を聴いた時、ただ単純にカッコいい〜と思っていただけであったが、時間が経ち今日この言葉を考えてみるともうちょっと深く考えることができるようになった。<br />
+                      <br />　インスタグラム上で好きであったり、参考にしている人がいるという方は少なくないはずである。服がタイプだから、顔が可愛いから、キャプションが好きだから、理由は様々だと思う。そういう方のインスタをみると僕はいつも、こういう風になりたいなぁと感じる。だがもし、完全になることはないとしてもその人と同じことをすることは果たしてどうなのだろうかとも感じる。自分が本当にしたいことはこれで合っているか、自分を見失わないかと一度問いかけることが重要なのではないだろうか。もちろんどう思うかは人それぞれだ。これは本当に思う。その人が思うことを尊敬することは大事だと思う。だが自分を持っていることもそれと同じくらい大事だと思う。<br />
+                      <br />　最後まで読んでくださりありがとうございました。<br />
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20 4">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">
+                    グアテマラの文化から考えるフォークロア
+                  </h2>
+                  <p class="assistanceText">
+                    NODOKA JIN 2020. 4.16 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br />　私は高校生の頃から中南米諸国に関心があり、それらの地域について調べる機会が多かったため、今回はこの地域に絡めた話をしようと思う。<br />
+                      <br />　まず皆さんはグアテマラという国を知っているだろうか？
+                      グアテマラは中南米に位置する、スペイン語を公用語とする国である。日本人にはあまりなじみのない国のように感じられるかもしれない。
+                      現在このグアテマラという国では、織物の織り手である先住民女性たちの間で、その織物の集団的知的所有権ならびに肖像権保護の実現をしようとする動きが高まっている。この文化運動を牽引する集まりは「Ｍｏｖｉｍｉｅｎｔｏ　Ｎａｔｉｏｎａｌ　ｄｅ　Ｔｅｊｅｄｏｒａｓ」（スペイン語で女性の織り手の全国運動という意味）と呼ばれていて、この運動の背景には企業によるデザインの盗用や、先住民族の慣習を無視した商品生産や販売、そして先住民族の特別な衣装の無断使用等の問題点が挙げられ、グアテマラ国内で議論を呼んでいる。<br />
+                      <br />　この運動が促進していこうとするのは①企業が女性たちのもとへ足を運び、紋様やデザインを使用する許可を求めることの義務化、②企業が紋様を再生産することに対しての対価、収益の一部を支払うことの義務化であり、解決策としてＣｏｎｓｅｊｏ　ｄｅ　ｔｅｊｅｄｏｒａｓ（スペイン語で織り手女性の相談役）という、織物や織物のデザインの借用を求める企業が、相談役と契約し、収益はその村の女性の生活改善や女性に関わる諸問題解決に使用するというシステムが設置された。近年有名ブランドでも民族衣装からインスピレーションを受けたようなルックが見られるが、それを単にファッションとして認識するのではなく、先住民の生活財の一部であることを理解する必要があるように感じる。皆さんもファッションという観点から世界を見渡し、そこに潜む問題に目を向けてみてはどうだろうか？<br /><br /><br />
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">私の古着屋開拓</h2>
+                  <p class="assistanceText">
+                    MOE NAKATA 2020.4.8. by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br />　東京に住み始めて4ヶ月。わたしは友達の影響もあり、古着屋をよく訪れる。
+                      友達とは主に原宿の古着屋を見るが、一人では主に高円寺の古着屋を見ることが多い。<br />
+                      　わたしは高円寺の古着を見る時間が1番好きだ。高円寺には何度行っても回りきれない数の古着屋がある。ふらっと歩いていくうちに気になった古着屋に入ることができる。<br />
+                      <br />　わたしが高円寺で必ず行くお店は4店ほどある。その4店は全てが少しずつ離れたところに位置している。わたしはいつも違うルートでその4店を回り、その間に出会った古着屋に足を踏み入れる。そして自分のお気に入りの店を見つけるのだ。
+                      もちろん入った古着屋がメンズのみを取り扱っていたり、全く好みのものが置いていなかったりすることも沢山ある。しかしわたしはそれで良いと思う。”看板とその隣に飾ってあるマネキンのスタイリングに惹かれてその古着屋に入る”
+                      この行動自体にわたしはとてもわくわくし、これから出会う古着たちを想像して少し嬉しい気持ちになるのである。<br />
+                      <br />　「袖振り合うも多生の縁」という言葉がある。これはわたしの好きな言葉の１つだ。この言葉は”知らない人と道で袖が触れ合うようなちょっとしたことでも深い縁がある”という意味をもつ。わたしは服との出会いもこれと同じようなものだと思っている。たとえ自分が好きでなかったり、買わない服であったりしても自分がふらっと入った古着屋で出会い、触れてみた服には自分とのつながりがあるのだと感じる。
+                      加えて古着は以前それを着ていた人、そしてそれを仕入れてきた店のオーナーとのつながりをも感じることができる。
+                      だから私は高円寺での古着屋開拓が好きだ。これからも沢山の服と人に出会いたい。<br /><br /><br />
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">中途半端であること</h2>
+                  <p class="assistanceText">
+                    MARUNA KAWASHIMA 2020.4.9.by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br />　私は、他の人よりも多趣味な傾向がある。両親が私のやりたいことはなんでも協力的にやらせてくれる人だったというのもあるが、聴く音楽のジャンルも読む本のジャンルも様々だし、少しだけ写真をかじったりもしたし、政治や時事問題について考え議論する事も好きだし、ある時は絵を書こうと母に頼んで画板と絵のセットを買ってもらい、絵を少し描いたこともある。<br />
+                      <br />　このように書くと、あまりマイナスな面は見えてこない。しかし少し言い方を変えると、すべて中途半端だと言い換えることができる。
+                      実際、服の関心もこの類の一部だったため、当団体に入ると一気にそれは自分の中で明確に感じ取れるようになった。多くの人が自分のスタイルを持っていて、また自分をベストに見せることができる服を知っていて、自分の好きなブランドについて語れる、そんな場面に何度もあった。それは、今まで自分が好きな形や服の素材と直感や気分に頼ってブランドや値段も考えずに服を選んできた私に、知識の不足と劣等感を感じさせたのだ。その他にも団体には、写真を撮るのが得意な人や絵が上手く描ける人など、私が今までがかじってきたジャンルにどっぷりと浸かっている人もいる。<br />
+                      <br />　何度もこのことで考える夜があった。それほど私の中でこのことは大問題であった。急いで自分の今までやってきた中で私が極められそうなジャンルを探した。しかし、音楽も自分でやらないし、絵も小学校低学年の話、写真もそう。昔は好きというだけでよかった。子供は無限の可能性を持っているということも二十歳になった今、身にしみて実感する。<br />
+                      <br />　その話を私の一番の理解者である父に相談した。父は私が服や身なりにとらわれ、学問や語学の勉学をおろそかにすることを注意してくる。そんな人だが、その時はなぜか父に相談してみたくなったのだ。
+                      父は、いつも通り私に学問の大切さを語った後、私が２歳の時から自分でパンツを選んでいた話や絵で賞を取った時の話をした。そして、「私はお前が表現に対して昔から向いていると感じていた。それに色んなことをやることでそれは次にやることに関わってくることもある。だから自信をもっていろんな表現に今からでも挑戦してみなさい。二十歳だからと一つに絞ろうとして好みを絞る必要はない」と言った。<br /><br /><br /><br />
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">広がるかわいい</h2>
+                  <p class="assistanceText">
+                    MARUNA KAWASHIMA 2020 4.11 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br />　日本では最近若者の間でよく使われるようになった“かわいい”の範囲は広がりつつある。おじいちゃんやおばあちゃんに対する“かわいい”、少しブサイクな犬にも“かわいい”、その流れに乗ってか、食べ物にもどんどん“かわいい”は取り入れられている。そんな中、服というジャンルにおいての“かわいい”はどうか。<br />
+                      <br />　私はファッションに関する情報を集める媒体として、よくInstagramを利用しているが、その中でもHarajukujapanというアカウントは日本の“かわいい“の文化を積極的に発信している。そこにはよく髪の毛をピンクに染め、フリルのついた淡いパステルカラーのワンピースに白のハイソックス、厚底のサンダルを履いて街中でポージングする女の子がよく載っている。いわゆる一般的な日本の”かわいい“のイメージである。私は普段彼女たちのような格好をしないが、彼女たちの投稿を見るたび私の興味のあるスタイルの人にはしない、コメント欄をのぞいてみるという行為をする。そこには、日本人のみならず、海外の人たちのコメントが多く見られる。”socute”,
+                      ”Kawaii”など。このコメント欄を見るたび“かわいい”について考えさせられる。<br />
+                      <br />　自分のスタイルや、一般受けする格好には“かっこいい”や“渋い”などやんわり別の感想や見方がされる。しかし、上にあげた格好は世界共通で“かわいい”として見られる。今何もかもを“かわいい”で括ってしまう日本の中で、皆が“かわいい”と口を揃えて言えるこの文化を他のジャンルように分別のない“かわいい”で括ってしまうのは勿体ないのではないか。<br />
+                      <br />　これからもっと“かわいい”の範囲は広がっていくと思う。しかしファッションに関しては、何もかもを“かわいい”で括られないよう、日本の“かわいい”のカルチャーを守る方法を投げ出さず考えていきたい。<br /><br /><br />
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_box box20 8">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <h2 class="modalh2">自由と平等</h2>
+                  <p class="assistanceText">
+                    MOE NAKATA 2020 4.12 by Keio Fashion Creator
+                  </p>
+                  <div class="scroll">
+                    <p>
+                      <br />　「○○ちゃんの学校の制服かわいいよね〜」<br />
+                      <br />　女子高校生のこんな会話をよく耳にする。私は中学校も高校も制服で登校することがなかったので他の学校の制服のデザインを羨ましいと感じたことは一度もない。しかしバイトを始めて私は制服というものがもたらす平等性を感じたのだ。<br />
+                      <br />　私たちは「自分」を個性のままに発揮したいという気持ちを少なからず持っている。しかし、個性を限りなく発揮する自由な社会になってしまっては、人々の平等性が欠けてしまう。「自由と平等」というと聞こえはいいがこの二つは常にせめぎあっているのではないだろうか。
+                      今回私は、洋服がもたらす平等について考えた。<br />
+                      <br />　洋服と平等と聞くと私は制服や就活生の格好を思い出す。似たようなリクルートスーツを纏い、同じような髪型をした就活生たちは近年話題となり、企業が就活生の髪型が同じだということに言及するようになった。
+                      平等を強制する制服の存在に嫌気が差す人もたくさんいるだろう。しかし、平等性には良い点もあることを忘れてはならない。日本では戦後の社会に制服が歓迎された。その代表例が割烹着である。女性たちは、その割烹着の下にどんなに豪華な着物を着ていても、また、安くみすぼらしい着物を着ていても割烹着を羽織ってしまえば平等に接することができた。私もバイトで制服のありがたさに気付かされた。本来私のバイト先では金髪は禁止だが、制服として帽子をかぶっていたため、金髪でも働くことを許された。<br />
+                      <br />　洋服は自由と平等のせめぎ合いを私たちに直接的に感じさせてくれるものだと思う。私はこのせめぎ合いを感じながら洋服を楽しみたい。
+                    </p>
+                  </div>
+                  <div id="close" class="modal_close">閉じる</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="chiefComment" class="slick">
+          <ul class="slider">
             <li>
+                <img src="css/img/chief_comment_yure.PNG" alt="image01" />
                 <div class="memberText">
                   <div class="member_div">
-                    <div class="info">
-                      <img src="css/img/chief_top_pre.jpg" alt="image01" />
-                      <div class="info_2">
-                        <p class="assistanceText">ディレクターチーフ</p>
-                        <p class="assistanceText">慶応義塾大学文学部</p>
-                        <h3></h3>
-                      </div>
-                    </div>
-                    <p class="info_main">
-                      ディレクターの活動は、簡潔に言えばショールックを除く制作全般と言えます。それゆえ、撮影やデザインの技術、新しいものを常に求める好奇心、企画進行能力など、この役職で求められるスキルや知識は様々です。
-                      　私は今年度のディレクターチーフとして、”co-creation（共に・相互に作ること）”を活動の指針としています。この指針は単に部員間での協調を促したいわけではなく、ディレクターの行う制作においては、その相互性を重んじたいという考えに起因します。一般に制作というと「孤高の芸術家」といった言葉が表すように「独り」のイメージがありますし、実際にそういう側面があることは否定できません。しかし、私たちが主催するファッションショーには、各部員から私たちを手助けしてくださる大人の方々に到るまで、多くの「他者」の存在が不可欠であり、その文脈において制作は「他者」との綿密で双方向的なコミュニケーションの過程を経て成されるものであると考えられます。
+                    <p class="assistanceText">代表・デザイナー</p>
+                    <p class="assistanceText">慶応義塾大学　文学部３年</p>
+                    <h3 class="chief_name">長瀬唯</h3><br>
+                    <p class="display">
+                      Keio Fahion Creatorはファッションショーという媒体を介して、社会に対する意思表明を行う団体です。ファッションショーは、極めて短い時間の中で全てが完結する物語だと言えます。私たちは1年もの時間をかけて、その物語を創り上げています。それぞれが異なるバックボーンと価値観を持つ百人以上もの部員が、1つのストーリーを作ることは決して容易くはありません。ですが、様々な想いや感情、そして私たちの意思が宿った物語には、観る人の心に訴えかける何かがあると信じています。<br><br>
+                      当団体が重んじる「意思」とは一体何なのか。意思とは’光’である、と私は考えています。意思は粒子となり、服のみならず空間全体をも形成します。そして同時に、波となって観客の元へ届けられるでしょう。それは明るい光、青い光、あるいは鋭い光かもしれません。受け手側によって多様に変化する光を実際に肌で感じ取っていただき、「意思を纏う」ことの意味について共に思案していただければと思います。<br><br>
+                      Keio Fashion Creatorは2002年に創立され、今年度で20年目を迎えます。今年、私たちは部員一人ひとりがクリエイターとして、学生団体の枠を越えた活動を行うことを目標としています。20年という長い年月に内包された沢山の想いを感じながら、新たな時代を創造していく私たちの活動を見守っていただければと思います。
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <img src="css/img/chief_comment_doiriku.JPG" alt="image01" />
+                <div class="memberText">
+                  <div class="member_div">
+                    <p class="assistanceText">デザイナーチーフ</p>
+                    <p class="assistanceText">慶応義塾大学　環境情報学部3年</p>
+                    <h3>土井璃久</h3><br>
+                    <p class="display">
+                      デザイナーは、その名の通り服を0から作り上げる役職です。服を作るにあたって、世界各地に点在するフランス発祥の服飾専門学校「 ESMOD JAPON 」と連携し、基礎から服作りを学びます。毎週土曜日、二人のESMODの講師の方にデザインやパターン、縫製等を一から教えてもらいながら作業を行っています。<br><br>
+                      ファッションとは、自己表現でありながら自己防衛でもあると、私は捉えています。我々は、服という媒体を通じてアイデンティティの確立と保護を同時に行ってます。布という一枚の壁が内在的感情を外界に向けて発信するとともに、自己を纏った鎧として、外界との精神的な境界に存在しているのです。今まで服を着るだけだった人も、服を「作る」というプロセスが加わることで、より前述した動詞の意味が協調されます。<br><br>
+                      自らの思想、生き様を抽出し、服のデザインに落とし込み、パターンを引き、縫製をし、三次元へと展開させる。これら一連のプロセスを経て、完成したルックをモデルが着て、ランウェイを歩く。その瞬間は、何にも代え難いものであり、人生の財産へと昇華されていきます。
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <img src="css/img/chief_comment_haruka.JPG" alt="" />
+                <div class="memberText">
+                  <div class="member_div">
+                    <p class="assistanceText">ディレクターチーフ</p>
+                    <p class="assistanceText">慶応義塾大学　文学部３年</p>
+                    <h3 class="">井嶋遼</h3><br>
+                    <p class="display">
+                      ディレクターの活動は、簡潔に言えばショールックを除く制作全般と言えます。それゆえ、撮影やデザインの技術、新しいものを常に求める好奇心、企画進行能力など、この役職で求められるスキルや知識は様々です。<br><br>
+                      私は今年度のディレクターチーフとして、”co-creation（共に・相互に作ること）”を活動の指針としています。この指針は単に部員間での協調を促したいわけではなく、ディレクターの行う制作においては、その相互性を重んじたいという考えに起因します。一般に制作というと「孤高の芸術家」といった言葉が表すように「独り」のイメージがありますし、実際にそういう側面があることは否定できません。しかし、私たちが主催するファッションショーには、各部員から私たちを手助けしてくださる大人の方々に到るまで、多くの「他者」の存在が不可欠であり、その文脈において制作は「他者」との綿密で双方向的なコミュニケーションの過程を経て成されるものであると考えられます。
                       <br><br>
-                      　前述したとおり、ディレクターの活動には幅広いスキルや知識が求められます。ですが、より良い制作のために求められる最たるものは、制作に関わる者同士での密度の高いコミュニケーションであり、それらを大切にする制作活動を目指していきたいと私は考えます。
+                      前述したとおり、ディレクターの活動には幅広いスキルや知識が求められます。ですが、より良い制作のために求められる最たるものは、制作に関わる者同士での密度の高いコミュニケーションであり、それらを大切にする制作活動を目指していきたいと私は考えます。
                     </p>
                   </div>
                 </div>
             </li>
             <li>
+                <img src="css/img/chief_comment_hiyori.jpg.jpeg" alt="image01" />
                 <div class="memberText">
                   <div class="member_div">
-                    <div class="info">
-                      <img src="css/img/chief_top_dir.jpg" alt="image01" />
-                      <div class="info_2">
-                        <p class="assistanceText">モデルマネージャーチーフ</p>
-                        <p class="assistanceText">慶応義塾大学経済学部3年</p>
-                        <h3>斎藤勇太</h3>
-                      </div>
-                    </div>
-                    <p class="info_main">
-                      
+                    <p class="assistanceText">プレスチーフ</p>
+                    <p class="assistanceText">慶應義塾大学　経済学部３年</p>
+                    <h3>岩瀬ひより</h3><br>
+                    <p class="display">
+                    プレスという部署では、企業様を始めとする外部との企画立案・交渉や、SNS・HPを媒体とした広報活動を行なっています。表に出ることはあまりありませんが、団体の魅力を発信し、より幅広いクリエーションの為に尽力するこの役職は、Keio Fashion Creator にとって大切な役割を担っていると言えるでしょう。<br><br>
+                    そして最近では歴代の部員が撒いた種が花開き、様々なお取り組みが実現・発信されて
+                    います。地道だと言われることが多いプレスの活動ですが、このように着実に実を結んで
+                    います。この流れを絶やさぬよう、今年度も更なる発信を行い、当団体の認知を広げると
+                    ともに、プレス部員の活躍の場を広げていきます。<br><br>
+                    その為には部員の一人一人が力を発揮し、団体として相乗効果が出るような組織である
+                    ことが必要です。部員全員が自分の役職として、誇りを持ってプレス活動ができるようチーフとしての役割を果たしていこうと思っています。<br><br>
+                    プレスの働きが、当団体がもっと成熟した組織となる起因になれば嬉しいです。
                     </p>
                   </div>
                 </div>
             </li>
             <li>
+                <img src="css/img/chief_comment_yuta.jpg" alt="image01" />
                 <div class="memberText">
                   <div class="member_div">
-                    <div class="info">
-                      <img src="css/img/chief_top_mod.jpg" alt="image01" />
-                      <div class="info_2">
-                        <p class="assistanceText">MODEL MANAGER CHIEF</p>
-                        <p class="assistanceText">駒澤大学</p>
-                        <h3>佐藤美和</h3>
-                      </div>
-                    </div>
-                    <p class="info_main">
-                      私たちは一年間の集大成として12月にファッションショーを行いますが、モデルマネージャーはそれにおいてとても大切且つ、責任のある役職だと感じています。今年は挑戦の一年ということで、例年に増してさまざまな企画を組んでおり、その一つ一つの企画を通して、モデルハンティングや撮影当日のモデル管理を学ぶ機会がたくさんあります。私たちの集大成であるファッションショーに歩いていただくモデルの選定、管理を通して各々が責任とKeio fashion creatorの一員であるという自覚が持てるようにと考えています。また、デザイナーと向き合い、今年のテーマである“montage”におけるデザイナーの解釈を表現できるモデルを選べるよう、そして私たちのファッションショーが部員、観客の今後の人生のmontageとして、次なるステージへの一歩となるように邁進していきたいと考えています。
+                    <p class="assistanceText">モデルマネージャーチーフ</p>
+                    <p class="assistanceText">慶応義塾大学　経済学部3年</p>
+                    <h3>斉藤優太</h3><br>
+                    <p class="display">
+                      服は何物かが着ることで初めて成立し、理解できる物だと僕は思います。着ることができるということがが服の目的であり最大の魅力と言えるでしょう。そして同じ服でも誰が着るのかによって見え方、印象は変わってきます。それも服の面白いところです。<br><br>
+                      ファッションショーのルックについても同じことが言えます。どういったモデルがどんな服を着るのか。その結果としてルックが完成します。この服はこの人が着るのが正しい、この人は間違いなんてことはもちろんありません。正解はないですが、自分達で考えてデザイナーの服の良さを引き立てられるようなモデルを選べられたらいいなと思います。<br><br>
+                      また、今年のショーではモデルを多様的にすることで少しでも見る人のファッションの楽しみ方、可能性、視野を広げられたら幸いです。モデル選びでも意外性を出すことで見る人に面白いと思ってもらえるショーにしたいと思っています。
                     </p>
                   </div>
                 </div>
             </li>
-            <!-- <li>
-              <img src="css/img/chief_top_tanipo.jpg" alt="image01" />
-              <div class="memberText">
-                <div class="member_div">
-                  <p class="assistanceText"></p>
-                  <p class="assistanceText">----</p>
-                  <h3></h3>
-                  <p class="info_main">
+          </ul>
+          <div class="viewButton display1">
+            <a class="viewAll blogText" href="chief_comment.html">View chief comments</a>
+          </div>
+        </section>
+        <section id="post" class="post">
+          <div>
+            <div class="growStyle">
+              <article>
+                <div class="postText">
+                  <h2>DIRECTOR</h2>
+                  <p>
+                    舞台装置・照明・音響などの演出を考え、ファッションショーの空間作り全般を担います。また、団体の世界観を伝えるための動画も制作します。
                   </p>
                 </div>
-              </div>
-            </li>
-            <li>
-                <img src="css/img/.jpg" alt="image01" />
-                <div class="memberText">
-                  <div class="member_div">
-                    <p class="assistanceText"></p>
-                    <p class="assistanceText"></p>
-                    <h3></h3>
-                    <p class="info_main">
-                    </p>
-                  </div>
+              </article>
+              <article>
+                <div class="postText">
+                  <h2>PRESS</h2>
+                  <p>
+                    当団体の表現を自己完結させるのではなく、協賛活動やSNS・HPの運営、フライヤー作成を通して社会へ発信する役割を担っています。
+                  </p>
                 </div>
-            </li>
-            <li>
-                <img src="css/img/.png" alt="image01" />
-                <div class="memberText">
-                  <div class="member_div">
-                    <p class="assistanceText"></p>
-                    <p class="assistanceText">_____</p>
-                    <h3>_____</h3>
-                    <p class="info_main">
-                      _____
-                    </p>
-                  </div>
+              </article>
+            </div>
+            <div class="growStyle borderStyle">
+              <article>
+                <div class="postText">
+                  <h2>DESIGNER</h2>
+                  <p>
+                    「服」という媒体を通して団体の考えを表現します。ESMOD
+                    JAPON東京校にて服飾表現を基礎から学び、衣装を制作します。
+                  </p>
                 </div>
-            </li>
-            <li>
-                <img src="css/img/.jpg" alt="image01" />
-                <div class="memberText">
-                  <div class="member_div">
-                    <p class="assistanceText"></p>
-                    <p class="assistanceText"></p>
-                    <h3></h3>
-                    <p class="info_main">
-                      
-                    </p>
-                  </div>
+              </article>
+              <article>
+                <div class="postText">
+                  <h2>MODEL MANAGER</h2>
+                  <p>
+                    ショーに出演していただくモデルのハンティング、衣装フィッテイングの日程調整、ウォーキングレッスンの引率など、当団体とモデルをつなぐ役職です。
+                  </p>
                 </div>
-            </li>
-            <li>
-                <img src="css/img/.jpg" alt="image01" />
-                <div class="memberText">
-                  <div class="member_div">
-                    <p class="assistanceText"></p>
-                    <p class="assistanceText"></p>
-                    <h3></h3>
-                    <p class="info_main">
-                      
-                    </p>
-                  </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section id="team" class="post">
+          <!-- <a href="" id="post"></a> -->
+          <div>
+            <div class="growStyle">
+              <article>
+                <div class="postText">
+                  <h2>メイク</h2>
+                  <p>
+                    ルックブックや作品撮りにおけるモデルへのメイクを担当し、技術の向上を目標としています。デザイナーの世界観に応じて多様なメイクを行い、keio fashion creatorによる表現活動の充実を図ります。
+                  </p>
                 </div>
-            </li> -->
-          </ul>
+              </article>
+              <article>
+                <div class="postText">
+                  <h2>音楽</h2>
+                  <p>
+                    　お互いの好きな音楽のジャンルやアーティスト、曲などについて、月に一回ほど、それぞれピックアップした題目のバックボーンや好きな理由などの発表する場を設け、話し合いをしてお互いに知識を深めます。普段自分が聴かないジャンルに触れることによって自分の音楽の幅を広げることを目的として活動します。映像作品撮りの際には、このデプトで話し合い、背景の音楽を選ぶ活動もしたいと考えています。<br>
+                    　さらにKeio Fashion Creatorの歴史を辿り、今までのショーを見返し、その年のテーマとしてどのような音楽が使われているのかを分析し、作品の理解を深める座学なども計画したいと考えています。
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="growStyle borderStyle">
+              <article>
+                <div class="postText">
+                  <h2>カメラ</h2>
+                  <p>
+                    カメラの種類を問わず、撮影・補正技術の向上を目的に、勉強会や作品撮りを行います。
+                  </p>
+                </div>
+              </article>
+              <article>
+                <div class="postText">
+                  <h2>文芸・映画</h2>
+                  <p>
+                    物語の咀嚼を経て経験知を重ねることで、実際の活動に於ける洞察力を養い、
+                    技巧・意匠の観察や分析を経て、創造の輪郭を捉えることを目指します。<br>
+                    当団体において知の共有は、シェアリングや日々のコミュニケーションの中に内包されています。上記二点の目的を備えつつ、作品を視る「眼」の共有をこのデプトが担いたいと考えています。
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
         </section>
       </main>
       <footer>
@@ -451,7 +1129,7 @@
               href="https://twitter.com/keio_fc"
               target="_blank"
               rel="noopener noreferrer"
-              ><img src="css/img/Twitter_Logo_WhiteOnImage.png" alt=""
+              ><img src="css/img/Twitter_Logo_WhiteOnImage.png" alt="SPONSOR"
             /></a>
           </div>
         </div>
@@ -459,7 +1137,7 @@
           <div class="footer_flex">
             <a
               href="index.html">
-              <img src="css/img/logo-03.png" alt="" />
+              <img src="css/img/logo-03.png" alt="SPONSOR" />
             </a>
             <a
               href="https://www.readytofashion.jp/"
@@ -486,31 +1164,48 @@
       </footer>
     </div>
     <script src="js/hamburger.js"></script>
-    <script src="js/artworks.js"></script>
     <script src="js/tab.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/pagination.js"></script>
+    <script src="js/topNews.js"></script>
+    <script src="js/blogModal.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/quicklink/2.0.0-alpha/quicklink.umd.js"></script>
+    <script>
+      window.addEventListener('load', () => {
+      quicklink.listen();
+      });
+    </script>
   </body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+  <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyBtdsCfONzjyNQrM-wg33HDNNuiBfI7Rg8",
-    authDomain: "keiofc.firebaseapp.com",
-    databaseURL: "https://keiofc.firebaseio.com",
-    projectId: "keiofc",
-    storageBucket: "keiofc.appspot.com",
-    messagingSenderId: "485645349038",
-    appId: "1:485645349038:web:00ce5daabd0fa5a4133d3f",
-    measurementId: "G-FHST8JLNG7"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBtdsCfONzjyNQrM-wg33HDNNuiBfI7Rg8",
+      authDomain: "keiofc.firebaseapp.com",
+      databaseURL: "https://keiofc.firebaseio.com",
+      projectId: "keiofc",
+      storageBucket: "keiofc.appspot.com",
+      messagingSenderId: "485645349038",
+      appId: "1:485645349038:web:00ce5daabd0fa5a4133d3f",
+      measurementId: "G-FHST8JLNG7",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </html>
+
+
+
+ 
