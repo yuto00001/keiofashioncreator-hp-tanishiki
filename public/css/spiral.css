@@ -71,6 +71,7 @@ article > img{
 }
 .spiral_building > p {
   font-size: 1.0rem;
+  margin-bottom: none;
 }
 .kfcmember {
   font-size: 1.2rem;
