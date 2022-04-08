@@ -1,6 +1,6 @@
 .top_movie {
   margin-top: 40px;
-}
+}         
 <<<<<<< HEAD
 .movie {
   width: 100%;
@@ -19,6 +19,7 @@
 }
 .movieTitle p {
   margin-left: 2%;
+  margin-top: 30px;
 }
 .movie h2 {
   margin-left: 0.8%;
