@@ -3,6 +3,7 @@
 }
 .movie {
   width: 100%;
+  padding-top: 70px;
 }
 .movieTitle {
   letter-spacing: 8px;
@@ -62,9 +63,9 @@
     font-size: 20px;
     letter-spacing: 15px;
   }
-  /* .movie {
-    padding-top: 50px;
-  } */
+  .movie {
+    padding-top: 0;
+  }
   .movie-wrap iframe {
     width: 70%;
     height: 70%;
