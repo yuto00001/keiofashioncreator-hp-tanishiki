@@ -1,7 +1,12 @@
 // 作業メモ：JSの操作は年度毎に分割して行われている。新しい年度を作るときは、以下で繰り返されている記述をコピペして、クラス名を年度に合わせる。
 
+
 $(function () {
   // モーダルのボタンをクリックした時
+  $(".modal_btn22").on("click", function () {
+    var btnIndex22 = $(this).index(); // 何番目のモーダルボタンかを取得
+    $(".modal_area .box22").eq(btnIndex22).fadeIn(); // クリックしたモーダルボタンと同じ番目のモーダルを表示する
+  });
   $(".modal_btn21").on("click", function () {
     var btnIndex21 = $(this).index(); // 何番目のモーダルボタンかを取得
     $(".modal_area .box21").eq(btnIndex21).fadeIn(); // クリックしたモーダルボタンと同じ番目のモーダルを表示する
