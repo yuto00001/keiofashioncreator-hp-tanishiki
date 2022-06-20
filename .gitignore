@@ -4,6 +4,8 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+DS_Store*
+memo.txt*
 firebase-debug.log*
 
 # Firebase cache
