@@ -1,9 +1,13 @@
 * {
   align-items: flex-start;
 }
+:root {
+  --2022font-style: garamond-premier-pro, serif;
+  --2022background-color-style: rgba(231, 231, 231, 0.979);
+}
 body {
-  background-color: rgba(231, 231, 231, 0.979);
-  font-family: garamond-premier-pro, serif;
+  background-color: var(--2022background-color-style);
+  font-family: var(--2022font-style);
   font-size: 11px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   outline: none;
