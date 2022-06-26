@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/tab.css" />
     <!-- <link rel="stylesheet" href="css/collection.css" /> -->
     <link rel="stylesheet" href="css/artworks.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/IntersectionObserver.css" />
     <link rel="stylesheet" href="css/black_style.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -227,7 +229,7 @@
       </header>
       <main>
         <section class="imageZone">
-          <div class="yearTitle new_year" name="kudan">
+          <div class="artworks_anim yearTitle new_year" name="kudan">
             <p class="assistanceText">2020 ART WORKS</p>
             <h2>look Book 九段ハウス</h2>
             <p class="AllLook" >
@@ -237,10 +239,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/kudan-01.jpg" alt="" loading="lazy"/>
-              <img src="css/img/kudan-02.JPG" alt="" loading="lazy"/>
-              <img src="css/img/kudan-03.jpg" alt="" loading="lazy"/>
-              <img src="css/img/kudan-04.jpg" alt="" loading="lazy"/>
+              <img class="animation_intersection" src="css/img/kudan-01.jpg" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_2" src="css/img/kudan-02.JPG" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_3" src="css/img/kudan-03.jpg" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_4" src="css/img/kudan-04.jpg" alt="" loading="lazy"/>
             </article>
           </div>
           <div class="yearTitle new_year" name="manamana">
@@ -253,10 +255,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/IMG_7482-min.JPG" alt="" loading="lazy"/>
-              <img src="css/img/IMG_7483-min.JPG" alt="" loading="lazy"/>
-              <img src="css/img/IMG_7484-min.JPG" alt="" loading="lazy"/>
-              <img src="css/img/IMG_7485-min.JPG" alt="" loading="lazy"/>
+              <img class="animation_intersection" src="css/img/IMG_7482-min.JPG" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_2" src="css/img/IMG_7483-min.JPG" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_3" src="css/img/IMG_7484-min.JPG" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_4" src="css/img/IMG_7485-min.JPG" alt="" loading="lazy"/>
             </article>
           </div>
           <div class="yearTitle new_year" name="myonichikan">
@@ -269,10 +271,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main lastArticle">
-              <img src="css/img/imp_art_03.jpg" alt="" loading="lazy"/>
-              <img src="css/img/imp_art_04.jpg" alt="" loading="lazy"/>
-              <img src="css/img/imp_art_05.jpg" alt="" loading="lazy"/>
-              <img src="css/img/imp_art_06.jpg" alt="" loading="lazy"/>
+              <img class="animation_intersection" src="css/img/imp_art_03.jpg" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_2" src="css/img/imp_art_04.jpg" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_3" src="css/img/imp_art_05.jpg" alt="" loading="lazy"/>
+              <img class="animation_intersection anim_inter_4" src="css/img/imp_art_06.jpg" alt="" loading="lazy"/>
             </article>
           </div>
         </section>
@@ -345,8 +347,9 @@
       </footer>
     </div>
     <script src="js/hamburger.js"></script>
-    <script src="js/artworks.js"></script>
+    <!-- <script src="js/artworks.js"></script> -->
     <script src="js/tab.js"></script>
+    <script src="js/IntersectionObserver.js"></script>
   </body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>

@@ -1,5 +1,15 @@
 
-.title_sub {
+.title_sub,
+.concept_anim,
+.movie_anim,
+.artworks_anim,
+.interview_anim,
+.blog_anim,
+.collection_anim,
+.news_anim,
+.montage_anim,
+.look_list_anim,
+.press_spiral_anim {
   animation: popup 2s forwards;
 }
 

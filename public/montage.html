@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/movie.css" />
     <link rel="stylesheet" href="css/montage.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/IntersectionObserver.css" />
     <link rel="stylesheet" href="css/black_style.css" />
     <link rel="stylesheet" href="css/black_style_esp.css" />
     <link
@@ -230,7 +232,7 @@
         </section>
       </header>
       <main>
-        <section class="music">
+        <section class="montage_anim music">
           <div class="audio_wrap">
             <audio id="audio" src="css/audio/kfc_hp.mp3" autoplay loop >
             </audio>
@@ -242,7 +244,7 @@
             </div>
           </div>
       </section>
-        <div class="flex_erea">
+        <div class="montage_anim flex_erea">
           <section class="comment_show_movie">
             <article class="movie" id="impression">
               <div class="movieTitle">
@@ -269,13 +271,13 @@
           <!-- これより下 modal_btn -->
           <article class="blogArticle 21">
             <ul class="modal_trigger 21">
-              <li class="modal_btn21" id="open">
+              <li class="animation_intersection modal_btn21" id="open">
                 <h3>Keio Fashion Creator × 三越劇場</h3>
                 <p class="assistanceText">
                   映画は複数のカットを断続的に映し出すことによって物語を前進させる。その上で、本来完璧な形で存在した『完成した一つの大きな物語』は映画というシステムに落とし込む上で意図的に断ち切られ、断片的に撮影される。すなわち、カメラのカットとは物語を切断する行為...<br>
                 </p>
               </li>
-              <li class="modal_btn21" id="open">
+              <li class="animation_intersection modal_btn21" id="open">
                 <h3>劇場裏オフショット</h3>
                 <p class="assistanceText">
                   2021.12.19 by Keio Fashion Creator
@@ -284,7 +286,7 @@
                   <br>三越劇場裏で撮影されたバックヤードのオフショット集<br><br><br>
                 </p>
               </li>
-              <li class="modal_btn21" id="open">
+              <li class="animation_intersection modal_btn21" id="open">
                 <h3>MONTAGE Trailer</h3>
                 <p class="assistanceText">
                   Cast : Onyo @___nyoz
@@ -636,6 +638,7 @@
     <script src="js/tab.js"></script>
     <script src="js/blogModal.js"></script>
     <script src="js/audio.js"></script>
+    <script src="js/IntersectionObserver.js"></script>
   </body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
