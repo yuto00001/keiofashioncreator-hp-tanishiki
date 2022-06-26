@@ -3,7 +3,8 @@
 .concept_anim,
 .movie_anim,
 .artworks_anim,
-.interview_anim {
+.interview_anim,
+.blog_anim {
   animation: popup 2s forwards;
 }
 
