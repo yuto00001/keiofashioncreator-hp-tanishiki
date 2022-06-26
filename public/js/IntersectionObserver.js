@@ -5,7 +5,7 @@
   // targetが交差するタイミングを指定した変数。
   const options = {
     threshold: 1,
-    rootMargin: '0px 0px -80px',
+    rootMargin: '0px 0px -20px',
   };
 
   // IntersectionObserver クラスはあらかじめブラウザが用意してくれているクラス

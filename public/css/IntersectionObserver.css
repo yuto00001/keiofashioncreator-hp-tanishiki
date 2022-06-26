@@ -1,7 +1,27 @@
 .animation_intersection {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity .3s, transform .3s;
+  transition: opacity .9s, transform .5s;
+}
+.anim_inter_2 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.3s, transform .8s;
+}
+.anim_inter_3 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.3s, transform 1.0s;
+}
+.anim_inter_4 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.3s, transform 1.3s;
+}
+.anim_inter_99 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.3s, transform 1.6s;
 }
 
 /* そのうえで、画像が表示されるときには appear クラスが付くようにしてあげて opacity を 1 、そして transform の translateY を 0 にしてあげれば良さそうです。 */
