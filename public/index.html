@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/movie.css" />
     <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/IntersectionObserver.css" />
     <link rel="stylesheet" href="css/black_style.css" />
     <!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -275,7 +276,7 @@
           <!-- トップニュースクラスにpickNewsをつけると、文字が赤くなる。 -->
         <div class="newsArticle blogArticle">
           <ul class="modal_trigger_topNews">
-            <li class="supplement modal_btn_topNews" id="open">
+            <li class="animation_intersection supplement modal_btn_topNews" id="open">
               <div class="flex_div">
                 <p class="datePosted">2021.01.01</p>
                 <p class="category">KFC</p>
@@ -284,7 +285,7 @@
                 【団体沿革】
               </p>
           </li>
-            <li class="supplement modal_btn_topNews" id="open">
+            <li class="animation_intersection supplement modal_btn_topNews" id="open">
               <div class="flex_div">
                 <p class="datePosted">2021.12.16</p>
                 <p class="category">NEWS</p>
@@ -391,7 +392,7 @@
         </section>
         <section id="movie">
           <article class="movie">
-            <div class="movieTitle movieTitle_home">
+            <div class="animation_intersection movieTitle movieTitle_home">
               <a href="movie.html#montage">
                 <p>The 2021 ShowTheme</p>
                 <h2>『montage』</h2>
@@ -399,8 +400,8 @@
             </div>
             <div class="movie-wrap">
               <iframe
-              class="movieStyle"
-              width="100%" 
+              class=" movieStyle"
+              width="100%"
               height="100%"
               src="https://www.youtube.com/embed/q3Vmq4JzNjw" title="YouTube video player"
               frameborder="0"
@@ -410,7 +411,7 @@
           </article>
           <article class="movie wrap-2n">
             <p class="display"></p>
-            <div class="movieTitle movieTitle_home wrap-2n">
+            <div class="animation_intersection movieTitle movieTitle_home wrap-2n">
               <a href="movie.html#tadoru">
                 <p>The 2020 ShowTheme</p>
                 <h2>『辿る』</h2>
@@ -418,7 +419,7 @@
             </div>
             <div class="movie-wrap">
               <iframe
-              class="movieStyle"
+              class=" movieStyle"
                 width="100%"
                 height="100%"
               src="https://www.youtube.com/embed/nY5wgMrLHZc?rel=0"
@@ -429,25 +430,25 @@
           </article>
         </section>
         <section id="collection" class="imageZone">
-          <h2 class="hover"><a href="collection.html">COLLECTION</a></h2>
+          <h2 class="animation_intersection hover"><a href="collection.html">COLLECTION</a></h2>
           <article class="collectionImage">
-            <img src="css/img/montage1.jpg" alt="" loading="lazy" />
-            <img src="css/img/montage2.jpg" alt="" loading="lazy" />
-            <img src="css/img/montage3.jpg" alt="" loading="lazy" />
-            <img src="css/img/montage4.jpg" alt="" loading="lazy" />
+            <img class="animation_intersection" src="css/img/montage1.jpg" alt="" loading="lazy" />
+            <img class="animation_intersection anim_inter_2" src="css/img/montage2.jpg" alt="" loading="lazy" />
+            <img class="animation_intersection anim_inter_3" src="css/img/montage3.jpg" alt="" loading="lazy" />
+            <img class="animation_intersection anim_inter_4" src="css/img/montage4.jpg" alt="" loading="lazy" />
           </article>
-          <h2 class="hover"><a href="artworks.html">ART WORKS</a></h2>
+          <h2 class="animation_intersection hover"><a href="artworks.html">ART WORKS</a></h2>
           <article class="collectionImage">
-            <img src="css/img/kudan-04.jpg" alt="" />
-            <img src="css/img/kudan-02.JPG" alt="" />
-            <img src="css/img/kudan-03.jpg" alt="" />
-            <img src="css/img/kudan-08.jpg" alt="" />
+            <img class="animation_intersection" src="css/img/kudan-04.jpg" alt="" />
+            <img class="animation_intersection anim_inter_2" src="css/img/kudan-02.JPG" alt="" />
+            <img class="animation_intersection anim_inter_3" src="css/img/kudan-03.jpg" alt="" />
+            <img class="animation_intersection anim_inter_99" src="css/img/kudan-08.jpg" alt="" />
           </article>
         </section>
         <section id="blog" class="blog">
           <article class="blogArticle">
             <ul class="modal_trigger 20">
-              <li class="modal_btn20" id="open">
+              <li class="animation_intersection modal_btn20" id="open">
                 <h3>
                   パリで見たモード（１）街歩きの楽しみ＋古着屋・ショップ巡り
                 </h3>
@@ -459,7 +460,7 @@
                   まず1本目の今回は、街歩きの楽しみについてお話ししたい。ついでに古着屋やショップ巡りのレポをしたいと思う。...
                 </p>
               </li>
-              <li class="modal_btn20" id="open">
+              <li class="animation_intersection modal_btn20" id="open">
                 <h3>疑問から生まれる感動</h3>
                 <p class="assistanceText">
                   NONIKA WAKISHIMA 2020.4.7.by Keio Fashion Creator
@@ -469,7 +470,7 @@
                   その疑問こそ、「私は生まれて来てから今までに何着の服を纏って来たのだろう？」というものである。人によってその全体数には大きな差が生まれるだろう。服への関心度、経済状況、拠点とする場所など要因は様々である。...
                 </p>
               </li>
-              <li class="modal_btn20" id="open">
+              <li class="animation_intersection modal_btn20" id="open">
                 <h3>
                   あの人みたいになりたいからって、あの人みたいになったらフェイク
                 </h3>
@@ -480,7 +481,7 @@
                   これは僕が好きなリリックの一節であり、同時に僕のモットーとしている言葉である。短い文だがこれって結構深いと思う。中学生の時に初めてこの一節を聴いた時、ただ単純にカッコいい〜と思っていただけであったが、時間が経ち今日この言葉を考えてみるともうちょっと深く考えることができるようになった。...
                 </p>
               </li>
-              <li class="modal_btn20 4" id="open">
+              <li class="animation_intersection modal_btn20 4" id="open">
                 <h3>グアテマラの文化から考えるフォークロア</h3>
                 <p class="assistanceText">
                   NODOKA JIN 2020. 4.16 by Keio Fashion Creator
@@ -1014,7 +1015,7 @@
         </section>
         <section id="post" class="post">
           <div>
-            <div class="growStyle">
+            <div class="animation_intersection growStyle">
               <article>
                 <div class="postText">
                   <h2>DIRECTOR</h2>
@@ -1032,7 +1033,7 @@
                 </div>
               </article>
             </div>
-            <div class="growStyle borderStyle">
+            <div class="animation_intersection growStyle borderStyle">
               <article>
                 <div class="postText">
                   <h2>DESIGNER</h2>
@@ -1056,7 +1057,7 @@
         <section id="team" class="post">
           <!-- <a href="" id="post"></a> -->
           <div>
-            <div class="growStyle">
+            <div class="animation_intersection growStyle">
               <article>
                 <div class="postText">
                   <h2>メイク</h2>
@@ -1075,7 +1076,7 @@
                 </div>
               </article>
             </div>
-            <div class="growStyle borderStyle">
+            <div class="animation_intersection growStyle borderStyle">
               <article>
                 <div class="postText">
                   <h2>カメラ</h2>
@@ -1171,6 +1172,7 @@
     <script src="js/pagination.js"></script>
     <script src="js/topNews.js"></script>
     <script src="js/blogModal.js"></script>
+    <script src="js/IntersectionObserver.js"></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
