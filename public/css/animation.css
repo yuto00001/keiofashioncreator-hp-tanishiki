@@ -2,7 +2,8 @@
 .title_sub,
 .concept_anim,
 .movie_anim,
-.artworks_anim {
+.artworks_anim,
+.interview_anim {
   animation: popup 2s forwards;
 }
 
