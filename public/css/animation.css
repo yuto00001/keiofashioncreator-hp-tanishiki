@@ -6,7 +6,8 @@
 .interview_anim,
 .blog_anim,
 .collection_anim,
-.news_anim {
+.news_anim,
+.montage_anim {
   animation: popup 2s forwards;
 }
 
