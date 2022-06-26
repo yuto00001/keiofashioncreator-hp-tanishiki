@@ -1,6 +1,7 @@
 
 .title_sub,
-.concept_anim {
+.concept_anim,
+.movie_anim {
   animation: popup 2s forwards;
 }
 
