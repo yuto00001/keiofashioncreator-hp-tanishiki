@@ -24,6 +24,27 @@
   transition: opacity 1.3s, transform 1.6s;
 }
 
+.anim_inter_load {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 3.3s, transform 1.8s;
+}
+.anim_inter_load_2 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 3.3s, transform 2.3s;
+}
+.anim_inter_load_3 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 3.3s, transform 3.8s;
+}
+.anim_inter_load_4 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 3.3s, transform 4.3s;
+}
+
 /* そのうえで、画像が表示されるときには appear クラスが付くようにしてあげて opacity を 1 、そして transform の translateY を 0 にしてあげれば良さそうです。 */
 /* この appear クラスが付いたときに、transformが０なので、本来の位置に戻り、うまくアニメーションしてくれるはずです。 */
 .animation_intersection.appear {

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/hamburger.css" />
     <link rel="stylesheet" href="css/tab.css" />
     <link rel="stylesheet" href="css/collection.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/IntersectionObserver.css" />
     <link rel="stylesheet" href="css/black_style.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -228,7 +230,7 @@
       </header>
       <main>
         <section class="imageZone">
-          <div class="yearTitle new_year" name="montage">
+          <div class="collection_anim yearTitle new_year" name="montage">
             <p class="assistanceText">2021 COLLECTION</p>
             <h2>『MONTAGE』</h2>
             <p class="AllLook 21" >
@@ -237,11 +239,11 @@
               >全ルックを表示----</a
             >
             </p>
-            <article class="collectionImage collectionImage_main">
-              <img src="css/img/montage1.jpg" alt="" loading="lazy" />
-              <img src="css/img/montage2.jpg" alt="" loading="lazy" />
-              <img src="css/img/montage3.jpg" alt="" loading="lazy" />
-              <img src="css/img/montage4.jpg" alt="" loading="lazy" />
+            <article class="collection_anim collectionImage collectionImage_main">
+              <img class="animation_intersection anim_inter_load" src="css/img/montage1.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_load_2" src="css/img/montage2.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_load_3" src="css/img/montage3.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_load_4" src="css/img/montage4.jpg" alt="" loading="lazy" />
             </article>
           </div>
           <div class="yearTitle" name="tadoru">
@@ -254,10 +256,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/tadoru_1-min.jpg" alt="" loading="lazy" />
-              <img src="css/img/tadoru_2-min.jpg" alt="" loading="lazy" />
-              <img src="css/img/tadoru_3-min.jpg" alt="" loading="lazy" />
-              <img src="css/img/tadoru_4-min.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection" src="css/img/tadoru_1-min.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_2" src="css/img/tadoru_2-min.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_3" src="css/img/tadoru_3-min.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_4" src="css/img/tadoru_4-min.jpg" alt="" loading="lazy" />
             </article>
           </div>
           <div class="yearTitle" name="impression">
@@ -270,10 +272,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/impression_01-min.jpg" alt="" loading="lazy" />
-              <img src="css/img/impression_02-min.jpg" alt="" loading="lazy" />
-              <img src="css/img/impression_03-min.jpg" alt="" loading="lazy" />
-              <img src="css/img/impression_04-min.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection" src="css/img/impression_01-min.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_2" src="css/img/impression_02-min.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_3" src="css/img/impression_03-min.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_4" src="css/img/impression_04-min.jpg" alt="" loading="lazy" />
             </article>
           </div>
           <div class="yearTitle" name="nitijo">
@@ -286,10 +288,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/nichijo-01.jpg" alt="" loading="lazy" />
-              <img src="css/img/nichijo-02.jpg" alt="" loading="lazy" />
-              <img src="css/img/nichijo-03.jpg" alt="" loading="lazy" />
-              <img src="css/img/nichijo-04.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection" src="css/img/nichijo-01.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_2" src="css/img/nichijo-02.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_3" src="css/img/nichijo-03.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_4" src="css/img/nichijo-04.jpg" alt="" loading="lazy" />
             </article>
           </div>
           <div class="yearTitle" name="inTokyo">
@@ -302,10 +304,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/inTokyo-01.jpg" alt="" loading="lazy" />
-              <img src="css/img/inTokyo-02.jpg" alt="" loading="lazy" />
-              <img src="css/img/inTokyo-03.jpg" alt="" loading="lazy" />
-              <img src="css/img/inTokyo-04.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection" src="css/img/inTokyo-01.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_2" src="css/img/inTokyo-02.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_3" src="css/img/inTokyo-03.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_4" src="css/img/inTokyo-04.jpg" alt="" loading="lazy" />
             </article>
           </div>
           <div class="yearTitle" name="preconception">
@@ -318,10 +320,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/preconception-01.jpg" alt="" loading="lazy" />
-              <img src="css/img/preconception-02.jpg" alt="" loading="lazy" />
-              <img src="css/img/preconception-03.jpg" alt="" loading="lazy" />
-              <img src="css/img/preconception-04.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection" src="css/img/preconception-01.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_2" src="css/img/preconception-02.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_3" src="css/img/preconception-03.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_4" src="css/img/preconception-04.jpg" alt="" loading="lazy" />
             </article>
           </div>
           <div class="yearTitle" name="ma">
@@ -334,10 +336,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/ma-01.jpg" alt="" loading="lazy" />
-              <img src="css/img/ma-02.jpg" alt="" loading="lazy" />
-              <img src="css/img/ma-03.jpg" alt="" loading="lazy" />
-              <img src="css/img/ma-04.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection" src="css/img/ma-01.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_2" src="css/img/ma-02.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_3" src="css/img/ma-03.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_4" src="css/img/ma-04.jpg" alt="" loading="lazy" />
             </article>
           </div>
           <div class="yearTitle lastArticle" name="kyutosei">
@@ -350,10 +352,10 @@
             >
             </p>
             <article class="collectionImage collectionImage_main">
-              <img src="css/img/kyutosei-01.jpg" alt="" loading="lazy" />
-              <img src="css/img/kyutosei-02.jpg" alt="" loading="lazy" />
-              <img src="css/img/kyutosei-03.jpg" alt="" loading="lazy" />
-              <img src="css/img/kyutosei-04.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection" src="css/img/kyutosei-01.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_2" src="css/img/kyutosei-02.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_3" src="css/img/kyutosei-03.jpg" alt="" loading="lazy" />
+              <img class="animation_intersection anim_inter_4" src="css/img/kyutosei-04.jpg" alt="" loading="lazy" />
             </article>
           </div>
         </section>
@@ -428,6 +430,7 @@
     <script src="js/hamburger.js"></script>
     <script src="js/collection.js"></script>
     <script src="js/tab.js"></script>
+    <script src="js/IntersectionObserver.js"></script>
   </body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>

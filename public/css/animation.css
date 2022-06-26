@@ -4,7 +4,8 @@
 .movie_anim,
 .artworks_anim,
 .interview_anim,
-.blog_anim {
+.blog_anim,
+.collection_anim {
   animation: popup 2s forwards;
 }
 
