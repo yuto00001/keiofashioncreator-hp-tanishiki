@@ -7,7 +7,8 @@
 .blog_anim,
 .collection_anim,
 .news_anim,
-.montage_anim {
+.montage_anim,
+.look_list_anim {
   animation: popup 2s forwards;
 }
 
