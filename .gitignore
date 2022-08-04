@@ -8,7 +8,7 @@ firebase-debug.log
 *.txt
 memo.txt
 
-DS_Store
+.DS_Store
 
 # Firebase cache
 .firebase/
