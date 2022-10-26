@@ -1,0 +1,81 @@
+/* Artwork LB2022 */
+/* LookBook22年用 */
+
+.imageZone .display {
+  display: flex;
+  align-items: normal;
+}
+h2 {
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+.yearTitle {
+  padding: 80px 3% 5px;
+  line-height: 1.2;
+}
+.collectionImage {
+  margin: 5px 1% 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: normal;
+}
+
+
+
+.collectionImage > img {
+  width: 33%;
+  flex: 1;
+}
+.collectionImage_AllLook {
+  /* margin: 0 1%; */
+  /* margin-bottom: 150px; */
+}
+.lastArticle {
+  margin-bottom: 80px;
+}
+/* Artworks　2022lookbookに対応するため　Artworks.htmlではこちらを */
+
+.hidden_img,
+.display {
+  padding: 0;
+  margin: 0;
+}
+.hidden_img {
+  flex-wrap: wrap;
+}
+.display1 {
+  display: none;
+}
+.AllLook {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  position: relative;
+  /* left: 3%; */
+}
+.AllLook:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  animation-duration: 1.2s;
+  animation-name: fade-in;
+}
+
+.credit {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+
+
+@media (min-width: 900px) {
+  .yearTitle {
+    padding: 120px 0 20px 0px;
+    margin-left: 1%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .collectionImage img {
+    width: 25%;
+  }
+}
