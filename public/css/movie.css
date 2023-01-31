@@ -63,6 +63,11 @@
     font-size: 20px;
     letter-spacing: 15px;
   }
+  .movieTitle-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
   .movie {
     padding-top: 0;
   }
