@@ -25,6 +25,7 @@ h2 {
 .collectionImage > div > img {
   width: 33.3%;
   flex: 1;
+  aspect-ratio: 2 / 3;
 }
 .collection_kfc_logo {
   margin: auto 0;
