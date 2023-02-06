@@ -2,7 +2,6 @@ h2 {
   margin: 0;
   font-weight: lighter;
   letter-spacing: 5px;
-  margin-left: -3%;
 }
 .yearTitle {
   padding: 80px 1% 5px;
@@ -10,6 +9,9 @@ h2 {
 }
 .new_year {
   margin-top: 100px;
+}
+.collection-link {
+  margin-left: -1.0vw;
 }
 .collectionImage {
   display: flex;
@@ -70,17 +72,25 @@ aspect-ratio: 4 / 5;
     opacity: 1;
   }
 }
-@media (min-width: 400px) {
-  h2 {
-    margin-left: -2%;
+@media (min-width: 500px) {
+  .yearTitle a:hover {
+    opacity: 0.8;
+  }
+  .yearTitle h2 {
+    font-size: 2.0vw;
+  }
+  .yearTitle p {
+    font-size: 1.0vw;
   }
 }
 @media (min-width: 900px) {
-  h2 {
-    font-size: 20px;
-    margin-left: -11px;
+  .yearTitle h2 {
+    font-size: 1.8vw;
   }
-  .collectionImage_main> img {
+  .yearTitle p {
+    font-size: 0.8vw;
+  }
+  .collectionImage_main img {
     width: 25%;
   }
   .display0 {
