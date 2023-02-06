@@ -28,3 +28,25 @@
 p.info_main {
   margin: 2%;
 }
+
+
+@media (min-width: 500px) {
+  .member_div {
+    display: flex;
+  }
+  .memberText {
+    width: auto;
+    margin: 0;
+  }
+  .info {
+    display: inline-block;
+  }
+  .slider {
+    margin: 150px 0 0;
+    width: 100%;
+    display: inline-block;
+  }
+  .slider > li {
+    margin: 5% 15%;
+  }
+}

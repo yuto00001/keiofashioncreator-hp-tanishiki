@@ -122,18 +122,13 @@ button {
   .blogArticle {
     margin: 0;
   }
-  .modal_trigger li {
-    width: 31%;
-    margin: 10px 15px 0 0;
+  .modal_trigger {
+    display: flex;
+    width: fit-content;
   }
-}
-@media (min-width: 1439px) {
   .modal_trigger li {
     width: 305px;
     margin-right: 27px;
-  }
-  .blogArticle {
-    margin: 0 auto;
   }
 }
 @media (min-width: 2500px) {
