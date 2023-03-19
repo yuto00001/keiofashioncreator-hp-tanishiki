@@ -10,10 +10,13 @@
   font-weight: bold;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
   .style {
     width: 700px;
     padding-top: 100px;
     font-size: inherit;
+  }
+  footer {
+    height: auto;
   }
 }

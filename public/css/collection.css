@@ -2,7 +2,6 @@ h2 {
   margin: 0;
   font-weight: lighter;
   letter-spacing: 5px;
-  margin-left: -3%;
 }
 .yearTitle {
   padding: 80px 1% 5px;
@@ -11,9 +10,10 @@ h2 {
 .new_year {
   margin-top: 100px;
 }
+.collection-link {
+  margin-left: -1.0vw;
+}
 .collectionImage {
-  /* margin: 0 3%; */
-  /* margin-bottom: 150px; */
   display: flex;
   flex-flow: row wrap;
 }
@@ -25,6 +25,10 @@ h2 {
 .collectionImage > div > img {
   width: 33.3%;
   flex: 1;
+  aspect-ratio: 2 / 3;
+}
+.aspect-set img {
+aspect-ratio: 4 / 5;
 }
 .collection_kfc_logo {
   margin: auto 0;
@@ -44,10 +48,7 @@ h2 {
   display: none;
 }
 .AllLook {
-  /* display: inline-block; */
   margin: 5px 10px 5px 0;
-  /* position: relative; */
-  /* left: 3%; */
 }
 .AllLook:hover {
   cursor: pointer;
@@ -71,17 +72,25 @@ h2 {
     opacity: 1;
   }
 }
-@media (min-width: 400px) {
-  h2 {
-    margin-left: -2%;
+@media (min-width: 500px) {
+  .yearTitle a:hover {
+    opacity: 0.8;
+  }
+  .yearTitle h2 {
+    font-size: 2.0vw;
+  }
+  .yearTitle p {
+    font-size: 1.0vw;
   }
 }
 @media (min-width: 900px) {
-  h2 {
-    font-size: 20px;
-    margin-left: -11px;
+  .yearTitle h2 {
+    font-size: 1.8vw;
   }
-  .collectionImage_main> img {
+  .yearTitle p {
+    font-size: 0.8vw;
+  }
+  .collectionImage_main img {
     width: 25%;
   }
   .display0 {

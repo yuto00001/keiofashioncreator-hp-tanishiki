@@ -53,8 +53,3 @@
     height: 200px;
   }
 }
-@media (min-width: 500px) {
-.member_div {
-  width: 150%;
-}
-}

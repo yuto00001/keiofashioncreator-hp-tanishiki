@@ -46,8 +46,8 @@ body * {
 }
 
 @media (min-width: 500px) {
-  .sort {
-    font-weight: 600;
+  .description p {
+    font-size: 13px;
   }
   .description {
     width: fit-content;
